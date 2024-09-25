@@ -1,0 +1,25 @@
+[0.044s] Invoking command in '/home/raoul/Documents/QEES/lab1/build/interprocess_eval': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1/build/interprocess_eval -- -j8 -l8
+[0.103s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.167s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.314s] Traceback (most recent call last):
+[0.314s]   File "/opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.315s]     from ament_package.templates import get_environment_hook_template_path
+[0.315s] ModuleNotFoundError: No module named 'ament_package'
+[0.334s] CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.334s]   execute_process(/usr/bin/python3
+[0.334s]   /opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.335s]   /home/raoul/Documents/QEES/lab1/build/interprocess_eval/ament_cmake_package_templates/templates.cmake)
+[0.335s]   returned error code 1
+[0.335s] Call Stack (most recent call first):
+[0.335s]   /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:38 (include)
+[0.335s]   /opt/ros/dashing/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.336s]   /opt/ros/dashing/share/ament_cmake/cmake/ament_cmakeConfig.cmake:38 (include)
+[0.336s]   CMakeLists.txt:9 (find_package)
+[0.336s] 
+[0.336s] 
+[0.336s] -- Configuring incomplete, errors occurred!
+[0.337s] See also "/home/raoul/Documents/QEES/lab1/build/interprocess_eval/CMakeFiles/CMakeOutput.log".
+[0.337s] See also "/home/raoul/Documents/QEES/lab1/build/interprocess_eval/CMakeFiles/CMakeError.log".
+[0.342s] Makefile:588: recipe for target 'cmake_check_build_system' failed
+[0.343s] make: *** [cmake_check_build_system] Error 1
+[0.345s] Invoked command in '/home/raoul/Documents/QEES/lab1/build/interprocess_eval' returned '2': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1/build/interprocess_eval -- -j8 -l8

@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (artificial_load) JobQueued: {'identifier': 'artificial_load', 'dependencies': OrderedDict()}
+[0.000533] (interprocess_eval) JobQueued: {'identifier': 'interprocess_eval', 'dependencies': OrderedDict()}
+[0.000781] (interprocess_remote_eval) JobQueued: {'identifier': 'interprocess_remote_eval', 'dependencies': OrderedDict()}
+[0.000929] (intraprocess_eval) JobQueued: {'identifier': 'intraprocess_eval', 'dependencies': OrderedDict()}
+[0.000982] (artificial_load) JobStarted: {'identifier': 'artificial_load'}
+[0.009020] (interprocess_eval) JobStarted: {'identifier': 'interprocess_eval'}
+[0.011933] (interprocess_remote_eval) JobStarted: {'identifier': 'interprocess_remote_eval'}
+[0.017870] (intraprocess_eval) JobStarted: {'identifier': 'intraprocess_eval'}
+[0.026348] (artificial_load) JobProgress: {'identifier': 'artificial_load', 'progress': 'cmake'}
+[0.027030] (artificial_load) Command: {'cmd': ['/usr/bin/cmake', '/home/raoul/Documents/QEES/lab1.1/src/artificial_load', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/artificial_load'], 'cwd': '/home/raoul/Documents/QEES/lab1.1/build/artificial_load', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'nl_NL.UTF-8'), ('USER', 'root'), ('HOME', '/home/raoul'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.1/build/artificial_load'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.032828] (interprocess_eval) JobProgress: {'identifier': 'interprocess_eval', 'progress': 'cmake'}
+[0.034695] (interprocess_eval) Command: {'cmd': ['/usr/bin/cmake', '/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/interprocess_eval'], 'cwd': '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'nl_NL.UTF-8'), ('USER', 'root'), ('HOME', '/home/raoul'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.040213] (interprocess_remote_eval) JobProgress: {'identifier': 'interprocess_remote_eval', 'progress': 'cmake'}
+[0.040323] (interprocess_remote_eval) Command: {'cmd': ['/usr/bin/cmake', '/home/raoul/Documents/QEES/lab1.1/src/interprocess_remote_eval', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval'], 'cwd': '/home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'nl_NL.UTF-8'), ('USER', 'root'), ('HOME', '/home/raoul'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.042981] (intraprocess_eval) JobProgress: {'identifier': 'intraprocess_eval', 'progress': 'cmake'}
+[0.043131] (intraprocess_eval) Command: {'cmd': ['/usr/bin/cmake', '/home/raoul/Documents/QEES/lab1.1/src/intraprocess_eval', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval'], 'cwd': '/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'nl_NL.UTF-8'), ('USER', 'root'), ('HOME', '/home/raoul'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.098604] (-) TimerEvent: {}
+[0.199086] (-) TimerEvent: {}
+[0.299453] (-) TimerEvent: {}
+[0.399782] (-) TimerEvent: {}
+[0.500142] (-) TimerEvent: {}
+[0.600563] (-) TimerEvent: {}
+[0.700934] (-) TimerEvent: {}
+[0.801369] (-) TimerEvent: {}
+[0.901748] (-) TimerEvent: {}
+[1.002132] (-) TimerEvent: {}
+[1.102494] (-) TimerEvent: {}
+[1.202907] (-) TimerEvent: {}
+[1.303274] (-) TimerEvent: {}
+[1.304697] (interprocess_remote_eval) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.305255] (interprocess_eval) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.315650] (artificial_load) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.315923] (intraprocess_eval) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.403453] (-) TimerEvent: {}
+[1.503822] (-) TimerEvent: {}
+[1.604165] (-) TimerEvent: {}
+[1.704581] (-) TimerEvent: {}
+[1.804999] (-) TimerEvent: {}
+[1.905409] (-) TimerEvent: {}
+[2.005828] (-) TimerEvent: {}
+[2.106222] (-) TimerEvent: {}
+[2.114686] (intraprocess_eval) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[2.115082] (artificial_load) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[2.119549] (intraprocess_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.119878] (artificial_load) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.120218] (interprocess_remote_eval) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[2.120352] (interprocess_eval) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[2.137327] (interprocess_remote_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.137589] (interprocess_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.206352] (-) TimerEvent: {}
+[2.242320] (interprocess_remote_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.243312] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.247822] (interprocess_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.248596] (interprocess_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.252438] (intraprocess_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.253648] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.259722] (artificial_load) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.260498] (artificial_load) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.306469] (-) TimerEvent: {}
+[2.370587] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.373728] (interprocess_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.378768] (artificial_load) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.379879] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.381177] (interprocess_eval) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.385453] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.386984] (artificial_load) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.393614] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.406607] (-) TimerEvent: {}
+[2.506984] (-) TimerEvent: {}
+[2.607364] (-) TimerEvent: {}
+[2.707814] (-) TimerEvent: {}
+[2.725889] (artificial_load) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.731010] (artificial_load) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.740806] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.744104] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.744594] (intraprocess_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.747172] (interprocess_remote_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.756675] (interprocess_eval) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.759738] (interprocess_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.807951] (-) TimerEvent: {}
+[2.873504] (interprocess_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.873829] (interprocess_remote_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.874441] (interprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.874731] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.876945] (artificial_load) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.877851] (artificial_load) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.880279] (intraprocess_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.881219] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.908087] (-) TimerEvent: {}
+[2.998286] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.005057] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.006333] (artificial_load) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.008195] (-) TimerEvent: {}
+[3.013130] (artificial_load) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.033195] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.033553] (interprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.039981] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.044038] (interprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.108347] (-) TimerEvent: {}
+[3.208747] (-) TimerEvent: {}
+[3.309128] (-) TimerEvent: {}
+[3.409506] (-) TimerEvent: {}
+[3.509953] (-) TimerEvent: {}
+[3.566600] (artificial_load) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.569333] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.604271] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.610081] (-) TimerEvent: {}
+[3.619732] (interprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.703606] (interprocess_remote_eval) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[3.704252] (interprocess_remote_eval) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.704632] (interprocess_remote_eval) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.704845] (interprocess_remote_eval) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.705044] (interprocess_remote_eval) StderrLine: {'line': b'\n'}
+[3.705232] (interprocess_remote_eval) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.705409] (interprocess_remote_eval) StderrLine: {'line': b'  any of the following names:\n'}
+[3.705742] (interprocess_remote_eval) StderrLine: {'line': b'\n'}
+[3.706098] (interprocess_remote_eval) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.706294] (interprocess_remote_eval) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.706844] (interprocess_remote_eval) StderrLine: {'line': b'\n'}
+[3.707272] (interprocess_remote_eval) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.707645] (interprocess_remote_eval) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.708102] (interprocess_remote_eval) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.708664] (interprocess_remote_eval) StderrLine: {'line': b'  has been installed.\n'}
+[3.709040] (interprocess_remote_eval) StderrLine: {'line': b'\n'}
+[3.709224] (interprocess_remote_eval) StderrLine: {'line': b'\n'}
+[3.709608] (artificial_load) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[3.711164] (-) TimerEvent: {}
+[3.711983] (artificial_load) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.712421] (artificial_load) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.712975] (artificial_load) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.713228] (artificial_load) StderrLine: {'line': b'\n'}
+[3.713718] (artificial_load) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.713926] (artificial_load) StderrLine: {'line': b'  any of the following names:\n'}
+[3.714327] (artificial_load) StderrLine: {'line': b'\n'}
+[3.715791] (artificial_load) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.715980] (artificial_load) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.716303] (artificial_load) StderrLine: {'line': b'\n'}
+[3.717094] (artificial_load) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.717963] (artificial_load) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.718804] (artificial_load) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.719024] (artificial_load) StderrLine: {'line': b'  has been installed.\n'}
+[3.719759] (artificial_load) StderrLine: {'line': b'\n'}
+[3.720258] (artificial_load) StderrLine: {'line': b'\n'}
+[3.720735] (interprocess_remote_eval) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.722547] (interprocess_remote_eval) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval/CMakeFiles/CMakeOutput.log".\n'}
+[3.723617] (artificial_load) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.724003] (artificial_load) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1.1/build/artificial_load/CMakeFiles/CMakeOutput.log".\n'}
+[3.724691] (interprocess_eval) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[3.724991] (interprocess_eval) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.725646] (interprocess_eval) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.727649] (interprocess_eval) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.728753] (interprocess_eval) StderrLine: {'line': b'\n'}
+[3.729576] (interprocess_eval) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.730217] (interprocess_eval) StderrLine: {'line': b'  any of the following names:\n'}
+[3.730889] (interprocess_eval) StderrLine: {'line': b'\n'}
+[3.733607] (interprocess_eval) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.733923] (interprocess_eval) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.734270] (interprocess_eval) StderrLine: {'line': b'\n'}
+[3.734576] (interprocess_eval) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.734791] (interprocess_eval) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.734987] (interprocess_eval) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.735255] (interprocess_eval) StderrLine: {'line': b'  has been installed.\n'}
+[3.735405] (interprocess_eval) StderrLine: {'line': b'\n'}
+[3.735699] (interprocess_eval) StderrLine: {'line': b'\n'}
+[3.735850] (intraprocess_eval) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[3.736137] (intraprocess_eval) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.736637] (intraprocess_eval) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.736934] (intraprocess_eval) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.737162] (intraprocess_eval) StderrLine: {'line': b'\n'}
+[3.737427] (intraprocess_eval) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.737579] (intraprocess_eval) StderrLine: {'line': b'  any of the following names:\n'}
+[3.737867] (intraprocess_eval) StderrLine: {'line': b'\n'}
+[3.738067] (intraprocess_eval) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.738346] (intraprocess_eval) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.738506] (intraprocess_eval) StderrLine: {'line': b'\n'}
+[3.738755] (intraprocess_eval) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.739009] (intraprocess_eval) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.739463] (intraprocess_eval) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.739759] (intraprocess_eval) StderrLine: {'line': b'  has been installed.\n'}
+[3.740544] (intraprocess_eval) StderrLine: {'line': b'\n'}
+[3.740943] (intraprocess_eval) StderrLine: {'line': b'\n'}
+[3.741202] (intraprocess_eval) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.741605] (intraprocess_eval) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval/CMakeFiles/CMakeOutput.log".\n'}
+[3.741878] (interprocess_eval) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.742309] (interprocess_eval) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval/CMakeFiles/CMakeOutput.log".\n'}
+[3.742478] (interprocess_remote_eval) CommandEnded: {'returncode': 1}
+[3.743172] (artificial_load) CommandEnded: {'returncode': 1}
+[3.743646] (interprocess_eval) CommandEnded: {'returncode': 1}
+[3.743993] (intraprocess_eval) CommandEnded: {'returncode': 1}
+[3.754453] (interprocess_remote_eval) JobEnded: {'identifier': 'interprocess_remote_eval', 'rc': 1}
+[3.761886] (artificial_load) JobEnded: {'identifier': 'artificial_load', 'rc': 1}
+[3.768299] (interprocess_eval) JobEnded: {'identifier': 'interprocess_eval', 'rc': 1}
+[3.773705] (intraprocess_eval) JobEnded: {'identifier': 'intraprocess_eval', 'rc': 1}
+[3.785340] (-) EventReactorShutdown: {}

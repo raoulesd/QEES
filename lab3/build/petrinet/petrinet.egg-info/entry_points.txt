@@ -1,0 +1,4 @@
+[console_scripts]
+node = petrinet.node:main
+node2 = petrinet.node2:main
+

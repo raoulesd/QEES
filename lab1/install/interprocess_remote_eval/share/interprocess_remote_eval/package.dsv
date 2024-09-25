@@ -1,0 +1,8 @@
+source;share/interprocess_remote_eval/hook/cmake_prefix_path.ps1
+source;share/interprocess_remote_eval/hook/cmake_prefix_path.dsv
+source;share/interprocess_remote_eval/hook/cmake_prefix_path.sh
+source;share/interprocess_remote_eval/local_setup.bash
+source;share/interprocess_remote_eval/local_setup.dsv
+source;share/interprocess_remote_eval/local_setup.ps1
+source;share/interprocess_remote_eval/local_setup.sh
+source;share/interprocess_remote_eval/local_setup.zsh

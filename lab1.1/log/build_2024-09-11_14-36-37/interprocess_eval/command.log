@@ -1,0 +1,2 @@
+Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval': /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/interprocess_eval -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/interprocess_eval
+Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval' returned '1': /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/interprocess_eval -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/interprocess_eval

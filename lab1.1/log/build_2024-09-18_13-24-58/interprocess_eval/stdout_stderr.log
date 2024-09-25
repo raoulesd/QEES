@@ -1,0 +1,55 @@
+[35m[1mScanning dependencies of target listener_interprocess[0m
+[35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[  6%] Built target talker_interprocess__rmw_fastrtps_cpp
+[ 12%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[ 15%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[ 21%] Built target talker_interprocess_single
+[ 28%] Built target talker_interprocess
+[ 34%] Built target talker_interprocess__rmw_connext_cpp
+[ 37%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[ 43%] Built target listener_interprocess_single
+[35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[ 53%] Built target talker_interprocess_single__rmw_connext_cpp
+[ 59%] Built target listener_interprocess_single__rmw_connext_cpp
+[ 65%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[ 71%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[ 75%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:135:78:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+    output_filename = "./evaluation/subscribe_time/subscribe_time_512byte_" + [01;31m[Kthis[m[K->get_name() + ".txt";
+                                                                              [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:135:78:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+    output_filename = "./evaluation/subscribe_time/subscribe_time_512byte_" + [01;31m[Kthis[m[K->get_name() + ".txt";
+                                                                              [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:135:78:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+    output_filename = "./evaluation/subscribe_time/subscribe_time_512byte_" + [01;31m[Kthis[m[K->get_name() + ".txt";
+                                                                              [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:135:78:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+    output_filename = "./evaluation/subscribe_time/subscribe_time_512byte_" + [01;31m[Kthis[m[K->get_name() + ".txt";
+                                                                              [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

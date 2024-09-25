@@ -1,0 +1,6 @@
+source;share/petrinet/hook/pythonpath.ps1
+source;share/petrinet/hook/pythonpath.dsv
+source;share/petrinet/hook/pythonpath.sh
+source;share/petrinet/hook/ament_prefix_path.ps1
+source;share/petrinet/hook/ament_prefix_path.dsv
+source;share/petrinet/hook/ament_prefix_path.sh

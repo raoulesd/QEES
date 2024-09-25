@@ -1,0 +1,57 @@
+[0.045s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8
+[0.136s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.143s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.208s] [  6%] Built target talker_interprocess__rmw_connext_cpp
+[0.223s] [  9%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.238s] [ 12%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.240s] [ 18%] Built target talker_interprocess_single
+[0.242s] [ 25%] Built target talker_interprocess
+[0.249s] [ 31%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.253s] [ 43%] Built target talker_interprocess__rmw_fastrtps_cpp
+[0.253s] [ 43%] Built target listener_interprocess_single
+[0.276s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.318s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.337s] [ 50%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.356s] [ 56%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.362s] [ 59%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.366s] [ 62%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.366s] [ 68%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.378s] [ 75%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.422s] [ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[0.434s] [ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[1.840s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.840s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:205:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[1.840s]        printf("start evaluation for " + name[01;31m[K)[m[K;
+[1.841s]                                             [01;31m[K^[m[K
+[1.916s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.916s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:205:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[1.917s]        printf("start evaluation for " + name[01;31m[K)[m[K;
+[1.917s]                                             [01;31m[K^[m[K
+[1.983s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.983s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:205:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[1.983s]        printf("start evaluation for " + name[01;31m[K)[m[K;
+[1.983s]                                             [01;31m[K^[m[K
+[2.031s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.031s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:205:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[2.032s]        printf("start evaluation for " + name[01;31m[K)[m[K;
+[2.032s]                                             [01;31m[K^[m[K
+[2.451s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[2.452s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[2.452s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[2.452s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[2.453s] make[1]: *** Waiting for unfinished jobs....
+[2.520s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.521s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.521s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[2.521s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[2.615s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.616s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.616s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[2.616s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[2.632s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.632s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.632s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[2.633s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[2.633s] Makefile:140: recipe for target 'all' failed
+[2.633s] make: *** [all] Error 2
+[2.635s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8

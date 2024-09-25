@@ -1,0 +1,289 @@
+[0.047s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8
+[0.171s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.176s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.225s] [  6%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.235s] [ 12%] Built target talker_interprocess
+[0.251s] [ 18%] Built target talker_interprocess_single
+[0.254s] [ 21%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.258s] [ 28%] Built target talker_interprocess__rmw_fastrtps_cpp
+[0.262s] [ 34%] Built target listener_interprocess_single
+[0.271s] [ 37%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.274s] [ 43%] Built target talker_interprocess__rmw_connext_cpp
+[0.279s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.305s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.331s] [ 50%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.339s] [ 62%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.339s] [ 62%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.353s] [ 65%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.363s] [ 68%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.363s] [ 75%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.410s] [ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[0.418s] [ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[1.838s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.838s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:187:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::push_back(std::shared_ptr<rclcpp::Node>)[m[K’
+[1.839s]          nodes.push_back(rclcpp::Node::make_shared("listener1")[01;31m[K)[m[K;
+[1.839s]                                                                [01;31m[K^[m[K
+[1.839s] In file included from [01m[K/usr/include/c++/7/list:63:0[m[K,
+[1.839s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:23[m[K,
+[1.839s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.840s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.840s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.840s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[1.840s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.841s]        [01;36m[Kpush_back[m[K(const value_type& __x)
+[1.841s]        [01;36m[K^~~~~~~~~[m[K
+[1.841s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kconst value_type& {aka const rclcpp::Node&}[m[K’
+[1.841s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(std::__cxx11::list<_Tp, _Alloc>::value_type&&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.841s]        [01;36m[Kpush_back[m[K(value_type&& __x)
+[1.842s]        [01;36m[K^~~~~~~~~[m[K
+[1.842s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::value_type&& {aka rclcpp::Node&&}[m[K’
+[1.842s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:188:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::push_back(std::shared_ptr<rclcpp::Node>)[m[K’
+[1.842s]          nodes.push_back(rclcpp::Node::make_shared("listener2")[01;31m[K)[m[K;
+[1.843s]                                                                [01;31m[K^[m[K
+[1.843s] In file included from [01m[K/usr/include/c++/7/list:63:0[m[K,
+[1.843s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:23[m[K,
+[1.843s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.843s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.844s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.844s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[1.844s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.844s]        [01;36m[Kpush_back[m[K(const value_type& __x)
+[1.844s]        [01;36m[K^~~~~~~~~[m[K
+[1.845s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kconst value_type& {aka const rclcpp::Node&}[m[K’
+[1.845s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(std::__cxx11::list<_Tp, _Alloc>::value_type&&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.845s]        [01;36m[Kpush_back[m[K(value_type&& __x)
+[1.845s]        [01;36m[K^~~~~~~~~[m[K
+[1.845s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::value_type&& {aka rclcpp::Node&&}[m[K’
+[1.846s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:191:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid node[m[K’ has incomplete type
+[1.846s]      auto [01;31m[Knode[m[K = nodes.pop_front();
+[1.846s]           [01;31m[K^~~~[m[K
+[1.846s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.846s]      auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K("chatter", chatterCallback, custom_qos_profile);
+[1.847s]                                                                [01;31m[K^[m[K
+[1.847s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:76:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.847s]      auto sub = node->create_subscription<std_msgs::msg::String>("chatter", [01;35m[KchatterCallback[m[K, custom_qos_profile);
+[1.847s]                                                                             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.848s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:93:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator is a reference, not call, to function ‘[01m[KchatterCallback[m[K’ [[01;35m[K-Waddress[m[K]
+[1.848s]      auto sub = node->create_subscription<std_msgs::msg::String>("chatter", chatterCallback, [01;35m[Kcustom_qos_profile[m[K);
+[1.848s]                                                                                              [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.848s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:93:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.848s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:216:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode1[m[K’ was not declared in this scope
+[1.849s]      rclcpp::spin([01;31m[Knode1[m[K);
+[1.849s]                   [01;31m[K^~~~~[m[K
+[1.849s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:216:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[1.849s]      rclcpp::spin([01;36m[Knode1[m[K);
+[1.849s]                   [01;36m[K^~~~~[m[K
+[1.850s]                   [32m[Knodes[m[K
+[1.850s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:217:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode2[m[K’ was not declared in this scope
+[1.850s]      rclcpp::spin([01;31m[Knode2[m[K);
+[1.850s]                   [01;31m[K^~~~~[m[K
+[1.850s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:217:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[1.851s]      rclcpp::spin([01;36m[Knode2[m[K);
+[1.851s]                   [01;36m[K^~~~~[m[K
+[1.851s]                   [32m[Knodes[m[K
+[1.855s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.855s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:187:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::push_back(std::shared_ptr<rclcpp::Node>)[m[K’
+[1.856s]          nodes.push_back(rclcpp::Node::make_shared("listener1")[01;31m[K)[m[K;
+[1.856s]                                                                [01;31m[K^[m[K
+[1.856s] In file included from [01m[K/usr/include/c++/7/list:63:0[m[K,
+[1.856s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:23[m[K,
+[1.857s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.857s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.857s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.857s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[1.857s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.858s]        [01;36m[Kpush_back[m[K(const value_type& __x)
+[1.858s]        [01;36m[K^~~~~~~~~[m[K
+[1.858s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kconst value_type& {aka const rclcpp::Node&}[m[K’
+[1.858s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(std::__cxx11::list<_Tp, _Alloc>::value_type&&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.859s]        [01;36m[Kpush_back[m[K(value_type&& __x)
+[1.859s]        [01;36m[K^~~~~~~~~[m[K
+[1.859s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::value_type&& {aka rclcpp::Node&&}[m[K’
+[1.859s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:188:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::push_back(std::shared_ptr<rclcpp::Node>)[m[K’
+[1.860s]          nodes.push_back(rclcpp::Node::make_shared("listener2")[01;31m[K)[m[K;
+[1.860s]                                                                [01;31m[K^[m[K
+[1.860s] In file included from [01m[K/usr/include/c++/7/list:63:0[m[K,
+[1.860s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:23[m[K,
+[1.860s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.861s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.861s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.861s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[1.861s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.861s]        [01;36m[Kpush_back[m[K(const value_type& __x)
+[1.862s]        [01;36m[K^~~~~~~~~[m[K
+[1.862s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kconst value_type& {aka const rclcpp::Node&}[m[K’
+[1.862s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(std::__cxx11::list<_Tp, _Alloc>::value_type&&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.862s]        [01;36m[Kpush_back[m[K(value_type&& __x)
+[1.863s]        [01;36m[K^~~~~~~~~[m[K
+[1.863s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::value_type&& {aka rclcpp::Node&&}[m[K’
+[1.863s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:191:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid node[m[K’ has incomplete type
+[1.863s]      auto [01;31m[Knode[m[K = nodes.pop_front();
+[1.864s]           [01;31m[K^~~~[m[K
+[1.864s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.864s]      auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K("chatter", chatterCallback, custom_qos_profile);
+[1.864s]                                                                [01;31m[K^[m[K
+[1.864s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:76:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.865s]      auto sub = node->create_subscription<std_msgs::msg::String>("chatter", [01;35m[KchatterCallback[m[K, custom_qos_profile);
+[1.865s]                                                                             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.865s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:93:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator is a reference, not call, to function ‘[01m[KchatterCallback[m[K’ [[01;35m[K-Waddress[m[K]
+[1.865s]      auto sub = node->create_subscription<std_msgs::msg::String>("chatter", chatterCallback, [01;35m[Kcustom_qos_profile[m[K);
+[1.866s]                                                                                              [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.866s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:93:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.866s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:216:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode1[m[K’ was not declared in this scope
+[1.866s]      rclcpp::spin([01;31m[Knode1[m[K);
+[1.866s]                   [01;31m[K^~~~~[m[K
+[1.867s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:216:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[1.867s]      rclcpp::spin([01;36m[Knode1[m[K);
+[1.867s]                   [01;36m[K^~~~~[m[K
+[1.867s]                   [32m[Knodes[m[K
+[1.867s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:217:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode2[m[K’ was not declared in this scope
+[1.868s]      rclcpp::spin([01;31m[Knode2[m[K);
+[1.868s]                   [01;31m[K^~~~~[m[K
+[1.868s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:217:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[1.868s]      rclcpp::spin([01;36m[Knode2[m[K);
+[1.868s]                   [01;36m[K^~~~~[m[K
+[1.869s]                   [32m[Knodes[m[K
+[1.892s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.892s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:187:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::push_back(std::shared_ptr<rclcpp::Node>)[m[K’
+[1.892s]          nodes.push_back(rclcpp::Node::make_shared("listener1")[01;31m[K)[m[K;
+[1.893s]                                                                [01;31m[K^[m[K
+[1.893s] In file included from [01m[K/usr/include/c++/7/list:63:0[m[K,
+[1.893s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:23[m[K,
+[1.894s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.894s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.894s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.894s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[1.894s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.895s]        [01;36m[Kpush_back[m[K(const value_type& __x)
+[1.895s]        [01;36m[K^~~~~~~~~[m[K
+[1.895s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kconst value_type& {aka const rclcpp::Node&}[m[K’
+[1.895s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(std::__cxx11::list<_Tp, _Alloc>::value_type&&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.896s]        [01;36m[Kpush_back[m[K(value_type&& __x)
+[1.896s]        [01;36m[K^~~~~~~~~[m[K
+[1.896s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::value_type&& {aka rclcpp::Node&&}[m[K’
+[1.896s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:188:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::push_back(std::shared_ptr<rclcpp::Node>)[m[K’
+[1.896s]          nodes.push_back(rclcpp::Node::make_shared("listener2")[01;31m[K)[m[K;
+[1.897s]                                                                [01;31m[K^[m[K
+[1.897s] In file included from [01m[K/usr/include/c++/7/list:63:0[m[K,
+[1.897s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:23[m[K,
+[1.897s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.897s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.898s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.898s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[1.898s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.898s]        [01;36m[Kpush_back[m[K(const value_type& __x)
+[1.899s]        [01;36m[K^~~~~~~~~[m[K
+[1.899s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kconst value_type& {aka const rclcpp::Node&}[m[K’
+[1.899s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(std::__cxx11::list<_Tp, _Alloc>::value_type&&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.899s]        [01;36m[Kpush_back[m[K(value_type&& __x)
+[1.899s]        [01;36m[K^~~~~~~~~[m[K
+[1.900s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::value_type&& {aka rclcpp::Node&&}[m[K’
+[1.900s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:191:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid node[m[K’ has incomplete type
+[1.900s]      auto [01;31m[Knode[m[K = nodes.pop_front();
+[1.900s]           [01;31m[K^~~~[m[K
+[1.900s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.901s]  auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K("chatter", chatterCallback, custom_qos_profile);
+[1.901s]                                                            [01;31m[K^[m[K
+[1.901s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:76:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.901s]  de->create_subscription<std_msgs::msg::String>("chatter", [01;35m[KchatterCallback[m[K, custom_qos_profile);
+[1.902s]                                                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.902s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:93:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator is a reference, not call, to function ‘[01m[KchatterCallback[m[K’ [[01;35m[K-Waddress[m[K]
+[1.902s]  iption<std_msgs::msg::String>("chatter", chatterCallback, [01;35m[Kcustom_qos_profile[m[K);
+[1.902s]                                                            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.902s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:93:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.903s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:216:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode1[m[K’ was not declared in this scope
+[1.903s]      rclcpp::spin([01;31m[Knode1[m[K);
+[1.903s]                   [01;31m[K^~~~~[m[K
+[1.903s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:216:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[1.903s]      rclcpp::spin([01;36m[Knode1[m[K);
+[1.904s]                   [01;36m[K^~~~~[m[K
+[1.904s]                   [32m[Knodes[m[K
+[1.904s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:217:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode2[m[K’ was not declared in this scope
+[1.904s]      rclcpp::spin([01;31m[Knode2[m[K);
+[1.905s]                   [01;31m[K^~~~~[m[K
+[1.905s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:217:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[1.905s]      rclcpp::spin([01;36m[Knode2[m[K);
+[1.905s]                   [01;36m[K^~~~~[m[K
+[1.905s]                   [32m[Knodes[m[K
+[1.921s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.921s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:187:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::push_back(std::shared_ptr<rclcpp::Node>)[m[K’
+[1.922s]          nodes.push_back(rclcpp::Node::make_shared("listener1")[01;31m[K)[m[K;
+[1.922s]                                                                [01;31m[K^[m[K
+[1.922s] In file included from [01m[K/usr/include/c++/7/list:63:0[m[K,
+[1.923s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:23[m[K,
+[1.923s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.923s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.923s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.923s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[1.924s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.924s]        [01;36m[Kpush_back[m[K(const value_type& __x)
+[1.924s]        [01;36m[K^~~~~~~~~[m[K
+[1.924s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kconst value_type& {aka const rclcpp::Node&}[m[K’
+[1.924s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(std::__cxx11::list<_Tp, _Alloc>::value_type&&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.925s]        [01;36m[Kpush_back[m[K(value_type&& __x)
+[1.925s]        [01;36m[K^~~~~~~~~[m[K
+[1.926s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::value_type&& {aka rclcpp::Node&&}[m[K’
+[1.926s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:188:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::push_back(std::shared_ptr<rclcpp::Node>)[m[K’
+[1.926s]          nodes.push_back(rclcpp::Node::make_shared("listener2")[01;31m[K)[m[K;
+[1.926s]                                                                [01;31m[K^[m[K
+[1.926s] In file included from [01m[K/usr/include/c++/7/list:63:0[m[K,
+[1.927s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:23[m[K,
+[1.927s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.927s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.927s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.928s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[1.928s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.928s]        [01;36m[Kpush_back[m[K(const value_type& __x)
+[1.928s]        [01;36m[K^~~~~~~~~[m[K
+[1.928s] [01m[K/usr/include/c++/7/bits/stl_list.h:1117:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kconst value_type& {aka const rclcpp::Node&}[m[K’
+[1.929s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__cxx11::list<_Tp, _Alloc>::push_back(std::__cxx11::list<_Tp, _Alloc>::value_type&&) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; std::__cxx11::list<_Tp, _Alloc>::value_type = rclcpp::Node]
+[1.929s]        [01;36m[Kpush_back[m[K(value_type&& __x)
+[1.929s]        [01;36m[K^~~~~~~~~[m[K
+[1.929s] [01m[K/usr/include/c++/7/bits/stl_list.h:1122:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kstd::__cxx11::list<rclcpp::Node>::value_type&& {aka rclcpp::Node&&}[m[K’
+[1.929s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:191:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid node[m[K’ has incomplete type
+[1.930s]      auto [01;31m[Knode[m[K = nodes.pop_front();
+[1.930s]           [01;31m[K^~~~[m[K
+[1.930s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.930s]      auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K("chatter", chatterCallback, custom_qos_profile);
+[1.931s]                                                                [01;31m[K^[m[K
+[1.931s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:76:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.931s]      auto sub = node->create_subscription<std_msgs::msg::String>("chatter", [01;35m[KchatterCallback[m[K, custom_qos_profile);
+[1.931s]                                                                             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.931s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:93:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator is a reference, not call, to function ‘[01m[KchatterCallback[m[K’ [[01;35m[K-Waddress[m[K]
+[1.932s]      auto sub = node->create_subscription<std_msgs::msg::String>("chatter", chatterCallback, [01;35m[Kcustom_qos_profile[m[K);
+[1.932s]                                                                                              [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.932s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:210:93:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.932s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:216:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode1[m[K’ was not declared in this scope
+[1.933s]      rclcpp::spin([01;31m[Knode1[m[K);
+[1.933s]                   [01;31m[K^~~~~[m[K
+[1.933s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:216:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[1.933s]      rclcpp::spin([01;36m[Knode1[m[K);
+[1.934s]                   [01;36m[K^~~~~[m[K
+[1.934s]                   [32m[Knodes[m[K
+[1.934s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:217:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode2[m[K’ was not declared in this scope
+[1.934s]      rclcpp::spin([01;31m[Knode2[m[K);
+[1.934s]                   [01;31m[K^~~~~[m[K
+[1.935s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:217:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[1.935s]      rclcpp::spin([01;36m[Knode2[m[K);
+[1.935s]                   [01;36m[K^~~~~[m[K
+[1.935s]                   [32m[Knodes[m[K
+[2.064s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.064s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.065s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[2.065s] make[1]: *** Waiting for unfinished jobs....
+[2.065s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[2.076s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[2.076s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[2.076s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[2.076s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[2.111s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.112s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.112s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[2.112s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[2.136s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.137s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.137s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[2.137s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[2.137s] Makefile:140: recipe for target 'all' failed
+[2.137s] make: *** [all] Error 2
+[2.139s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8

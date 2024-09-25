@@ -1,0 +1,85 @@
+[0.040s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8
+[0.132s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.147s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.179s] [  6%] Built target talker_interprocess_single
+[0.205s] [ 12%] Built target talker_interprocess__rmw_fastrtps_cpp
+[0.206s] [ 18%] Built target listener_interprocess_single
+[0.214s] [ 25%] Built target talker_interprocess
+[0.218s] [ 31%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.236s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.241s] [ 34%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.244s] [ 40%] Built target talker_interprocess__rmw_connext_cpp
+[0.255s] [ 43%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.293s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.347s] [ 50%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.353s] [ 56%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.361s] [ 59%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.394s] [ 65%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.408s] [ 68%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.408s] [ 75%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.446s] [ 81%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[0.449s] [ 87%] Built target talker_interprocess__rmw_opensplice_cpp
+[2.038s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:54:32:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_name[m[K’ was not declared in this scope
+[2.038s]  std::string suffix = "byte_" + [01;31m[Knode_name[m[K + ".txt";
+[2.038s]                                 [01;31m[K^~~~~~~~~[m[K
+[2.039s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:54:32:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_name[m[K’ was not declared in this scope
+[2.039s]  std::string suffix = "byte_" + [01;31m[Knode_name[m[K + ".txt";
+[2.039s]                                 [01;31m[K^~~~~~~~~[m[K
+[2.040s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:54:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbasename[m[K’
+[2.040s]  std::string suffix = "byte_" + [01;36m[Knode_name[m[K + ".txt";
+[2.040s]                                 [01;36m[K^~~~~~~~~[m[K
+[2.041s]                                 [32m[Kbasename[m[K
+[2.041s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:54:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbasename[m[K’
+[2.041s]  std::string suffix = "byte_" + [01;36m[Knode_name[m[K + ".txt";
+[2.041s]                                 [01;36m[K^~~~~~~~~[m[K
+[2.042s]                                 [32m[Kbasename[m[K
+[2.047s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, const string&)[m[K’:
+[2.047s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:58:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode_name[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.048s]  void chatterCallback(const std_msgs::msg::String::SharedPtr msg, const std::string& [01;35m[Knode_name[m[K){
+[2.048s]                                                                                      [01;35m[K^~~~~~~~~[m[K
+[2.049s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, const string&)[m[K’:
+[2.049s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:58:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode_name[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.049s]  void chatterCallback(const std_msgs::msg::String::SharedPtr msg, const std::string& [01;35m[Knode_name[m[K){
+[2.050s]                                                                                      [01;35m[K^~~~~~~~~[m[K
+[2.050s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:54:32:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_name[m[K’ was not declared in this scope
+[2.050s]  std::string suffix = "byte_" + [01;31m[Knode_name[m[K + ".txt";
+[2.050s]                                 [01;31m[K^~~~~~~~~[m[K
+[2.051s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:54:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbasename[m[K’
+[2.051s]  std::string suffix = "byte_" + [01;36m[Knode_name[m[K + ".txt";
+[2.051s]                                 [01;36m[K^~~~~~~~~[m[K
+[2.051s]                                 [32m[Kbasename[m[K
+[2.053s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:54:32:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_name[m[K’ was not declared in this scope
+[2.053s]  std::string suffix = "byte_" + [01;31m[Knode_name[m[K + ".txt";
+[2.053s]                                 [01;31m[K^~~~~~~~~[m[K
+[2.054s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:54:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbasename[m[K’
+[2.055s]  std::string suffix = "byte_" + [01;36m[Knode_name[m[K + ".txt";
+[2.055s]                                 [01;36m[K^~~~~~~~~[m[K
+[2.055s]                                 [32m[Kbasename[m[K
+[2.057s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, const string&)[m[K’:
+[2.058s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:58:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode_name[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.058s]  void chatterCallback(const std_msgs::msg::String::SharedPtr msg, const std::string& [01;35m[Knode_name[m[K){
+[2.058s]                                                                                      [01;35m[K^~~~~~~~~[m[K
+[2.061s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, const string&)[m[K’:
+[2.061s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:58:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode_name[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.061s]  void chatterCallback(const std_msgs::msg::String::SharedPtr msg, const std::string& [01;35m[Knode_name[m[K){
+[2.062s]                                                                                      [01;35m[K^~~~~~~~~[m[K
+[2.718s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.719s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.719s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[2.719s] make[1]: *** Waiting for unfinished jobs....
+[2.720s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[2.726s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.727s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.727s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[2.727s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[2.731s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.731s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[2.731s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.731s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[2.733s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[2.733s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[2.734s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[2.734s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[2.734s] make: *** [all] Error 2
+[2.734s] Makefile:140: recipe for target 'all' failed
+[2.737s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval' returned '2': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8

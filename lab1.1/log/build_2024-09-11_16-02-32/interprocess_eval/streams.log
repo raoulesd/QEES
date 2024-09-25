@@ -1,0 +1,177 @@
+[0.046s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8
+[0.127s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.129s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.168s] [  6%] Built target talker_interprocess__rmw_fastrtps_cpp
+[0.171s] [ 12%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.183s] [ 18%] Built target talker_interprocess_single
+[0.208s] [ 25%] Built target talker_interprocess
+[0.212s] [ 28%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.215s] [ 34%] Built target listener_interprocess_single
+[0.219s] [ 40%] Built target talker_interprocess__rmw_connext_cpp
+[0.239s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.245s] [ 43%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.256s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.302s] [ 50%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.322s] [ 53%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.325s] [ 59%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.327s] [ 65%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.345s] [ 68%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.348s] [ 75%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.382s] [ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[0.404s] [ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[2.097s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0[m[K,
+[2.098s]                  from [01m[K/usr/include/c++/7/bits/allocator.h:46[m[K,
+[2.098s]                  from [01m[K/usr/include/c++/7/memory:63[m[K,
+[2.098s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:142[m[K,
+[2.098s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[2.099s] /usr/include/c++/7/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node][m[K’:
+[2.099s] [01m[K/usr/include/c++/7/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<rclcpp::Node>][m[K’
+[2.099s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:526:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.099s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:637:4:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(std::_Sp_make_shared_tag, _Tp*, const _Alloc&, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.100s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1295:35:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.100s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:344:64:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node][m[K’
+[2.100s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:690:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}][m[K’
+[2.100s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:706:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = rclcpp::Node; _Args = {const char (&)[11], int&}][m[K’
+[2.100s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:75:3:[m[K   required from ‘[01m[Kstatic std::shared_ptr<rclcpp::Node> rclcpp::Node::make_shared(Args&& ...) [with Args = {const char (&)[11], int&}][m[K’
+[2.101s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:61:[m[K   required from here
+[2.101s] [01m[K/usr/include/c++/7/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(const char [11], int&)[m[K’
+[2.101s]   { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[2.101s]     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.102s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[2.102s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[2.102s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.102s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[2.102s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1188:3:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const rclcpp::Node&, const string&)
+[2.103s]    [01;36m[KNode[m[K(
+[2.103s]    [01;36m[K^~~~[m[K
+[2.103s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1188:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kconst rclcpp::Node&[m[K’
+[2.103s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)
+[2.103s]    explicit [01;36m[KNode[m[K(
+[2.104s]             [01;36m[K^~~~[m[K
+[2.104s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string& {aka const std::__cxx11::basic_string<char>&}[m[K’
+[2.104s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)
+[2.104s]    explicit [01;36m[KNode[m[K(
+[2.105s]             [01;36m[K^~~~[m[K
+[2.105s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rclcpp::NodeOptions&[m[K’
+[2.107s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0[m[K,
+[2.107s]                  from [01m[K/usr/include/c++/7/bits/allocator.h:46[m[K,
+[2.107s]                  from [01m[K/usr/include/c++/7/memory:63[m[K,
+[2.108s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:142[m[K,
+[2.108s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[2.108s] /usr/include/c++/7/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node][m[K’:
+[2.108s] [01m[K/usr/include/c++/7/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<rclcpp::Node>][m[K’
+[2.109s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:526:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.109s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:637:4:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(std::_Sp_make_shared_tag, _Tp*, const _Alloc&, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.109s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1295:35:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.109s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:344:64:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node][m[K’
+[2.110s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:690:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}][m[K’
+[2.110s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:706:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = rclcpp::Node; _Args = {const char (&)[11], int&}][m[K’
+[2.110s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:75:3:[m[K   required from ‘[01m[Kstatic std::shared_ptr<rclcpp::Node> rclcpp::Node::make_shared(Args&& ...) [with Args = {const char (&)[11], int&}][m[K’
+[2.110s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:61:[m[K   required from here
+[2.110s] [01m[K/usr/include/c++/7/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(const char [11], int&)[m[K’
+[2.111s]   { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[2.111s]     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.111s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[2.111s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[2.111s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.112s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[2.112s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1188:3:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const rclcpp::Node&, const string&)
+[2.112s]    [01;36m[KNode[m[K(
+[2.112s]    [01;36m[K^~~~[m[K
+[2.113s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1188:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kconst rclcpp::Node&[m[K’
+[2.113s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)
+[2.113s]    explicit [01;36m[KNode[m[K(
+[2.113s]             [01;36m[K^~~~[m[K
+[2.113s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string& {aka const std::__cxx11::basic_string<char>&}[m[K’
+[2.114s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)
+[2.114s]    explicit [01;36m[KNode[m[K(
+[2.114s]             [01;36m[K^~~~[m[K
+[2.114s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rclcpp::NodeOptions&[m[K’
+[2.200s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0[m[K,
+[2.200s]                  from [01m[K/usr/include/c++/7/bits/allocator.h:46[m[K,
+[2.201s]                  from [01m[K/usr/include/c++/7/memory:63[m[K,
+[2.201s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:142[m[K,
+[2.201s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[2.201s] /usr/include/c++/7/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node][m[K’:
+[2.202s] [01m[K/usr/include/c++/7/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<rclcpp::Node>][m[K’
+[2.202s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:526:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.202s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:637:4:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(std::_Sp_make_shared_tag, _Tp*, const _Alloc&, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.202s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1295:35:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.203s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:344:64:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node][m[K’
+[2.203s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:690:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}][m[K’
+[2.203s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:706:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = rclcpp::Node; _Args = {const char (&)[11], int&}][m[K’
+[2.204s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:75:3:[m[K   required from ‘[01m[Kstatic std::shared_ptr<rclcpp::Node> rclcpp::Node::make_shared(Args&& ...) [with Args = {const char (&)[11], int&}][m[K’
+[2.204s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:61:[m[K   required from here
+[2.204s] [01m[K/usr/include/c++/7/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(const char [11], int&)[m[K’
+[2.204s]   { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[2.204s]     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.205s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[2.205s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[2.205s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.205s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[2.206s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1188:3:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const rclcpp::Node&, const string&)
+[2.206s]    [01;36m[KNode[m[K(
+[2.206s]    [01;36m[K^~~~[m[K
+[2.206s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1188:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kconst rclcpp::Node&[m[K’
+[2.206s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)
+[2.207s]    explicit [01;36m[KNode[m[K(
+[2.207s]             [01;36m[K^~~~[m[K
+[2.207s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string& {aka const std::__cxx11::basic_string<char>&}[m[K’
+[2.207s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)
+[2.208s]    explicit [01;36m[KNode[m[K(
+[2.208s]             [01;36m[K^~~~[m[K
+[2.208s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rclcpp::NodeOptions&[m[K’
+[2.208s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0[m[K,
+[2.208s]                  from [01m[K/usr/include/c++/7/bits/allocator.h:46[m[K,
+[2.209s]                  from [01m[K/usr/include/c++/7/memory:63[m[K,
+[2.209s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:142[m[K,
+[2.209s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[2.209s] /usr/include/c++/7/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node][m[K’:
+[2.209s] [01m[K/usr/include/c++/7/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<rclcpp::Node>][m[K’
+[2.210s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:526:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.210s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:637:4:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(std::_Sp_make_shared_tag, _Tp*, const _Alloc&, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.210s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1295:35:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[2.210s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:344:64:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}; _Tp = rclcpp::Node][m[K’
+[2.211s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:690:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {const char (&)[11], int&}][m[K’
+[2.211s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:706:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = rclcpp::Node; _Args = {const char (&)[11], int&}][m[K’
+[2.211s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:75:3:[m[K   required from ‘[01m[Kstatic std::shared_ptr<rclcpp::Node> rclcpp::Node::make_shared(Args&& ...) [with Args = {const char (&)[11], int&}][m[K’
+[2.211s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:61:[m[K   required from here
+[2.211s] [01m[K/usr/include/c++/7/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(const char [11], int&)[m[K’
+[2.212s]   { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[2.212s]     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.212s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[2.212s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[2.213s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.213s]                  from [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:1[m[K:
+[2.213s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1188:3:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const rclcpp::Node&, const string&)
+[2.213s]    [01;36m[KNode[m[K(
+[2.213s]    [01;36m[K^~~~[m[K
+[2.214s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1188:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kconst rclcpp::Node&[m[K’
+[2.214s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)
+[2.214s]    explicit [01;36m[KNode[m[K(
+[2.214s]             [01;36m[K^~~~[m[K
+[2.214s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string& {aka const std::__cxx11::basic_string<char>&}[m[K’
+[2.215s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)
+[2.215s]    explicit [01;36m[KNode[m[K(
+[2.215s]             [01;36m[K^~~~[m[K
+[2.215s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rclcpp::NodeOptions&[m[K’
+[2.451s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[2.451s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.451s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[2.451s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.451s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[2.452s] make[1]: *** Waiting for unfinished jobs....
+[2.452s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[2.452s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[2.452s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[2.537s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.538s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.538s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[2.538s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[2.543s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.544s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.544s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[2.544s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[2.544s] Makefile:140: recipe for target 'all' failed
+[2.544s] make: *** [all] Error 2
+[2.546s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8

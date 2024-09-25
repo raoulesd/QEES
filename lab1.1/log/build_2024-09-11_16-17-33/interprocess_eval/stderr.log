@@ -1,0 +1,70 @@
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+   [01;31m[Kfor[m[K(int nl = 0; i < LIST_NUM; nl++) {
+   [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:21:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   for(int nl = 0; i [01;35m[K<[m[K LIST_NUM; nl++) {
+                     [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knl[m[K’ was not declared in this scope
+   for(int nl = 0; i < LIST_NUM; [01;31m[Knl[m[K++) {
+                                 [01;31m[K^~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before end of line
+ #pragma GCC diagnostic pop
+                           [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K At global scope:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+   [01;31m[Kfor[m[K(int nl = 0; i < LIST_NUM; nl++) {
+   [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:21:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   for(int nl = 0; i [01;35m[K<[m[K LIST_NUM; nl++) {
+                     [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knl[m[K’ was not declared in this scope
+   for(int nl = 0; i < LIST_NUM; [01;31m[Knl[m[K++) {
+                                 [01;31m[K^~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before end of line
+ #pragma GCC diagnostic pop
+                           [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K At global scope:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+   [01;31m[Kfor[m[K(int nl = 0; i < LIST_NUM; nl++) {
+   [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:21:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   for(int nl = 0; i [01;35m[K<[m[K LIST_NUM; nl++) {
+                     [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knl[m[K’ was not declared in this scope
+   for(int nl = 0; i < LIST_NUM; [01;31m[Knl[m[K++) {
+                                 [01;31m[K^~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before end of line
+ #pragma GCC diagnostic pop
+                           [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K At global scope:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+   [01;31m[Kfor[m[K(int nl = 0; i < LIST_NUM; nl++) {
+   [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:21:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   for(int nl = 0; i [01;35m[K<[m[K LIST_NUM; nl++) {
+                     [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knl[m[K’ was not declared in this scope
+   for(int nl = 0; i < LIST_NUM; [01;31m[Knl[m[K++) {
+                                 [01;31m[K^~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before end of line
+ #pragma GCC diagnostic pop
+                           [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K At global scope:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+make: *** [all] Error 2

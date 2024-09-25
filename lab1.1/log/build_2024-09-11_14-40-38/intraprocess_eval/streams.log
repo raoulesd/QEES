@@ -1,0 +1,70 @@
+[0.039s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/intraprocess_eval -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval
+[0.132s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.176s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.176s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.503s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.614s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.737s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.940s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.943s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.944s] -- Looking for pthread.h
+[1.118s] -- Looking for pthread.h - found
+[1.119s] -- Looking for pthread_create
+[1.246s] -- Looking for pthread_create - not found
+[1.246s] -- Looking for pthread_create in pthreads
+[1.343s] -- Looking for pthread_create in pthreads - not found
+[1.344s] -- Looking for pthread_create in pthread
+[1.460s] -- Looking for pthread_create in pthread - found
+[1.461s] -- Found Threads: TRUE  
+[1.588s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.606s] -- Found rmw_fastrtps_cpp: 0.7.8 (/opt/ros/dashing/share/rmw_fastrtps_cpp/cmake)
+[2.049s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[2.085s] -- Found FastRTPS: /opt/ros/dashing/include  
+[2.466s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[5.621s] -- Found PrismTech OpenSplice: /usr/share/opensplice/cmake
+[5.792s] -- Configuring done
+[5.857s] -- Generating done
+[5.859s] -- Build files have been written to: /home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval
+[5.864s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/intraprocess_eval -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval
+[5.869s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval -- -j8 -l8
+[5.947s] [35m[1mScanning dependencies of target chat_intraprocess__rmw_opensplice_cpp[0m
+[5.947s] [35m[1mScanning dependencies of target chat_intraprocess[0m
+[5.947s] [35m[1mScanning dependencies of target chat_intraprocess__rmw_fastrtps_cpp[0m
+[5.948s] [35m[1mScanning dependencies of target chat_intraprocess__rmw_connext_cpp[0m
+[6.006s] [ 12%] [32mBuilding CXX object CMakeFiles/chat_intraprocess__rmw_opensplice_cpp.dir/src/chat_intraprocess.cpp.o[0m
+[6.008s] [ 25%] [32mBuilding CXX object CMakeFiles/chat_intraprocess__rmw_fastrtps_cpp.dir/src/chat_intraprocess.cpp.o[0m
+[6.010s] [ 37%] [32mBuilding CXX object CMakeFiles/chat_intraprocess.dir/src/chat_intraprocess.cpp.o[0m
+[6.018s] [ 50%] [32mBuilding CXX object CMakeFiles/chat_intraprocess__rmw_connext_cpp.dir/src/chat_intraprocess.cpp.o[0m
+[19.698s] [ 62%] [32m[1mLinking CXX executable chat_intraprocess__rmw_opensplice_cpp[0m
+[20.227s] [ 62%] Built target chat_intraprocess__rmw_opensplice_cpp
+[20.413s] [ 75%] [32m[1mLinking CXX executable chat_intraprocess[0m
+[20.508s] [ 87%] [32m[1mLinking CXX executable chat_intraprocess__rmw_fastrtps_cpp[0m
+[21.014s] [100%] [32m[1mLinking CXX executable chat_intraprocess__rmw_connext_cpp[0m
+[21.337s] [100%] Built target chat_intraprocess__rmw_fastrtps_cpp
+[21.372s] [100%] Built target chat_intraprocess
+[21.700s] [100%] Built target chat_intraprocess__rmw_connext_cpp
+[21.750s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval -- -j8 -l8
+[22.196s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval --target install -- -j8 -l8
+[22.651s] [ 25%] Built target chat_intraprocess
+[22.664s] [ 50%] Built target chat_intraprocess__rmw_connext_cpp
+[22.694s] [ 75%] Built target chat_intraprocess__rmw_opensplice_cpp
+[22.722s] [100%] Built target chat_intraprocess__rmw_fastrtps_cpp
+[22.869s] [36mInstall the project...[0m
+[22.916s] -- Install configuration: ""
+[22.917s] -- Execute custom install script
+[22.919s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/lib/intraprocess_eval/chat_intraprocess
+[22.963s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/lib/intraprocess_eval/chat_intraprocess__rmw_connext_cpp
+[23.019s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/lib/intraprocess_eval/chat_intraprocess__rmw_fastrtps_cpp
+[23.071s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/lib/intraprocess_eval/chat_intraprocess__rmw_opensplice_cpp
+[23.124s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/share/ament_index/resource_index/package_run_dependencies/intraprocess_eval
+[23.175s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/share/ament_index/resource_index/parent_prefix_path/intraprocess_eval
+[23.211s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/share/intraprocess_eval/environment/ament_prefix_path.sh
+[23.268s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/share/intraprocess_eval/environment/path.sh
+[23.331s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/share/intraprocess_eval/local_setup.bash
+[23.389s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/share/intraprocess_eval/local_setup.sh
+[23.452s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/share/intraprocess_eval/local_setup.zsh
+[23.507s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/share/ament_index/resource_index/packages/intraprocess_eval
+[23.579s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/share/intraprocess_eval/cmake/intraprocess_evalConfig.cmake
+[23.632s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/share/intraprocess_eval/cmake/intraprocess_evalConfig-version.cmake
+[23.684s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval/share/intraprocess_eval/package.xml
+[23.745s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval --target install -- -j8 -l8

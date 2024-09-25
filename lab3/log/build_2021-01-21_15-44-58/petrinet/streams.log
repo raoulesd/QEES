@@ -1,0 +1,22 @@
+[0.332s] Invoking command in '/home/raoul/Documents/QEES/lab3/src/petrinet': PYTHONPATH=/home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/petrinet build --build-base /home/raoul/Documents/QEES/lab3/build/petrinet/build install --prefix /home/raoul/Documents/QEES/lab3/install/petrinet --record /home/raoul/Documents/QEES/lab3/build/petrinet/install.log --single-version-externally-managed
+[0.614s] running egg_info
+[0.615s] writing ../../build/petrinet/petrinet.egg-info/PKG-INFO
+[0.615s] writing dependency_links to ../../build/petrinet/petrinet.egg-info/dependency_links.txt
+[0.616s] writing entry points to ../../build/petrinet/petrinet.egg-info/entry_points.txt
+[0.616s] writing requirements to ../../build/petrinet/petrinet.egg-info/requires.txt
+[0.616s] writing top-level names to ../../build/petrinet/petrinet.egg-info/top_level.txt
+[0.661s] reading manifest file '../../build/petrinet/petrinet.egg-info/SOURCES.txt'
+[0.663s] writing manifest file '../../build/petrinet/petrinet.egg-info/SOURCES.txt'
+[0.663s] running build
+[0.663s] running build_py
+[0.663s] running install
+[0.664s] running install_lib
+[0.665s] running install_data
+[0.666s] running install_egg_info
+[0.668s] removing '/home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages/petrinet-0.10.1-py3.6.egg-info' (and everything under it)
+[0.668s] Copying ../../build/petrinet/petrinet.egg-info to /home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages/petrinet-0.10.1-py3.6.egg-info
+[0.670s] running install_scripts
+[0.695s] Installing node script to /home/raoul/Documents/QEES/lab3/install/petrinet/lib/petrinet
+[0.695s] Installing node2 script to /home/raoul/Documents/QEES/lab3/install/petrinet/lib/petrinet
+[0.695s] writing list of installed files to '/home/raoul/Documents/QEES/lab3/build/petrinet/install.log'
+[0.720s] Invoked command in '/home/raoul/Documents/QEES/lab3/src/petrinet' returned '0': PYTHONPATH=/home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/petrinet build --build-base /home/raoul/Documents/QEES/lab3/build/petrinet/build install --prefix /home/raoul/Documents/QEES/lab3/install/petrinet --record /home/raoul/Documents/QEES/lab3/build/petrinet/install.log --single-version-externally-managed

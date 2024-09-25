@@ -1,0 +1,35 @@
+[0.027s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/artificial_load': /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/artificial_load -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/artificial_load
+[1.315s] -- The C compiler identification is GNU 7.5.0
+[2.114s] -- The CXX compiler identification is GNU 7.5.0
+[2.119s] -- Check for working C compiler: /usr/bin/cc
+[2.259s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.260s] -- Detecting C compiler ABI info
+[2.378s] -- Detecting C compiler ABI info - done
+[2.386s] -- Detecting C compile features
+[2.725s] -- Detecting C compile features - done
+[2.730s] -- Check for working CXX compiler: /usr/bin/c++
+[2.876s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.877s] -- Detecting CXX compiler ABI info
+[3.005s] -- Detecting CXX compiler ABI info - done
+[3.012s] -- Detecting CXX compile features
+[3.566s] -- Detecting CXX compile features - done
+[3.710s] CMake Error at CMakeLists.txt:13 (find_package):
+[3.711s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.712s]   has asked CMake to find a package configuration file provided by
+[3.712s]   "ament_cmake", but CMake did not find one.
+[3.713s] 
+[3.713s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.713s]   any of the following names:
+[3.715s] 
+[3.715s]     ament_cmakeConfig.cmake
+[3.715s]     ament_cmake-config.cmake
+[3.716s] 
+[3.717s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.718s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.718s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.719s]   has been installed.
+[3.719s] 
+[3.720s] 
+[3.723s] -- Configuring incomplete, errors occurred!
+[3.724s] See also "/home/raoul/Documents/QEES/lab1.1/build/artificial_load/CMakeFiles/CMakeOutput.log".
+[3.742s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/artificial_load' returned '1': /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/artificial_load -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/artificial_load

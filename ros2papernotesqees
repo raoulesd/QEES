@@ -1,0 +1,19 @@
+ROS2 = ROS2 + RTS requirements through DDS
+
+DDS (ROS2) not needing a master process (as in ROS1) increases fault tolerance.
+
+Intra-process communication (ROS2, nodelets in ROS1) is executed without DDS. 
+
+QoS policies of ROS2:
+1. Deadline period - must update every period
+2. history - depth of data to be updated
+3. reliability - transmit asap or retry if missed samples
+4. durability - keep samples depending on history to send to late-joining readers
+
+Two kinds of overall policies: 
+1. best effort: no history depth, messages sent once, no durability.
+2. reliable: x/all history depth, resend when packet loss, x/all durability.
+
+ROS1 has lower latency but is not reliable for RTSs. ROS2 is due to QoS policies in DDS. ROS2 increase in latency can be attributed to the two DDS data conversions. ROS2 also takes up more memory due to the DDS. ROS2 guarantees fair latencies (equal latency for all subscribers) as opposed to the sequential latency of ROS1.
+
+If message_size <= packet size, end-to-end latencies are constant. Otherwise, message is divided in multiple packets.

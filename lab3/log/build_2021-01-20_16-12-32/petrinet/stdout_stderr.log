@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/petrinet/petrinet.egg-info
+writing ../../build/petrinet/petrinet.egg-info/PKG-INFO
+writing dependency_links to ../../build/petrinet/petrinet.egg-info/dependency_links.txt
+writing entry points to ../../build/petrinet/petrinet.egg-info/entry_points.txt
+writing requirements to ../../build/petrinet/petrinet.egg-info/requires.txt
+writing top-level names to ../../build/petrinet/petrinet.egg-info/top_level.txt
+writing manifest file '../../build/petrinet/petrinet.egg-info/SOURCES.txt'
+reading manifest file '../../build/petrinet/petrinet.egg-info/SOURCES.txt'
+writing manifest file '../../build/petrinet/petrinet.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/raoul/Documents/QEES/lab3/build/petrinet/build
+creating /home/raoul/Documents/QEES/lab3/build/petrinet/build/lib
+creating /home/raoul/Documents/QEES/lab3/build/petrinet/build/lib/petrinet
+copying petrinet/node2.py -> /home/raoul/Documents/QEES/lab3/build/petrinet/build/lib/petrinet
+copying petrinet/node.py -> /home/raoul/Documents/QEES/lab3/build/petrinet/build/lib/petrinet
+copying petrinet/__init__.py -> /home/raoul/Documents/QEES/lab3/build/petrinet/build/lib/petrinet
+running install
+running install_lib
+creating /home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages/petrinet
+copying /home/raoul/Documents/QEES/lab3/build/petrinet/build/lib/petrinet/node2.py -> /home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages/petrinet
+copying /home/raoul/Documents/QEES/lab3/build/petrinet/build/lib/petrinet/node.py -> /home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages/petrinet
+copying /home/raoul/Documents/QEES/lab3/build/petrinet/build/lib/petrinet/__init__.py -> /home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages/petrinet
+byte-compiling /home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages/petrinet/node2.py to node2.cpython-36.pyc
+byte-compiling /home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages/petrinet/node.py to node.cpython-36.pyc
+byte-compiling /home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages/petrinet/__init__.py to __init__.cpython-36.pyc
+running install_data
+creating /home/raoul/Documents/QEES/lab3/install/petrinet/share/ament_index
+creating /home/raoul/Documents/QEES/lab3/install/petrinet/share/ament_index/resource_index
+creating /home/raoul/Documents/QEES/lab3/install/petrinet/share/ament_index/resource_index/packages
+copying resource/petrinet -> /home/raoul/Documents/QEES/lab3/install/petrinet/share/ament_index/resource_index/packages
+copying package.xml -> /home/raoul/Documents/QEES/lab3/install/petrinet/share/petrinet
+running install_egg_info
+Copying ../../build/petrinet/petrinet.egg-info to /home/raoul/Documents/QEES/lab3/install/petrinet/lib/python3.6/site-packages/petrinet-0.10.1-py3.6.egg-info
+running install_scripts
+Installing node script to /home/raoul/Documents/QEES/lab3/install/petrinet/lib/petrinet
+Installing node2 script to /home/raoul/Documents/QEES/lab3/install/petrinet/lib/petrinet
+writing list of installed files to '/home/raoul/Documents/QEES/lab3/build/petrinet/install.log'

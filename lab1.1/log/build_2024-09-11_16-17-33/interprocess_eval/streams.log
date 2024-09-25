@@ -1,0 +1,101 @@
+[0.044s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8
+[0.172s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.197s] [  6%] Built target talker_interprocess__rmw_connext_cpp
+[0.204s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.218s] [ 12%] Built target listener_interprocess_single
+[0.249s] [ 18%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.260s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.268s] [ 28%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.268s] [ 28%] Built target talker_interprocess_single
+[0.275s] [ 31%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.277s] [ 37%] Built target talker_interprocess
+[0.287s] [ 43%] Built target talker_interprocess__rmw_fastrtps_cpp
+[0.307s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.330s] [ 50%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.333s] [ 53%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.342s] [ 59%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.359s] [ 65%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.365s] [ 71%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.384s] [ 75%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.399s] [ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[0.417s] [ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[1.801s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.801s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+[1.801s]    [01;31m[Kfor[m[K(int nl = 0; i < LIST_NUM; nl++) {
+[1.802s]    [01;31m[K^~~[m[K
+[1.802s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:21:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[1.802s]    for(int nl = 0; i [01;35m[K<[m[K LIST_NUM; nl++) {
+[1.802s]                      [01;35m[K^[m[K
+[1.803s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knl[m[K’ was not declared in this scope
+[1.803s]    for(int nl = 0; i < LIST_NUM; [01;31m[Knl[m[K++) {
+[1.803s]                                  [01;31m[K^~[m[K
+[1.803s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before end of line
+[1.803s]  #pragma GCC diagnostic pop
+[1.804s]                            [01;31m[K^[m[K
+[1.804s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K At global scope:
+[1.804s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+[1.867s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.867s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+[1.867s]    [01;31m[Kfor[m[K(int nl = 0; i < LIST_NUM; nl++) {
+[1.868s]    [01;31m[K^~~[m[K
+[1.868s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:21:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[1.868s]    for(int nl = 0; i [01;35m[K<[m[K LIST_NUM; nl++) {
+[1.868s]                      [01;35m[K^[m[K
+[1.868s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knl[m[K’ was not declared in this scope
+[1.869s]    for(int nl = 0; i < LIST_NUM; [01;31m[Knl[m[K++) {
+[1.869s]                                  [01;31m[K^~[m[K
+[1.869s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before end of line
+[1.869s]  #pragma GCC diagnostic pop
+[1.870s]                            [01;31m[K^[m[K
+[1.870s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K At global scope:
+[1.870s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+[1.952s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.952s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+[1.952s]    [01;31m[Kfor[m[K(int nl = 0; i < LIST_NUM; nl++) {
+[1.952s]    [01;31m[K^~~[m[K
+[1.953s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:21:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[1.953s]    for(int nl = 0; i [01;35m[K<[m[K LIST_NUM; nl++) {
+[1.953s]                      [01;35m[K^[m[K
+[1.953s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knl[m[K’ was not declared in this scope
+[1.954s]    for(int nl = 0; i < LIST_NUM; [01;31m[Knl[m[K++) {
+[1.954s]                                  [01;31m[K^~[m[K
+[1.954s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before end of line
+[1.954s]  #pragma GCC diagnostic pop
+[1.954s]                            [01;31m[K^[m[K
+[1.955s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K At global scope:
+[1.955s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+[1.997s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.997s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+[1.998s]    [01;31m[Kfor[m[K(int nl = 0; i < LIST_NUM; nl++) {
+[1.998s]    [01;31m[K^~~[m[K
+[1.998s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:21:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[1.998s]    for(int nl = 0; i [01;35m[K<[m[K LIST_NUM; nl++) {
+[1.998s]                      [01;35m[K^[m[K
+[1.999s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:184:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knl[m[K’ was not declared in this scope
+[1.999s]    for(int nl = 0; i < LIST_NUM; [01;31m[Knl[m[K++) {
+[1.999s]                                  [01;31m[K^~[m[K
+[1.999s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before end of line
+[1.999s]  #pragma GCC diagnostic pop
+[1.999s]                            [01;31m[K^[m[K
+[2.000s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K At global scope:
+[2.000s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:209:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+[2.008s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.008s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.009s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[2.009s] make[1]: *** Waiting for unfinished jobs....
+[2.009s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[2.079s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.079s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.079s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[2.079s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[2.151s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[2.151s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[2.151s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[2.151s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[2.192s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.192s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.192s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[2.192s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[2.193s] Makefile:140: recipe for target 'all' failed
+[2.193s] make: *** [all] Error 2
+[2.194s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8

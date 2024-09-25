@@ -1,0 +1,47 @@
+[0.042s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/artificial_load': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/artificial_load -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/artificial_load
+[0.159s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.216s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.216s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.636s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.765s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.968s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.972s] -- Looking for pthread.h
+[1.146s] -- Looking for pthread.h - found
+[1.146s] -- Looking for pthread_create
+[1.264s] -- Looking for pthread_create - not found
+[1.264s] -- Looking for pthread_create in pthreads
+[1.357s] -- Looking for pthread_create in pthreads - not found
+[1.357s] -- Looking for pthread_create in pthread
+[1.469s] -- Looking for pthread_create in pthread - found
+[1.471s] -- Found Threads: TRUE  
+[1.609s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.755s] -- Configuring done
+[2.032s] -- Generating done
+[2.034s] -- Build files have been written to: /home/raoul/Documents/QEES/lab1.1/build/artificial_load
+[2.038s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/artificial_load' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/artificial_load -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/artificial_load
+[2.044s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/artificial_load': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/artificial_load -- -j8 -l8
+[2.122s] [35m[1mScanning dependencies of target CPU_load[0m
+[2.485s] [ 50%] [32mBuilding CXX object CMakeFiles/CPU_load.dir/CPU_load.cpp.o[0m
+[5.676s] [100%] [32m[1mLinking CXX executable CPU_load[0m
+[5.882s] [100%] Built target CPU_load
+[5.902s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/artificial_load' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/artificial_load -- -j8 -l8
+[5.972s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/artificial_load': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/artificial_load --target install -- -j8 -l8
+[6.197s] [100%] Built target CPU_load
+[6.277s] [36mInstall the project...[0m
+[6.296s] -- Install configuration: ""
+[6.298s] -- Execute custom install script
+[6.300s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/lib/artificial_load/CPU_load
+[6.400s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/share/ament_index/resource_index/package_run_dependencies/artificial_load
+[6.565s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/share/ament_index/resource_index/parent_prefix_path/artificial_load
+[6.650s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/share/artificial_load/environment/ament_prefix_path.sh
+[6.746s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/share/artificial_load/environment/path.sh
+[6.859s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/share/artificial_load/local_setup.bash
+[6.970s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/share/artificial_load/local_setup.sh
+[7.046s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/share/artificial_load/local_setup.zsh
+[7.135s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/share/ament_index/resource_index/packages/artificial_load
+[7.221s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/share/artificial_load/cmake/artificial_loadConfig.cmake
+[7.317s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/share/artificial_load/cmake/artificial_loadConfig-version.cmake
+[7.411s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/artificial_load/share/artificial_load/package.xml
+[7.494s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/artificial_load' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/artificial_load --target install -- -j8 -l8

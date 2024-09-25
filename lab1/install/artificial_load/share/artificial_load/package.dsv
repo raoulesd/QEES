@@ -1,0 +1,8 @@
+source;share/artificial_load/hook/cmake_prefix_path.ps1
+source;share/artificial_load/hook/cmake_prefix_path.dsv
+source;share/artificial_load/hook/cmake_prefix_path.sh
+source;share/artificial_load/local_setup.bash
+source;share/artificial_load/local_setup.dsv
+source;share/artificial_load/local_setup.ps1
+source;share/artificial_load/local_setup.sh
+source;share/artificial_load/local_setup.zsh

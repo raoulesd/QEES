@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target listener_interprocess[0m
+[35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[ 12%] Built target talker_interprocess
+[ 12%] Built target talker_interprocess_single
+[ 18%] Built target listener_interprocess_single
+[ 25%] Built target talker_interprocess__rmw_fastrtps_cpp
+[ 28%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[ 34%] Built target talker_interprocess__rmw_connext_cpp
+[ 40%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[ 43%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[ 50%] Built target listener_interprocess_single__rmw_connext_cpp
+[ 53%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[ 59%] Built target talker_interprocess_single__rmw_connext_cpp
+[ 65%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[ 68%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[ 75%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+Makefile:140: recipe for target 'all' failed

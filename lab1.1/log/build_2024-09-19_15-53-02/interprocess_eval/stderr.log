@@ -1,0 +1,28 @@
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, const string&)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:113:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf("of %s\n", node_name[01;35m[K)[m[K;
+                                    [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:122:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ [[01;35m[K-Wformat=[m[K]
+           printf("of %s\n", node_name[01;35m[K)[m[K;
+                                      [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, const string&)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:113:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf("of %s\n", node_name[01;35m[K)[m[K;
+                                    [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:122:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ [[01;35m[K-Wformat=[m[K]
+           printf("of %s\n", node_name[01;35m[K)[m[K;
+                                      [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, const string&)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:113:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf("of %s\n", node_name[01;35m[K)[m[K;
+                                    [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:122:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ [[01;35m[K-Wformat=[m[K]
+           printf("of %s\n", node_name[01;35m[K)[m[K;
+                                      [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, const string&)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:113:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf("of %s\n", node_name[01;35m[K)[m[K;
+                                    [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:122:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ [[01;35m[K-Wformat=[m[K]
+           printf("of %s\n", node_name[01;35m[K)[m[K;
+                                      [01;35m[K^[m[K

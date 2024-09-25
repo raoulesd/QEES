@@ -1,0 +1,98 @@
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:192:24:[m[K [01;31m[Kerror: [m[K‘[01m[KSingleThreadExecutor[m[K’ is not a member of ‘[01m[Krclcpp::executors[m[K’
+     rclcpp::executors::[01;31m[KSingleThreadExecutor[m[K exec;
+                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:192:24:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KSingleThreadedExecutor[m[K’
+     rclcpp::executors::[01;36m[KSingleThreadExecutor[m[K exec;
+                        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+                        [32m[KSingleThreadedExecutor[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:192:24:[m[K [01;31m[Kerror: [m[K‘[01m[KSingleThreadExecutor[m[K’ is not a member of ‘[01m[Krclcpp::executors[m[K’
+     rclcpp::executors::[01;31m[KSingleThreadExecutor[m[K exec;
+                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:192:24:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KSingleThreadedExecutor[m[K’
+     rclcpp::executors::[01;36m[KSingleThreadExecutor[m[K exec;
+                        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+                        [32m[KSingleThreadedExecutor[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:212:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec[m[K’ was not declared in this scope
+         [01;31m[Kexec[m[K.add_node(node);
+         [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:212:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kexecl[m[K’
+         [01;36m[Kexec[m[K.add_node(node);
+         [01;36m[K^~~~[m[K
+         [32m[Kexecl[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:219:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec[m[K’ was not declared in this scope
+     [01;31m[Kexec[m[K.spin();
+     [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:219:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kexecl[m[K’
+     [01;36m[Kexec[m[K.spin();
+     [01;36m[K^~~~[m[K
+     [32m[Kexecl[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:212:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec[m[K’ was not declared in this scope
+         [01;31m[Kexec[m[K.add_node(node);
+         [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:212:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kexecl[m[K’
+         [01;36m[Kexec[m[K.add_node(node);
+         [01;36m[K^~~~[m[K
+         [32m[Kexecl[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:219:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec[m[K’ was not declared in this scope
+     [01;31m[Kexec[m[K.spin();
+     [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:219:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kexecl[m[K’
+     [01;36m[Kexec[m[K.spin();
+     [01;36m[K^~~~[m[K
+     [32m[Kexecl[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:192:24:[m[K [01;31m[Kerror: [m[K‘[01m[KSingleThreadExecutor[m[K’ is not a member of ‘[01m[Krclcpp::executors[m[K’
+     rclcpp::executors::[01;31m[KSingleThreadExecutor[m[K exec;
+                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:192:24:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KSingleThreadedExecutor[m[K’
+     rclcpp::executors::[01;36m[KSingleThreadExecutor[m[K exec;
+                        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+                        [32m[KSingleThreadedExecutor[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:192:24:[m[K [01;31m[Kerror: [m[K‘[01m[KSingleThreadExecutor[m[K’ is not a member of ‘[01m[Krclcpp::executors[m[K’
+     rclcpp::executors::[01;31m[KSingleThreadExecutor[m[K exec;
+                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:192:24:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KSingleThreadedExecutor[m[K’
+     rclcpp::executors::[01;36m[KSingleThreadExecutor[m[K exec;
+                        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+                        [32m[KSingleThreadedExecutor[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:212:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec[m[K’ was not declared in this scope
+         [01;31m[Kexec[m[K.add_node(node);
+         [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:212:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kexecl[m[K’
+         [01;36m[Kexec[m[K.add_node(node);
+         [01;36m[K^~~~[m[K
+         [32m[Kexecl[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:219:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec[m[K’ was not declared in this scope
+     [01;31m[Kexec[m[K.spin();
+     [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:219:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kexecl[m[K’
+     [01;36m[Kexec[m[K.spin();
+     [01;36m[K^~~~[m[K
+     [32m[Kexecl[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:212:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec[m[K’ was not declared in this scope
+         [01;31m[Kexec[m[K.add_node(node);
+         [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:212:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kexecl[m[K’
+         [01;36m[Kexec[m[K.add_node(node);
+         [01;36m[K^~~~[m[K
+         [32m[Kexecl[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:219:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec[m[K’ was not declared in this scope
+     [01;31m[Kexec[m[K.spin();
+     [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:219:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kexecl[m[K’
+     [01;36m[Kexec[m[K.spin();
+     [01;36m[K^~~~[m[K
+     [32m[Kexecl[m[K
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+make: *** [all] Error 2

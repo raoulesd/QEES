@@ -1,0 +1,156 @@
+[0.074s] Invoking command in '/home/raoul/Documents/QEES/lab1/build/interprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/raoul/Documents/QEES/lab1/src/interprocess_eval -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1/install/interprocess_eval
+[1.504s] -- The C compiler identification is GNU 7.5.0
+[2.584s] -- The CXX compiler identification is GNU 7.5.0
+[2.650s] -- Check for working C compiler: /usr/bin/cc
+[2.798s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.799s] -- Detecting C compiler ABI info
+[2.909s] -- Detecting C compiler ABI info - done
+[2.922s] -- Detecting C compile features
+[3.275s] -- Detecting C compile features - done
+[3.279s] -- Check for working CXX compiler: /usr/bin/c++
+[3.422s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.424s] -- Detecting CXX compiler ABI info
+[3.562s] -- Detecting CXX compiler ABI info - done
+[3.569s] -- Detecting CXX compile features
+[4.158s] -- Detecting CXX compile features - done
+[4.161s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[4.234s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.234s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.494s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.590s] -- Found rclcpp: 0.7.15 (/opt/ros/dashing/share/rclcpp/cmake)
+[4.757s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[4.842s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[4.844s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.868s] -- Looking for pthread.h
+[5.061s] -- Looking for pthread.h - found
+[5.076s] -- Looking for pthread_create
+[5.194s] -- Looking for pthread_create - not found
+[5.195s] -- Looking for pthread_create in pthreads
+[5.282s] -- Looking for pthread_create in pthreads - not found
+[5.283s] -- Looking for pthread_create in pthread
+[5.415s] -- Looking for pthread_create in pthread - found
+[5.417s] -- Found Threads: TRUE  
+[5.515s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[5.525s] -- Found rmw_fastrtps_cpp: 0.7.8 (/opt/ros/dashing/share/rmw_fastrtps_cpp/cmake)
+[5.721s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[5.771s] -- Found FastRTPS: /opt/ros/dashing/include  
+[6.150s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[13.500s] -- Found PrismTech OpenSplice: /usr/share/opensplice/cmake
+[13.709s] -- Configuring done
+[14.001s] -- Generating done
+[14.010s] -- Build files have been written to: /home/raoul/Documents/QEES/lab1/build/interprocess_eval
+[14.020s] Invoked command in '/home/raoul/Documents/QEES/lab1/build/interprocess_eval' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/raoul/Documents/QEES/lab1/src/interprocess_eval -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1/install/interprocess_eval
+[14.026s] Invoking command in '/home/raoul/Documents/QEES/lab1/build/interprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1/build/interprocess_eval -- -j8 -l8
+[14.308s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[14.323s] [35m[1mScanning dependencies of target talker_interprocess_single[0m
+[14.327s] [35m[1mScanning dependencies of target listener_interprocess_single__rmw_opensplice_cpp[0m
+[14.346s] [35m[1mScanning dependencies of target talker_interprocess__rmw_connext_cpp[0m
+[14.355s] [35m[1mScanning dependencies of target talker_interprocess__rmw_fastrtps_cpp[0m
+[14.370s] [35m[1mScanning dependencies of target talker_interprocess[0m
+[14.379s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[14.387s] [35m[1mScanning dependencies of target listener_interprocess_single[0m
+[14.550s] [  3%] [32mBuilding CXX object CMakeFiles/listener_interprocess_single__rmw_opensplice_cpp.dir/src/listener_interprocess_single.cpp.o[0m
+[14.555s] [  6%] [32mBuilding CXX object CMakeFiles/talker_interprocess_single.dir/src/talker_interprocess_single.cpp.o[0m
+[14.562s] [  9%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[14.720s] [ 12%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[14.743s] [ 15%] [32mBuilding CXX object CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o[0m
+[14.758s] [ 18%] [32mBuilding CXX object CMakeFiles/listener_interprocess_single.dir/src/listener_interprocess_single.cpp.o[0m
+[14.761s] [ 21%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o[0m
+[14.781s] [ 25%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o[0m
+[25.439s] [ 28%] [32m[1mLinking CXX executable listener_interprocess[0m
+[26.006s] [ 31%] [32m[1mLinking CXX executable talker_interprocess_single[0m
+[26.155s] [ 34%] [32m[1mLinking CXX executable listener_interprocess_single__rmw_opensplice_cpp[0m
+[26.240s] [ 34%] Built target listener_interprocess
+[26.376s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[26.592s] [ 37%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[26.687s] [ 40%] [32m[1mLinking CXX executable talker_interprocess__rmw_fastrtps_cpp[0m
+[27.092s] [ 40%] Built target talker_interprocess_single
+[27.165s] [35m[1mScanning dependencies of target talker_interprocess_single__rmw_connext_cpp[0m
+[27.166s] [ 40%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[27.268s] [35m[1mScanning dependencies of target listener_interprocess_single__rmw_connext_cpp[0m
+[27.385s] [ 43%] [32mBuilding CXX object CMakeFiles/talker_interprocess_single__rmw_connext_cpp.dir/src/talker_interprocess_single.cpp.o[0m
+[27.391s] [ 43%] Built target talker_interprocess__rmw_fastrtps_cpp
+[27.517s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[27.522s] [ 46%] [32mBuilding CXX object CMakeFiles/listener_interprocess_single__rmw_connext_cpp.dir/src/listener_interprocess_single.cpp.o[0m
+[27.651s] [ 50%] [32m[1mLinking CXX executable talker_interprocess[0m
+[27.687s] [ 53%] [32m[1mLinking CXX executable listener_interprocess__rmw_connext_cpp[0m
+[27.687s] [ 56%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[27.984s] [ 59%] [32m[1mLinking CXX executable talker_interprocess__rmw_connext_cpp[0m
+[28.036s] [ 62%] [32m[1mLinking CXX executable listener_interprocess_single[0m
+[28.345s] [ 62%] Built target listener_interprocess__rmw_connext_cpp
+[28.449s] [35m[1mScanning dependencies of target talker_interprocess_single__rmw_fastrtps_cpp[0m
+[28.580s] [ 62%] Built target talker_interprocess
+[28.592s] [ 65%] Built target listener_interprocess_single
+[28.592s] [ 65%] [32mBuilding CXX object CMakeFiles/talker_interprocess_single__rmw_fastrtps_cpp.dir/src/talker_interprocess_single.cpp.o[0m
+[28.675s] [35m[1mScanning dependencies of target talker_interprocess__rmw_opensplice_cpp[0m
+[28.677s] [35m[1mScanning dependencies of target listener_interprocess_single__rmw_fastrtps_cpp[0m
+[28.756s] [ 65%] Built target talker_interprocess__rmw_connext_cpp
+[28.812s] [35m[1mScanning dependencies of target talker_interprocess_single__rmw_opensplice_cpp[0m
+[28.864s] [ 68%] [32mBuilding CXX object CMakeFiles/listener_interprocess_single__rmw_fastrtps_cpp.dir/src/listener_interprocess_single.cpp.o[0m
+[28.869s] [ 71%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o[0m
+[29.103s] [ 75%] [32mBuilding CXX object CMakeFiles/talker_interprocess_single__rmw_opensplice_cpp.dir/src/talker_interprocess_single.cpp.o[0m
+[32.690s] [ 78%] [32m[1mLinking CXX executable listener_interprocess__rmw_opensplice_cpp[0m
+[32.725s] [ 81%] [32m[1mLinking CXX executable talker_interprocess_single__rmw_connext_cpp[0m
+[33.031s] [ 84%] [32m[1mLinking CXX executable talker_interprocess_single__rmw_fastrtps_cpp[0m
+[33.061s] [ 84%] Built target listener_interprocess__rmw_opensplice_cpp
+[33.083s] [ 84%] Built target talker_interprocess_single__rmw_connext_cpp
+[33.350s] [ 84%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[33.525s] [ 87%] [32m[1mLinking CXX executable talker_interprocess_single__rmw_opensplice_cpp[0m
+[33.675s] [ 90%] [32m[1mLinking CXX executable listener_interprocess_single__rmw_connext_cpp[0m
+[33.683s] [ 93%] [32m[1mLinking CXX executable listener_interprocess_single__rmw_fastrtps_cpp[0m
+[33.809s] [ 96%] [32m[1mLinking CXX executable listener_interprocess__rmw_fastrtps_cpp[0m
+[33.839s] [ 96%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[33.948s] [ 96%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[33.977s] [ 96%] Built target listener_interprocess_single__rmw_connext_cpp
+[34.084s] [ 96%] Built target listener_interprocess__rmw_fastrtps_cpp
+[34.382s] [100%] [32m[1mLinking CXX executable talker_interprocess__rmw_opensplice_cpp[0m
+[34.595s] [100%] Built target talker_interprocess__rmw_opensplice_cpp
+[34.612s] Invoked command in '/home/raoul/Documents/QEES/lab1/build/interprocess_eval' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1/build/interprocess_eval -- -j8 -l8
+[34.672s] Invoking command in '/home/raoul/Documents/QEES/lab1/build/interprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1/build/interprocess_eval --target install -- -j8 -l8
+[34.780s] [ 15%] Built target talker_interprocess__rmw_connext_cpp
+[34.780s] [ 18%] Built target listener_interprocess__rmw_connext_cpp
+[34.781s] [ 18%] Built target talker_interprocess_single
+[34.782s] [ 25%] Built target talker_interprocess
+[34.784s] [ 31%] Built target listener_interprocess
+[34.786s] [ 37%] Built target listener_interprocess_single
+[34.787s] [ 43%] Built target talker_interprocess__rmw_fastrtps_cpp
+[34.790s] [ 50%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[34.843s] [ 56%] Built target listener_interprocess__rmw_opensplice_cpp
+[34.844s] [ 62%] Built target talker_interprocess_single__rmw_connext_cpp
+[34.848s] [ 68%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[34.851s] [ 81%] Built target listener_interprocess__rmw_fastrtps_cpp
+[34.851s] [ 81%] Built target listener_interprocess_single__rmw_connext_cpp
+[34.852s] [ 93%] Built target talker_interprocess__rmw_opensplice_cpp
+[34.852s] [ 93%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[34.855s] [100%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[34.884s] [36mInstall the project...[0m
+[34.898s] -- Install configuration: ""
+[34.898s] -- Execute custom install script
+[34.899s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/talker_interprocess
+[34.914s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/listener_interprocess
+[34.928s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/talker_interprocess_single
+[34.942s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/listener_interprocess_single
+[34.956s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/talker_interprocess__rmw_connext_cpp
+[34.970s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/listener_interprocess__rmw_connext_cpp
+[34.984s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/talker_interprocess_single__rmw_connext_cpp
+[34.998s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/listener_interprocess_single__rmw_connext_cpp
+[35.011s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/talker_interprocess__rmw_fastrtps_cpp
+[35.025s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/listener_interprocess__rmw_fastrtps_cpp
+[35.039s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/talker_interprocess_single__rmw_fastrtps_cpp
+[35.054s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/listener_interprocess_single__rmw_fastrtps_cpp
+[35.070s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/talker_interprocess__rmw_opensplice_cpp
+[35.085s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/listener_interprocess__rmw_opensplice_cpp
+[35.099s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/talker_interprocess_single__rmw_opensplice_cpp
+[35.114s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/lib/interprocess_eval/listener_interprocess_single__rmw_opensplice_cpp
+[35.128s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/share/ament_index/resource_index/package_run_dependencies/interprocess_eval
+[35.142s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/share/ament_index/resource_index/parent_prefix_path/interprocess_eval
+[35.156s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/share/interprocess_eval/environment/ament_prefix_path.sh
+[35.170s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/share/interprocess_eval/environment/path.sh
+[35.184s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/share/interprocess_eval/local_setup.bash
+[35.198s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/share/interprocess_eval/local_setup.sh
+[35.213s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/share/interprocess_eval/local_setup.zsh
+[35.226s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/share/ament_index/resource_index/packages/interprocess_eval
+[35.240s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/share/interprocess_eval/cmake/interprocess_evalConfig.cmake
+[35.254s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/share/interprocess_eval/cmake/interprocess_evalConfig-version.cmake
+[35.267s] -- Symlinking: /home/raoul/Documents/QEES/lab1/install/interprocess_eval/share/interprocess_eval/package.xml
+[35.287s] Invoked command in '/home/raoul/Documents/QEES/lab1/build/interprocess_eval' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1/build/interprocess_eval --target install -- -j8 -l8

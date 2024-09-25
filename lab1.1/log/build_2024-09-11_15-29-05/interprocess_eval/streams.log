@@ -1,0 +1,113 @@
+[0.043s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8
+[0.145s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.167s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.205s] [  6%] Built target talker_interprocess_single
+[0.210s] [ 12%] Built target listener_interprocess_single
+[0.227s] [ 18%] Built target talker_interprocess__rmw_connext_cpp
+[0.229s] [ 25%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.229s] [ 31%] Built target talker_interprocess
+[0.253s] [ 34%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.253s] [ 40%] Built target talker_interprocess__rmw_fastrtps_cpp
+[0.263s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.270s] [ 43%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.276s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.315s] [ 50%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.325s] [ 53%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.331s] [ 59%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.335s] [ 65%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.343s] [ 71%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.350s] [ 75%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.381s] [ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[0.405s] [ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[1.823s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.824s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr[m[K’ was not declared in this scope
+[1.824s]        auto node = rclcpp::Node::make_shared("listener" + [01;31m[Kstr[m[K(nl));
+[1.824s]                                                           [01;31m[K^~~[m[K
+[1.824s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:58:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksbrk[m[K’
+[1.824s]        auto node = rclcpp::Node::make_shared("listener" + [01;36m[Kstr[m[K(nl));
+[1.825s]                                                           [01;36m[K^~~[m[K
+[1.825s]                                                           [32m[Ksbrk[m[K
+[1.825s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.825s]        auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K("chatter", chatterCallback, custom_qos_profile);
+[1.826s]                                                                  [01;31m[K^[m[K
+[1.826s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:78:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.826s]        auto sub = node->create_subscription<std_msgs::msg::String>("chatter", [01;35m[KchatterCallback[m[K, custom_qos_profile);
+[1.826s]                                                                               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.826s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:95:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator is a reference, not call, to function ‘[01m[KchatterCallback[m[K’ [[01;35m[K-Waddress[m[K]
+[1.827s]        auto sub = node->create_subscription<std_msgs::msg::String>("chatter", chatterCallback, [01;35m[Kcustom_qos_profile[m[K);
+[1.827s]                                                                                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.827s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:95:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.857s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.857s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr[m[K’ was not declared in this scope
+[1.858s]        auto node = rclcpp::Node::make_shared("listener" + [01;31m[Kstr[m[K(nl));
+[1.858s]                                                           [01;31m[K^~~[m[K
+[1.858s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:58:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksbrk[m[K’
+[1.859s]        auto node = rclcpp::Node::make_shared("listener" + [01;36m[Kstr[m[K(nl));
+[1.859s]                                                           [01;36m[K^~~[m[K
+[1.859s]                                                           [32m[Ksbrk[m[K
+[1.859s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.859s]        auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K("chatter", chatterCallback, custom_qos_profile);
+[1.860s]                                                                  [01;31m[K^[m[K
+[1.860s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:78:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.860s]        auto sub = node->create_subscription<std_msgs::msg::String>("chatter", [01;35m[KchatterCallback[m[K, custom_qos_profile);
+[1.860s]                                                                               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.860s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:95:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator is a reference, not call, to function ‘[01m[KchatterCallback[m[K’ [[01;35m[K-Waddress[m[K]
+[1.861s]        auto sub = node->create_subscription<std_msgs::msg::String>("chatter", chatterCallback, [01;35m[Kcustom_qos_profile[m[K);
+[1.861s]                                                                                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.861s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:95:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.864s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.864s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr[m[K’ was not declared in this scope
+[1.865s]        auto node = rclcpp::Node::make_shared("listener" + [01;31m[Kstr[m[K(nl));
+[1.865s]                                                           [01;31m[K^~~[m[K
+[1.865s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:58:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksbrk[m[K’
+[1.866s]        auto node = rclcpp::Node::make_shared("listener" + [01;36m[Kstr[m[K(nl));
+[1.866s]                                                           [01;36m[K^~~[m[K
+[1.866s]                                                           [32m[Ksbrk[m[K
+[1.866s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.866s]  auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K("chatter", chatterCallback, custom_qos_profile);
+[1.867s]                                                            [01;31m[K^[m[K
+[1.867s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:78:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.867s]  de->create_subscription<std_msgs::msg::String>("chatter", [01;35m[KchatterCallback[m[K, custom_qos_profile);
+[1.867s]                                                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.868s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:95:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator is a reference, not call, to function ‘[01m[KchatterCallback[m[K’ [[01;35m[K-Waddress[m[K]
+[1.868s]  iption<std_msgs::msg::String>("chatter", chatterCallback, [01;35m[Kcustom_qos_profile[m[K);
+[1.868s]                                                            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.868s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:95:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.881s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.882s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr[m[K’ was not declared in this scope
+[1.882s]        auto node = rclcpp::Node::make_shared("listener" + [01;31m[Kstr[m[K(nl));
+[1.882s]                                                           [01;31m[K^~~[m[K
+[1.882s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:186:58:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksbrk[m[K’
+[1.883s]        auto node = rclcpp::Node::make_shared("listener" + [01;36m[Kstr[m[K(nl));
+[1.883s]                                                           [01;36m[K^~~[m[K
+[1.883s]                                                           [32m[Ksbrk[m[K
+[1.883s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.884s]        auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K("chatter", chatterCallback, custom_qos_profile);
+[1.884s]                                                                  [01;31m[K^[m[K
+[1.884s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:78:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.884s]        auto sub = node->create_subscription<std_msgs::msg::String>("chatter", [01;35m[KchatterCallback[m[K, custom_qos_profile);
+[1.884s]                                                                               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.885s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:95:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator is a reference, not call, to function ‘[01m[KchatterCallback[m[K’ [[01;35m[K-Waddress[m[K]
+[1.885s]        auto sub = node->create_subscription<std_msgs::msg::String>("chatter", chatterCallback, [01;35m[Kcustom_qos_profile[m[K);
+[1.885s]                                                                                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.885s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:202:95:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[2.021s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.022s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.022s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[2.022s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[2.022s] make[1]: *** Waiting for unfinished jobs....
+[2.058s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[2.058s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[2.058s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[2.059s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[2.067s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.067s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.067s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[2.067s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[2.082s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.082s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.082s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[2.082s] Makefile:140: recipe for target 'all' failed
+[2.083s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[2.083s] make: *** [all] Error 2
+[2.085s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8

@@ -1,0 +1,94 @@
+[0.039s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/interprocess_remote_eval -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval
+[0.139s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.184s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.184s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.508s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.616s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.745s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.948s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.951s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.952s] -- Looking for pthread.h
+[1.136s] -- Looking for pthread.h - found
+[1.137s] -- Looking for pthread_create
+[1.253s] -- Looking for pthread_create - not found
+[1.254s] -- Looking for pthread_create in pthreads
+[1.355s] -- Looking for pthread_create in pthreads - not found
+[1.356s] -- Looking for pthread_create in pthread
+[1.465s] -- Looking for pthread_create in pthread - found
+[1.467s] -- Found Threads: TRUE  
+[1.596s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.614s] -- Found rmw_fastrtps_cpp: 0.7.8 (/opt/ros/dashing/share/rmw_fastrtps_cpp/cmake)
+[2.052s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[2.093s] -- Found FastRTPS: /opt/ros/dashing/include  
+[2.474s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[5.626s] -- Found PrismTech OpenSplice: /usr/share/opensplice/cmake
+[5.836s] -- Configuring done
+[5.960s] -- Generating done
+[5.964s] -- Build files have been written to: /home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval
+[5.968s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/interprocess_remote_eval -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval
+[5.972s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval -- -j8 -l8
+[6.051s] [35m[1mScanning dependencies of target listener_server_interprocess__rmw_opensplice_cpp[0m
+[6.053s] [35m[1mScanning dependencies of target listener_server_interprocess[0m
+[6.068s] [35m[1mScanning dependencies of target talker_client_interprocess__rmw_opensplice_cpp[0m
+[6.090s] [35m[1mScanning dependencies of target listener_server_interprocess__rmw_connext_cpp[0m
+[6.091s] [35m[1mScanning dependencies of target listener_server_interprocess__rmw_fastrtps_cpp[0m
+[6.106s] [35m[1mScanning dependencies of target talker_client_interprocess__rmw_fastrtps_cpp[0m
+[6.110s] [35m[1mScanning dependencies of target talker_client_interprocess[0m
+[6.111s] [35m[1mScanning dependencies of target talker_client_interprocess__rmw_connext_cpp[0m
+[6.165s] [  6%] [32mBuilding CXX object CMakeFiles/listener_server_interprocess.dir/src/listener_server_interprocess.cpp.o[0m
+[6.180s] [ 12%] [32mBuilding CXX object CMakeFiles/listener_server_interprocess__rmw_opensplice_cpp.dir/src/listener_server_interprocess.cpp.o[0m
+[6.210s] [ 18%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/src/talker_client_interprocess.cpp.o[0m
+[6.212s] [ 25%] [32mBuilding CXX object CMakeFiles/listener_server_interprocess__rmw_connext_cpp.dir/src/listener_server_interprocess.cpp.o[0m
+[6.215s] [ 31%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess.dir/src/talker_client_interprocess.cpp.o[0m
+[6.218s] [ 37%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/src/talker_client_interprocess.cpp.o[0m
+[6.219s] [ 43%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/src/talker_client_interprocess.cpp.o[0m
+[6.261s] [ 50%] [32mBuilding CXX object CMakeFiles/listener_server_interprocess__rmw_fastrtps_cpp.dir/src/listener_server_interprocess.cpp.o[0m
+[18.424s] [ 56%] [32m[1mLinking CXX executable talker_client_interprocess[0m
+[18.424s] [ 62%] [32m[1mLinking CXX executable talker_client_interprocess__rmw_connext_cpp[0m
+[18.424s] [ 75%] [32m[1mLinking CXX executable talker_client_interprocess__rmw_opensplice_cpp[0m
+[18.424s] [ 75%] [32m[1mLinking CXX executable talker_client_interprocess__rmw_fastrtps_cpp[0m
+[18.425s] [ 81%] [32m[1mLinking CXX executable listener_server_interprocess[0m
+[18.609s] [ 87%] [32m[1mLinking CXX executable listener_server_interprocess__rmw_connext_cpp[0m
+[18.697s] [ 93%] [32m[1mLinking CXX executable listener_server_interprocess__rmw_fastrtps_cpp[0m
+[18.919s] [100%] [32m[1mLinking CXX executable listener_server_interprocess__rmw_opensplice_cpp[0m
+[19.225s] [100%] Built target talker_client_interprocess__rmw_opensplice_cpp
+[19.391s] [100%] Built target talker_client_interprocess
+[19.486s] [100%] Built target listener_server_interprocess
+[19.528s] [100%] Built target listener_server_interprocess__rmw_connext_cpp
+[19.648s] [100%] Built target talker_client_interprocess__rmw_fastrtps_cpp
+[19.652s] [100%] Built target listener_server_interprocess__rmw_opensplice_cpp
+[19.741s] [100%] Built target talker_client_interprocess__rmw_connext_cpp
+[19.776s] [100%] Built target listener_server_interprocess__rmw_fastrtps_cpp
+[19.845s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval -- -j8 -l8
+[20.428s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval --target install -- -j8 -l8
+[20.966s] [ 12%] Built target talker_client_interprocess__rmw_connext_cpp
+[20.996s] [ 25%] Built target talker_client_interprocess
+[20.997s] [ 37%] Built target listener_server_interprocess__rmw_fastrtps_cpp
+[21.018s] [ 50%] Built target listener_server_interprocess__rmw_connext_cpp
+[21.018s] [100%] Built target listener_server_interprocess__rmw_opensplice_cpp
+[21.020s] [ 75%] Built target talker_client_interprocess__rmw_fastrtps_cpp
+[21.020s] [ 75%] Built target talker_client_interprocess__rmw_opensplice_cpp
+[21.026s] [ 87%] Built target listener_server_interprocess
+[21.161s] [36mInstall the project...[0m
+[21.226s] -- Install configuration: ""
+[21.227s] -- Execute custom install script
+[21.228s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/lib/interprocess_remote_eval/talker_client_interprocess
+[21.275s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/lib/interprocess_remote_eval/listener_server_interprocess
+[21.298s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/lib/interprocess_remote_eval/talker_client_interprocess__rmw_connext_cpp
+[21.367s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/lib/interprocess_remote_eval/listener_server_interprocess__rmw_connext_cpp
+[21.416s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/lib/interprocess_remote_eval/talker_client_interprocess__rmw_fastrtps_cpp
+[21.479s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/lib/interprocess_remote_eval/listener_server_interprocess__rmw_fastrtps_cpp
+[21.540s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/lib/interprocess_remote_eval/talker_client_interprocess__rmw_opensplice_cpp
+[21.603s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/lib/interprocess_remote_eval/listener_server_interprocess__rmw_opensplice_cpp
+[21.655s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/share/ament_index/resource_index/package_run_dependencies/interprocess_remote_eval
+[21.691s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/share/ament_index/resource_index/parent_prefix_path/interprocess_remote_eval
+[21.714s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/share/interprocess_remote_eval/environment/ament_prefix_path.sh
+[21.764s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/share/interprocess_remote_eval/environment/path.sh
+[21.807s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/share/interprocess_remote_eval/local_setup.bash
+[21.864s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/share/interprocess_remote_eval/local_setup.sh
+[21.927s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/share/interprocess_remote_eval/local_setup.zsh
+[21.991s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/share/ament_index/resource_index/packages/interprocess_remote_eval
+[22.055s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/share/interprocess_remote_eval/cmake/interprocess_remote_evalConfig.cmake
+[22.119s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/share/interprocess_remote_eval/cmake/interprocess_remote_evalConfig-version.cmake
+[22.183s] -- Symlinking: /home/raoul/Documents/QEES/lab1.1/install/interprocess_remote_eval/share/interprocess_remote_eval/package.xml
+[22.279s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_remote_eval --target install -- -j8 -l8

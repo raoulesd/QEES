@@ -1,0 +1,35 @@
+[0.028s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval': /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/intraprocess_eval -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval
+[1.298s] -- The C compiler identification is GNU 7.5.0
+[2.097s] -- The CXX compiler identification is GNU 7.5.0
+[2.102s] -- Check for working C compiler: /usr/bin/cc
+[2.235s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.236s] -- Detecting C compiler ABI info
+[2.368s] -- Detecting C compiler ABI info - done
+[2.376s] -- Detecting C compile features
+[2.723s] -- Detecting C compile features - done
+[2.727s] -- Check for working CXX compiler: /usr/bin/c++
+[2.863s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.863s] -- Detecting CXX compiler ABI info
+[3.016s] -- Detecting CXX compiler ABI info - done
+[3.022s] -- Detecting CXX compile features
+[3.587s] -- Detecting CXX compile features - done
+[3.718s] CMake Error at CMakeLists.txt:9 (find_package):
+[3.718s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.719s]   has asked CMake to find a package configuration file provided by
+[3.719s]   "ament_cmake", but CMake did not find one.
+[3.719s] 
+[3.720s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.720s]   any of the following names:
+[3.720s] 
+[3.720s]     ament_cmakeConfig.cmake
+[3.721s]     ament_cmake-config.cmake
+[3.721s] 
+[3.721s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.721s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.722s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.722s]   has been installed.
+[3.723s] 
+[3.723s] 
+[3.724s] -- Configuring incomplete, errors occurred!
+[3.724s] See also "/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval/CMakeFiles/CMakeOutput.log".
+[3.727s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/intraprocess_eval' returned '1': /usr/bin/cmake /home/raoul/Documents/QEES/lab1.1/src/intraprocess_eval -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.1/install/intraprocess_eval

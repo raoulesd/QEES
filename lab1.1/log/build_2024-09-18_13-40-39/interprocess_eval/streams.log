@@ -1,0 +1,109 @@
+[0.039s] Invoking command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8
+[0.134s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.151s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.224s] [  6%] Built target talker_interprocess__rmw_fastrtps_cpp
+[0.232s] [ 12%] Built target talker_interprocess__rmw_connext_cpp
+[0.234s] [ 18%] Built target talker_interprocess
+[0.236s] [ 21%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.239s] [ 25%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.243s] [ 31%] Built target listener_interprocess_single
+[0.259s] [ 37%] Built target talker_interprocess_single
+[0.261s] [ 43%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.273s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.309s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.341s] [ 50%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.351s] [ 56%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.371s] [ 59%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.378s] [ 62%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.386s] [ 68%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.412s] [ 75%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.433s] [ 81%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[0.435s] [ 87%] Built target talker_interprocess__rmw_opensplice_cpp
+[1.957s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.958s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:194:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+[1.958s]          [01;31m[Kauto[m[K node = rclcpp::Node::make_shared(node_name);
+[1.958s]          [01;31m[K^~~~[m[K
+[1.958s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:197:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[1.958s]          [01;31m[Knode[m[K->declare_parameter("QoS_Policy");
+[1.959s]          [01;31m[K^~~~[m[K
+[1.959s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:197:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[1.959s]          [01;36m[Knode[m[K->declare_parameter("QoS_Policy");
+[1.959s]          [01;36m[K^~~~[m[K
+[1.959s]          [32m[Knodes[m[K
+[1.960s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:211:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.960s]          auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K(
+[1.960s]                                                                    [01;31m[K^[m[K
+[1.961s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:213:106:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.961s]                  [node_name](const std_msgs::msg::String::SharedPtr msg) {chatterCallback(msg, node_name);[01;35m[K}[m[K,
+[1.961s]                                                                                                           [01;35m[K^[m[K
+[2.004s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.004s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:194:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+[2.004s]          [01;31m[Kauto[m[K node = rclcpp::Node::make_shared(node_name);
+[2.005s]          [01;31m[K^~~~[m[K
+[2.005s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:197:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[2.005s]          [01;31m[Knode[m[K->declare_parameter("QoS_Policy");
+[2.005s]          [01;31m[K^~~~[m[K
+[2.006s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:197:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[2.006s]          [01;36m[Knode[m[K->declare_parameter("QoS_Policy");
+[2.006s]          [01;36m[K^~~~[m[K
+[2.007s]          [32m[Knodes[m[K
+[2.007s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:211:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.007s]          auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K(
+[2.007s]                                                                    [01;31m[K^[m[K
+[2.008s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.008s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:194:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+[2.008s]          [01;31m[Kauto[m[K node = rclcpp::Node::make_shared(node_name);
+[2.008s]          [01;31m[K^~~~[m[K
+[2.008s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:197:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[2.009s]          [01;31m[Knode[m[K->declare_parameter("QoS_Policy");
+[2.009s]          [01;31m[K^~~~[m[K
+[2.009s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:197:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[2.010s]          [01;36m[Knode[m[K->declare_parameter("QoS_Policy");
+[2.010s]          [01;36m[K^~~~[m[K
+[2.010s]          [32m[Knodes[m[K
+[2.010s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:211:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.010s]          auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K(
+[2.011s]                                                                    [01;31m[K^[m[K
+[2.011s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:213:106:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[2.011s]                  [node_name](const std_msgs::msg::String::SharedPtr msg) {chatterCallback(msg, node_name);[01;35m[K}[m[K,
+[2.011s]                                                                                                           [01;35m[K^[m[K
+[2.012s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:213:106:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[2.012s]                  [node_name](const std_msgs::msg::String::SharedPtr msg) {chatterCallback(msg, node_name);[01;35m[K}[m[K,
+[2.012s]                                                                                                           [01;35m[K^[m[K
+[2.054s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.054s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:194:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+[2.054s]          [01;31m[Kauto[m[K node = rclcpp::Node::make_shared(node_name);
+[2.055s]          [01;31m[K^~~~[m[K
+[2.055s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:197:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[2.055s]          [01;31m[Knode[m[K->declare_parameter("QoS_Policy");
+[2.055s]          [01;31m[K^~~~[m[K
+[2.055s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:197:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knodes[m[K’
+[2.056s]          [01;36m[Knode[m[K->declare_parameter("QoS_Policy");
+[2.056s]          [01;36m[K^~~~[m[K
+[2.056s]          [32m[Knodes[m[K
+[2.056s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:211:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.057s]          auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K(
+[2.057s]                                                                    [01;31m[K^[m[K
+[2.057s] [01m[K/home/raoul/Documents/QEES/lab1.1/src/interprocess_eval/src/listener_interprocess.cpp:213:106:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[2.057s]                  [node_name](const std_msgs::msg::String::SharedPtr msg) {chatterCallback(msg, node_name);[01;35m[K}[m[K,
+[2.058s]                                                                                                           [01;35m[K^[m[K
+[2.199s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.200s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.200s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[2.200s] make[1]: *** Waiting for unfinished jobs....
+[2.201s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[2.248s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.248s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.248s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[2.248s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[2.254s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[2.254s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[2.254s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[2.254s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[2.291s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[2.291s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[2.291s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[2.291s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[2.291s] Makefile:140: recipe for target 'all' failed
+[2.292s] make: *** [all] Error 2
+[2.294s] Invoked command in '/home/raoul/Documents/QEES/lab1.1/build/interprocess_eval' returned '2': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.1/build/interprocess_eval -- -j8 -l8
