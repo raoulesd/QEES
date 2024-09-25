@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000575] (artificial_load) JobQueued: {'identifier': 'artificial_load', 'dependencies': OrderedDict()}
+[0.000638] (interprocess_eval) JobQueued: {'identifier': 'interprocess_eval', 'dependencies': OrderedDict()}
+[0.001660] (interprocess_remote_eval) JobQueued: {'identifier': 'interprocess_remote_eval', 'dependencies': OrderedDict()}
+[0.001769] (intraprocess_eval) JobQueued: {'identifier': 'intraprocess_eval', 'dependencies': OrderedDict()}
+[0.001902] (artificial_load) JobStarted: {'identifier': 'artificial_load'}
+[0.016449] (interprocess_eval) JobStarted: {'identifier': 'interprocess_eval'}
+[0.025908] (interprocess_remote_eval) JobStarted: {'identifier': 'interprocess_remote_eval'}
+[0.033315] (intraprocess_eval) JobStarted: {'identifier': 'intraprocess_eval'}
+[0.040205] (artificial_load) JobProgress: {'identifier': 'artificial_load', 'progress': 'cmake'}
+[0.041208] (artificial_load) JobProgress: {'identifier': 'artificial_load', 'progress': 'build'}
+[0.042576] (artificial_load) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1/build/artificial_load', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1/build/artificial_load', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'nl_NL.UTF-8'), ('USER', 'root'), ('HOME', '/home/raoul'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1/build/artificial_load'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.048211] (interprocess_eval) JobProgress: {'identifier': 'interprocess_eval', 'progress': 'cmake'}
+[0.049255] (interprocess_eval) JobProgress: {'identifier': 'interprocess_eval', 'progress': 'build'}
+[0.051116] (interprocess_eval) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1/build/interprocess_eval', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1/build/interprocess_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'nl_NL.UTF-8'), ('USER', 'root'), ('HOME', '/home/raoul'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1/build/interprocess_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.054215] (interprocess_remote_eval) JobProgress: {'identifier': 'interprocess_remote_eval', 'progress': 'cmake'}
+[0.055289] (interprocess_remote_eval) JobProgress: {'identifier': 'interprocess_remote_eval', 'progress': 'build'}
+[0.055808] (interprocess_remote_eval) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'nl_NL.UTF-8'), ('USER', 'root'), ('HOME', '/home/raoul'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.060293] (intraprocess_eval) JobProgress: {'identifier': 'intraprocess_eval', 'progress': 'cmake'}
+[0.061401] (intraprocess_eval) JobProgress: {'identifier': 'intraprocess_eval', 'progress': 'build'}
+[0.062131] (intraprocess_eval) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1/build/intraprocess_eval', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1/build/intraprocess_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'nl_NL.UTF-8'), ('USER', 'root'), ('HOME', '/home/raoul'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1/build/intraprocess_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.087381] (artificial_load) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.099102] (-) TimerEvent: {}
+[0.102098] (interprocess_eval) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.104010] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.114315] (intraprocess_eval) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.128945] (artificial_load) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.145586] (interprocess_remote_eval) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.147164] (interprocess_eval) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.153159] (intraprocess_eval) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199221] (-) TimerEvent: {}
+[0.270060] (artificial_load) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.270450] (artificial_load) StderrLine: {'line': b'  File "/opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.270669] (artificial_load) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.270869] (artificial_load) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.279937] (interprocess_remote_eval) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.280309] (interprocess_remote_eval) StderrLine: {'line': b'  File "/opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.280550] (interprocess_remote_eval) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.280765] (interprocess_remote_eval) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.286670] (artificial_load) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.287002] (artificial_load) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.287227] (artificial_load) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.287453] (artificial_load) StderrLine: {'line': b'  /home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_package_templates/templates.cmake)\n'}
+[0.287695] (artificial_load) StderrLine: {'line': b'  returned error code 1\n'}
+[0.288000] (artificial_load) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.288210] (artificial_load) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:38 (include)\n'}
+[0.288466] (artificial_load) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.288680] (artificial_load) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake/cmake/ament_cmakeConfig.cmake:38 (include)\n'}
+[0.288891] (artificial_load) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[0.289110] (artificial_load) StderrLine: {'line': b'\n'}
+[0.289367] (artificial_load) StderrLine: {'line': b'\n'}
+[0.289562] (artificial_load) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.289776] (artificial_load) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles/CMakeOutput.log".\n'}
+[0.289979] (artificial_load) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles/CMakeError.log".\n'}
+[0.290188] (intraprocess_eval) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.290424] (intraprocess_eval) StderrLine: {'line': b'  File "/opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.290790] (intraprocess_eval) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.290995] (intraprocess_eval) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.291201] (artificial_load) StdoutLine: {'line': b"Makefile:252: recipe for target 'cmake_check_build_system' failed\n"}
+[0.291402] (artificial_load) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[0.293668] (artificial_load) CommandEnded: {'returncode': 2}
+[0.297518] (interprocess_eval) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.300203] (-) TimerEvent: {}
+[0.300616] (interprocess_eval) StderrLine: {'line': b'  File "/opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.300901] (interprocess_eval) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.301136] (interprocess_eval) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.301326] (interprocess_remote_eval) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.301531] (interprocess_remote_eval) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.301703] (interprocess_remote_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.301946] (interprocess_remote_eval) StderrLine: {'line': b'  /home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval/ament_cmake_package_templates/templates.cmake)\n'}
+[0.302209] (interprocess_remote_eval) StderrLine: {'line': b'  returned error code 1\n'}
+[0.302381] (interprocess_remote_eval) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.302549] (interprocess_remote_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:38 (include)\n'}
+[0.302726] (interprocess_remote_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.302907] (interprocess_remote_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake/cmake/ament_cmakeConfig.cmake:38 (include)\n'}
+[0.303080] (interprocess_remote_eval) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.303253] (interprocess_remote_eval) StderrLine: {'line': b'\n'}
+[0.303421] (interprocess_remote_eval) StderrLine: {'line': b'\n'}
+[0.303589] (interprocess_remote_eval) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.303785] (interprocess_remote_eval) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval/CMakeFiles/CMakeOutput.log".\n'}
+[0.304141] (interprocess_remote_eval) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval/CMakeFiles/CMakeError.log".\n'}
+[0.304481] (interprocess_remote_eval) StdoutLine: {'line': b"Makefile:398: recipe for target 'cmake_check_build_system' failed\n"}
+[0.305038] (interprocess_remote_eval) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[0.306188] (interprocess_remote_eval) CommandEnded: {'returncode': 2}
+[0.307917] (intraprocess_eval) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.308418] (intraprocess_eval) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.310905] (intraprocess_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.312346] (intraprocess_eval) StderrLine: {'line': b'  /home/raoul/Documents/QEES/lab1/build/intraprocess_eval/ament_cmake_package_templates/templates.cmake)\n'}
+[0.312626] (intraprocess_eval) StderrLine: {'line': b'  returned error code 1\n'}
+[0.312977] (intraprocess_eval) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.313321] (intraprocess_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:38 (include)\n'}
+[0.313656] (intraprocess_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.314666] (intraprocess_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake/cmake/ament_cmakeConfig.cmake:38 (include)\n'}
+[0.314872] (intraprocess_eval) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.315135] (intraprocess_eval) StderrLine: {'line': b'\n'}
+[0.315857] (intraprocess_eval) StderrLine: {'line': b'\n'}
+[0.318414] (intraprocess_eval) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.319513] (intraprocess_eval) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1/build/intraprocess_eval/CMakeFiles/CMakeOutput.log".\n'}
+[0.321483] (intraprocess_eval) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1/build/intraprocess_eval/CMakeFiles/CMakeError.log".\n'}
+[0.321870] (intraprocess_eval) StdoutLine: {'line': b"Makefile:303: recipe for target 'cmake_check_build_system' failed\n"}
+[0.322119] (intraprocess_eval) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[0.322378] (intraprocess_eval) CommandEnded: {'returncode': 2}
+[0.323179] (interprocess_eval) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.323595] (interprocess_eval) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.323788] (interprocess_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.324118] (interprocess_eval) StderrLine: {'line': b'  /home/raoul/Documents/QEES/lab1/build/interprocess_eval/ament_cmake_package_templates/templates.cmake)\n'}
+[0.324925] (interprocess_eval) StderrLine: {'line': b'  returned error code 1\n'}
+[0.325518] (interprocess_eval) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.326086] (interprocess_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:38 (include)\n'}
+[0.327978] (interprocess_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.328303] (interprocess_eval) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake/cmake/ament_cmakeConfig.cmake:38 (include)\n'}
+[0.328481] (interprocess_eval) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.328623] (interprocess_eval) StderrLine: {'line': b'\n'}
+[0.328737] (interprocess_eval) StderrLine: {'line': b'\n'}
+[0.328846] (interprocess_eval) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.329077] (interprocess_eval) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1/build/interprocess_eval/CMakeFiles/CMakeOutput.log".\n'}
+[0.329309] (interprocess_eval) StdoutLine: {'line': b'See also "/home/raoul/Documents/QEES/lab1/build/interprocess_eval/CMakeFiles/CMakeError.log".\n'}
+[0.329515] (interprocess_eval) StdoutLine: {'line': b"Makefile:588: recipe for target 'cmake_check_build_system' failed\n"}
+[0.330328] (interprocess_eval) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[0.330646] (interprocess_eval) CommandEnded: {'returncode': 2}
+[0.360465] (artificial_load) JobEnded: {'identifier': 'artificial_load', 'rc': 2}
+[0.372986] (interprocess_remote_eval) JobEnded: {'identifier': 'interprocess_remote_eval', 'rc': 2}
+[0.384473] (intraprocess_eval) JobEnded: {'identifier': 'intraprocess_eval', 'rc': 2}
+[0.396199] (interprocess_eval) JobEnded: {'identifier': 'interprocess_eval', 'rc': 2}
+[0.400311] (-) TimerEvent: {}
+[0.407602] (-) EventReactorShutdown: {}

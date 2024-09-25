@@ -1,0 +1,37 @@
+cmake_minimum_required(VERSION 3.3)
+
+project(intraprocess_eval)
+
+if(NOT WIN32)
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wall -Wextra")
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(rmw REQUIRED)
+find_package(rmw_implementation_cmake REQUIRED)
+find_package(std_msgs REQUIRED)
+
+function(custom_executable target)
+  add_executable(${target}${target_suffix}
+    src/${target}.cpp)
+  ament_target_dependencies(${target}${target_suffix}
+    "rclcpp"
+    "std_msgs"
+	"rt")
+  install(TARGETS ${target}${target_suffix}
+    DESTINATION lib/${PROJECT_NAME})
+endfunction()
+
+macro(targets)
+  if(NOT "${target_suffix} " STREQUAL " ")
+    #get_rclcpp_information("${rmw_implementation}" "rclcpp${target_suffix}")
+  endif()
+
+  # Examples of Publish/Subscribe with Topics
+  custom_executable(chat_intraprocess)
+endmacro()
+
+call_for_each_rmw_implementation(targets GENERATE_DEFAULT)
+
+ament_package()
