@@ -18,6 +18,7 @@
 #define EVAL_NUM 120	// evaluation number for each data size
 #define PUBLISH_Hz 10
 #define QoS_Policy 3	// 1 means "reliable", 2 means "best effort", 3 means "history"
+#define RUN_REAL_TIME
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wmissing-field-initializers"
@@ -44,9 +45,11 @@ static const rmw_qos_profile_t rmw_qos_profile_history = {
   RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL
 };
 
-struct timespec tp1;
+struct timespec tp1; //timespec for publish_time
+struct timespec tp2; // timespec for ack_time
 int i, count = -1;	// count is current evaluation number (< EVAL_NUM)
 double publish_time[EVAL_NUM];
+double ack_time[EVAL_NUM];
 
 std::string s, bytedata;
 FILE *fp;				
@@ -79,7 +82,7 @@ if (-1 < count) {
 	s = ss.str() + bytedata;
 	msg->data = s;
   
-	// Time recording
+	// Time recording publish_time
 	if (clock_gettime(CLOCK_REALTIME,&tp1) < 0) {
 	  perror("clock_gettime begin");
 	  return 0;
@@ -94,10 +97,10 @@ if (-1 < count) {
 	// chatter_pub.publish(msg);
 	chatter_pub->publish(msg); // publish message
 }
-else if (count == -1) { 
+else if (count == -1) {
 	bytedata = read_datafile(message_filename.c_str());
 }
-  
+
 // Output publish_time [] to publish_time_ * byte.txt after evaluation
 if (count == EVAL_NUM - 1) {
   if ((fp = fopen(output_filename.c_str(), "w")) != NULL) {
@@ -111,8 +114,22 @@ if (count == EVAL_NUM - 1) {
 	  }
 	  fclose(fp);
 	} else {
-	  printf("error : can't output publish_time.txt");	
+	  printf("error : can't output publish_time.txt");
 	}
+
+//	std::string out_f = "./evaluation/ack_time/ack_time_" + output_filename.substr(output_filename.find_last_of('_') + 1);;
+//    if ((fp = fopen(out_f.c_str(), "w")) != NULL) {
+//		for (i=0; i < EVAL_NUM; i++) {
+//			if (fprintf(fp, "%18.9lf\n", ack_time[i]) < 0) {
+//		    	// Write error
+//		    	printf("error : can't output ack_time.txt");
+//		    	break;
+//			}
+//		}
+//		fclose(fp);
+//	} else {
+//	  	printf("error : can't output ack_time.txt");
+//    }
 	count = -2; // initilize for next date size
 }
   
@@ -154,222 +171,95 @@ int main(int argc, char * argv[])
   else if( QoS_Policy_param == 3){
 	custom_qos_profile = rmw_qos_profile_history;
   }
+
+  rclcpp::WallRate loop_rate(PUBLISH_Hz);
+  bool ack_received = false;
+
+    auto ack_sub = node->create_subscription<std_msgs::msg::String>(
+    "acknowledgment", [&ack_received](const std_msgs::msg::String::SharedPtr msg) {
+        printf("%d\n", msg->data == "OK");
+        if (msg->data == "OK") {
+            printf("ack recieved!");
+            ack_received = true; // Set the flag to true when acknowledgment is received
+            RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Acknowledgment received.");
+        }
+    }, custom_qos_profile);
+
+  usleep(5000000);
   
   auto chatter_pub = node->create_publisher<std_msgs::msg::String>("chatter", custom_qos_profile);
-  
-  rclcpp::WallRate loop_rate(PUBLISH_Hz);
-  
-  printf("start evaluation 256byte \n");
 
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_256byte.txt", "./evaluation/publish_time/publish_time_256byte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
+    // File names for each evaluation size
+    std::vector<std::string> data_files = {
+        "./evaluation/byte_data/data_256byte.txt",
+        "./evaluation/byte_data/data_512byte.txt",
+        "./evaluation/byte_data/data_1Kbyte.txt",
+        "./evaluation/byte_data/data_2Kbyte.txt",
+        "./evaluation/byte_data/data_4Kbyte.txt",
+        "./evaluation/byte_data/data_8Kbyte.txt",
+        "./evaluation/byte_data/data_16Kbyte.txt",
+        "./evaluation/byte_data/data_32Kbyte.txt",
+        "./evaluation/byte_data/data_64Kbyte.txt",
+        "./evaluation/byte_data/data_128Kbyte.txt",
+        "./evaluation/byte_data/data_256Kbyte.txt",
+        "./evaluation/byte_data/data_512Kbyte.txt",
+        "./evaluation/byte_data/data_1Mbyte.txt",
+        "./evaluation/byte_data/data_2Mbyte.txt",
+        "./evaluation/byte_data/data_4Mbyte.txt"
+    };
+
+    // Loop through each data size
+    for (const auto &data_file : data_files) {
+        printf("start evaluation %s \n", data_file.c_str());
+		std::string data_size = data_file.substr(data_file.find_last_of('_') + 1);
+        while (rclcpp::ok()) {
+            eval_ros2(data_file, "./evaluation/publish_time/publish_time_" + data_size, chatter_pub);
+
+            if (count == -1) {
+                printf("end this data size evaluation \n");
+                break;
+            }
+
+            // Reset acknowledgment flag and start timing
+            ack_received = false;
+
+            // Wait for acknowledgment
+            while (!ack_received) {
+                rclcpp::spin(node); // Process incoming messages
+                loop_rate.sleep(); // Maintain the loop rate
+            }
+
+            	// Time recording
+			if (clock_gettime(CLOCK_REALTIME,&tp2) < 0) {
+	  			perror("clock_gettime begin");
+	  			return 0;
+  			}
+            ack_time[count] = (double)tp2.tv_sec + (double)tp2.tv_nsec/ (double)1000000000L;
+
+
+        }
+        usleep(5000000); // Pause between evaluations
     }
 
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-  
-  usleep(5000000);
-
-  printf("start evaluation 512byte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_512byte.txt", "./evaluation/publish_time/publish_time_512byte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
+    // Follow-through transactions for end messages
+    count = 0;
+    while (rclcpp::ok()) {
+        auto msg = std::make_shared<std_msgs::msg::String>();
+        std::stringstream ss;
+        ss << "end" << count;
+        msg->data = ss.str();
+        chatter_pub->publish(msg);
+        if (count++ == 100) {
+            printf("---end evaluation---\n");
+            break;
+        }
+        rclcpp::spin(node);
+        loop_rate.sleep();
     }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
 
-  usleep(5000000);
 
-  printf("start evaluation 1Kbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_1Kbyte.txt", "./evaluation/publish_time/publish_time_1Kbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
+    #pragma GCC diagnostic pop
 
-  printf("start evaluation 2Kbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_2Kbyte.txt", "./evaluation/publish_time/publish_time_2Kbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-
-  usleep(5000000);
-  
-  printf("start evaluation 4Kbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_4Kbyte.txt", "./evaluation/publish_time/publish_time_4Kbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-
-  usleep(5000000);
-
-  printf("start evaluation 8Kbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_8Kbyte.txt", "./evaluation/publish_time/publish_time_8Kbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-
-  usleep(5000000);
-
-  printf("start evaluation 16Kbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_16Kbyte.txt", "./evaluation/publish_time/publish_time_16Kbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-
-  usleep(5000000);
-  
-  printf("start evaluation 32Kbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_32Kbyte.txt", "./evaluation/publish_time/publish_time_32Kbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-
-  usleep(5000000);
-  
-  printf("start evaluation 64Kbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_64Kbyte.txt", "./evaluation/publish_time/publish_time_64Kbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-
-  usleep(5000000);
-
-  printf("start evaluation 128Kbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_128Kbyte.txt", "./evaluation/publish_time/publish_time_128Kbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-
-  usleep(5000000);
-
-  printf("start evaluation 256Kbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_256Kbyte.txt", "./evaluation/publish_time/publish_time_256Kbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-
-  usleep(5000000);
-
-  printf("start evaluation 512Kbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_512Kbyte.txt", "./evaluation/publish_time/publish_time_512Kbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-
-  usleep(5000000);
-  
-  printf("start evaluation 1Mbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_1Mbyte.txt", "./evaluation/publish_time/publish_time_1Mbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-  
-  usleep(5000000);
-  
-  printf("start evaluation 2Mbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_2Mbyte.txt", "./evaluation/publish_time/publish_time_2Mbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-
-  usleep(10000000);
-  
-  printf("start evaluation 4Mbyte \n");
-  while (rclcpp::ok()) {
-    eval_ros2("./evaluation/byte_data/data_4Mbyte.txt", "./evaluation/publish_time/publish_time_4Mbyte.txt", chatter_pub);
-    if(count == -1){
-      printf("end this data size evaluation \n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-  
-  // followthrough transactions
-  count = 0;
-  while (rclcpp::ok()) {
-    auto msg = std::make_shared<std_msgs::msg::String>();	
-    std::stringstream ss;
-    ss << "end" << count;
-    msg->data = ss.str();
-    chatter_pub->publish(msg);
-    if(count++ == 100){
-      printf("---end evaluation---\n");
-      break;
-    }
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-
-  #pragma GCC diagnostic pop
- 
-  return 0;
+    return 0;
 }
 

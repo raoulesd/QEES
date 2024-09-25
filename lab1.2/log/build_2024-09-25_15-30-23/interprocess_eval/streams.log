@@ -1,0 +1,101 @@
+[0.053s] Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8
+[0.162s] [35m[1mScanning dependencies of target talker_interprocess__rmw_connext_cpp[0m
+[0.164s] [35m[1mScanning dependencies of target talker_interprocess__rmw_fastrtps_cpp[0m
+[0.237s] [35m[1mScanning dependencies of target talker_interprocess[0m
+[0.237s] [  6%] Built target talker_interprocess_single
+[0.254s] [ 12%] Built target listener_interprocess__rmw_connext_cpp
+[0.278s] [ 15%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.281s] [ 18%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.304s] [ 25%] Built target listener_interprocess_single
+[0.312s] [ 31%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.332s] [ 37%] Built target listener_interprocess
+[0.381s] [ 40%] [32mBuilding CXX object CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o[0m
+[0.385s] [ 46%] Built target listener_interprocess__rmw_opensplice_cpp
+[0.407s] [ 59%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.408s] [ 59%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.450s] [ 65%] Built target listener_interprocess__rmw_fastrtps_cpp
+[0.465s] [ 71%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.467s] [35m[1mScanning dependencies of target talker_interprocess__rmw_opensplice_cpp[0m
+[0.489s] [ 78%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.504s] [ 84%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[0.531s] [ 87%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o[0m
+[2.113s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.113s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:225:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_size[m[K’ was not declared in this scope
+[2.113s]              std::ofstream ack_time_file("./evaluation/ack_time/ack_time_" + [01;31m[Kdata_size[m[K + ".txt", std::ios::out | std::ios::app);
+[2.114s]                                                                              [01;31m[K^~~~~~~~~[m[K
+[2.114s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.114s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:225:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_size[m[K’ was not declared in this scope
+[2.114s]              std::ofstream ack_time_file("./evaluation/ack_time/ack_time_" + [01;31m[Kdata_size[m[K + ".txt", std::ios::out | std::ios::app);
+[2.115s]                                                                              [01;31m[K^~~~~~~~~[m[K
+[2.115s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:225:77:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdata_file[m[K’
+[2.115s]              std::ofstream ack_time_file("./evaluation/ack_time/ack_time_" + [01;36m[Kdata_size[m[K + ".txt", std::ios::out | std::ios::app);
+[2.115s]                                                                              [01;36m[K^~~~~~~~~[m[K
+[2.116s]                                                                              [32m[Kdata_file[m[K
+[2.116s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:225:77:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdata_file[m[K’
+[2.116s]              std::ofstream ack_time_file("./evaluation/ack_time/ack_time_" + [01;36m[Kdata_size[m[K + ".txt", std::ios::out | std::ios::app);
+[2.116s]                                                                              [01;36m[K^~~~~~~~~[m[K
+[2.117s]                                                                              [32m[Kdata_file[m[K
+[2.117s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_time_file[m[K’ was not declared in this scope
+[2.117s]      [01;31m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+[2.117s]      [01;31m[K^~~~~~~~~~~~~[m[K
+[2.118s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_time_file[m[K’ was not declared in this scope
+[2.118s]      [01;31m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+[2.118s]      [01;31m[K^~~~~~~~~~~~~[m[K
+[2.119s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_time[m[K’
+[2.119s]      [01;36m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+[2.119s]      [01;36m[K^~~~~~~~~~~~~[m[K
+[2.120s]      [32m[Kack_time[m[K
+[2.120s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_time[m[K’
+[2.120s]      [01;36m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+[2.120s]      [01;36m[K^~~~~~~~~~~~~[m[K
+[2.120s]      [32m[Kack_time[m[K
+[2.162s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.162s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:225:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_size[m[K’ was not declared in this scope
+[2.163s]              std::ofstream ack_time_file("./evaluation/ack_time/ack_time_" + [01;31m[Kdata_size[m[K + ".txt", std::ios::out | std::ios::app);
+[2.163s]                                                                              [01;31m[K^~~~~~~~~[m[K
+[2.163s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:225:77:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdata_file[m[K’
+[2.163s]              std::ofstream ack_time_file("./evaluation/ack_time/ack_time_" + [01;36m[Kdata_size[m[K + ".txt", std::ios::out | std::ios::app);
+[2.164s]                                                                              [01;36m[K^~~~~~~~~[m[K
+[2.164s]                                                                              [32m[Kdata_file[m[K
+[2.166s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_time_file[m[K’ was not declared in this scope
+[2.166s]      [01;31m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+[2.167s]      [01;31m[K^~~~~~~~~~~~~[m[K
+[2.168s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_time[m[K’
+[2.169s]      [01;36m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+[2.169s]      [01;36m[K^~~~~~~~~~~~~[m[K
+[2.169s]      [32m[Kack_time[m[K
+[2.229s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.230s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:225:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_size[m[K’ was not declared in this scope
+[2.230s]      std::ofstream ack_time_file("./evaluation/ack_time/ack_time_" + [01;31m[Kdata_size[m[K + ".txt", std::ios::out | std::ios::app);
+[2.230s]                                                                      [01;31m[K^~~~~~~~~[m[K
+[2.231s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:225:77:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdata_file[m[K’
+[2.231s]      std::ofstream ack_time_file("./evaluation/ack_time/ack_time_" + [01;36m[Kdata_size[m[K + ".txt", std::ios::out | std::ios::app);
+[2.231s]                                                                      [01;36m[K^~~~~~~~~[m[K
+[2.231s]                                                                              [32m[Kdata_file[m[K
+[2.234s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_time_file[m[K’ was not declared in this scope
+[2.234s]      [01;31m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+[2.235s]      [01;31m[K^~~~~~~~~~~~~[m[K
+[2.237s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_time[m[K’
+[2.237s]      [01;36m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+[2.237s]      [01;36m[K^~~~~~~~~~~~~[m[K
+[2.237s]      [32m[Kack_time[m[K
+[3.102s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[3.102s] CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o' failed
+[3.102s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all] Error 2
+[3.102s] make[1]: *** Waiting for unfinished jobs....
+[3.103s] CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all' failed
+[3.108s] CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o' failed
+[3.108s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[3.108s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[3.108s] CMakeFiles/Makefile2:252: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[3.143s] CMakeFiles/talker_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o' failed
+[3.144s] make[2]: *** [CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o] Error 1
+[3.144s] CMakeFiles/Makefile2:321: recipe for target 'CMakeFiles/talker_interprocess.dir/all' failed
+[3.144s] make[1]: *** [CMakeFiles/talker_interprocess.dir/all] Error 2
+[3.207s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[3.208s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[3.208s] CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o' failed
+[3.208s] CMakeFiles/Makefile2:617: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all' failed
+[3.208s] make: *** [all] Error 2
+[3.208s] Makefile:140: recipe for target 'all' failed
+[3.210s] Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8

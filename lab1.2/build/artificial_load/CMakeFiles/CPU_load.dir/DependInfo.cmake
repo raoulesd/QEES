@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raoul/Documents/QEES/lab1/src/artificial_load/CPU_load.cpp" "/home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles/CPU_load.dir/CPU_load.cpp.o"
+  "/home/raoul/Documents/QEES/lab1.2/src/artificial_load/CPU_load.cpp" "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/CMakeFiles/CPU_load.dir/CPU_load.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

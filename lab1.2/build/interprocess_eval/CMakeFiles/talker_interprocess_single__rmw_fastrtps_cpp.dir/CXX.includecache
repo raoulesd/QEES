@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/raoul/Documents/QEES/lab1/src/interprocess_eval/src/talker_interprocess_single.cpp
+/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess_single.cpp
 rclcpp/rclcpp.hpp
-/home/raoul/Documents/QEES/lab1/src/interprocess_eval/src/rclcpp/rclcpp.hpp
+/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/rclcpp/rclcpp.hpp
 std_msgs/msg/string.hpp
-/home/raoul/Documents/QEES/lab1/src/interprocess_eval/src/std_msgs/msg/string.hpp
+/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/std_msgs/msg/string.hpp
 sstream
 -
 fstream

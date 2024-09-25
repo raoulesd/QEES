@@ -1,8 +1,8 @@
-# Install script for directory: /home/raoul/Documents/QEES/lab1/src/artificial_load
+# Install script for directory: /home/raoul/Documents/QEES/lab1.2/src/artificial_load
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/raoul/Documents/QEES/lab1/install/artificial_load")
+  set(CMAKE_INSTALL_PREFIX "/home/raoul/Documents/QEES/lab1.2/install/artificial_load")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/raoul/Documents/QEES/lab1/build/artificial_load/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

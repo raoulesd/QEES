@@ -1,0 +1,158 @@
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_subscription<std_msgs::msg::String>(const char [15], rmw_qos_profile_t&, main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>)[m[K’
+     }[01;31m[K)[m[K;
+      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:242:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:242:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kcustom_qos_profile[m[K’ (type ‘[01m[Krmw_qos_profile_t[m[K’) to type ‘[01m[Kconst rclcpp::QoS&[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:279:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class Alloc, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:279:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K<lambda closure object>main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>{ack_received}[m[K’ (type ‘[01m[Kmain(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>[m[K’) to type ‘[01m[Kconst rmw_qos_profile_t&[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:316:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class Alloc, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, size_t, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:316:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K<lambda closure object>main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>{ack_received}[m[K’ (type ‘[01m[Kmain(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>[m[K’) to type ‘[01m[Ksize_t {aka long unsigned int}[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_subscription<std_msgs::msg::String>(const char [15], rmw_qos_profile_t&, main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>)[m[K’
+     }[01;31m[K)[m[K;
+      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:242:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:242:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kcustom_qos_profile[m[K’ (type ‘[01m[Krmw_qos_profile_t[m[K’) to type ‘[01m[Kconst rclcpp::QoS&[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:279:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class Alloc, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:279:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K<lambda closure object>main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>{ack_received}[m[K’ (type ‘[01m[Kmain(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>[m[K’) to type ‘[01m[Kconst rmw_qos_profile_t&[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:316:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class Alloc, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, size_t, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:316:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K<lambda closure object>main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>{ack_received}[m[K’ (type ‘[01m[Kmain(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>[m[K’) to type ‘[01m[Ksize_t {aka long unsigned int}[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_subscription<std_msgs::msg::String>(const char [15], rmw_qos_profile_t&, main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>)[m[K’
+     }[01;31m[K)[m[K;
+      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:242:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:242:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kcustom_qos_profile[m[K’ (type ‘[01m[Krmw_qos_profile_t[m[K’) to type ‘[01m[Kconst rclcpp::QoS&[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:279:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class Alloc, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:279:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K<lambda closure object>main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>{ack_received}[m[K’ (type ‘[01m[Kmain(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>[m[K’) to type ‘[01m[Kconst rmw_qos_profile_t&[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:316:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class Alloc, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, size_t, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:316:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K<lambda closure object>main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>{ack_received}[m[K’ (type ‘[01m[Kmain(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>[m[K’) to type ‘[01m[Ksize_t {aka long unsigned int}[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess.dir/all] Error 2
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all] Error 2
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_subscription<std_msgs::msg::String>(const char [15], rmw_qos_profile_t&, main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>)[m[K’
+     }[01;31m[K)[m[K;
+      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:242:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:242:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kcustom_qos_profile[m[K’ (type ‘[01m[Krmw_qos_profile_t[m[K’) to type ‘[01m[Kconst rclcpp::QoS&[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:279:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class Alloc, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:279:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K<lambda closure object>main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>{ack_received}[m[K’ (type ‘[01m[Kmain(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>[m[K’) to type ‘[01m[Kconst rmw_qos_profile_t&[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:316:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class CallbackT, class Alloc, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, size_t, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>)
+   [01;36m[Kcreate_subscription[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:316:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:186:6:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K<lambda closure object>main(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>{ack_received}[m[K’ (type ‘[01m[Kmain(int, char**)::<lambda(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)>[m[K’) to type ‘[01m[Ksize_t {aka long unsigned int}[m[K’
+     }[01;36m[K)[m[K;
+      [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make: *** [all] Error 2

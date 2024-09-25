@@ -1,0 +1,28 @@
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:199:67:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   std::string data_size = data_file.substr(data_file.find_last_of([01;35m[K'/data_'[m[K) + 1);
+                                                                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:199:67:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   std::string data_size = data_file.substr(data_file.find_last_of([01;35m[K'/data_'[m[K) + 1);
+                                                                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:199:67:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   std::string data_size = data_file.substr(data_file.find_last_of([01;35m[K'/data_'[m[K) + 1);
+                                                                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:199:67:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   std::string data_size = data_file.substr(data_file.find_last_of([01;35m[K'/data_'[m[K) + 1);
+                                                                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:199:75:[m[K [01;35m[Kwarning: [m[Koverflow in implicit constant conversion [[01;35m[K-Woverflow[m[K]
+   std::string data_size = data_file.substr(data_file.find_last_of('/data_'[01;35m[K)[m[K + 1);
+                                                                           [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:199:75:[m[K [01;35m[Kwarning: [m[Koverflow in implicit constant conversion [[01;35m[K-Woverflow[m[K]
+   std::string data_size = data_file.substr(data_file.find_last_of('/data_'[01;35m[K)[m[K + 1);
+                                                                           [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:199:75:[m[K [01;35m[Kwarning: [m[Koverflow in implicit constant conversion [[01;35m[K-Woverflow[m[K]
+   std::string data_size = data_file.substr(data_file.find_last_of('/data_'[01;35m[K)[m[K + 1);
+                                                                           [01;35m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:199:75:[m[K [01;35m[Kwarning: [m[Koverflow in implicit constant conversion [[01;35m[K-Woverflow[m[K]
+   std::string data_size = data_file.substr(data_file.find_last_of('/data_'[01;35m[K)[m[K + 1);
+                                                                           [01;35m[K^[m[K

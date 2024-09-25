@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raoul/Documents/QEES/lab1/src/intraprocess_eval
+CMAKE_SOURCE_DIR = /home/raoul/Documents/QEES/lab1.2/src/intraprocess_eval
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raoul/Documents/QEES/lab1/build/intraprocess_eval
+CMAKE_BINARY_DIR = /home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1/build/intraprocess_eval/CMakeFiles /home/raoul/Documents/QEES/lab1/build/intraprocess_eval/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval/CMakeFiles /home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1/build/intraprocess_eval/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

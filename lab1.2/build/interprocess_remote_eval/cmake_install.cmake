@@ -1,8 +1,8 @@
-# Install script for directory: /home/raoul/Documents/QEES/lab1/src/interprocess_remote_eval
+# Install script for directory: /home/raoul/Documents/QEES/lab1.2/src/interprocess_remote_eval
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/raoul/Documents/QEES/lab1/install/interprocess_remote_eval")
+  set(CMAKE_INSTALL_PREFIX "/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

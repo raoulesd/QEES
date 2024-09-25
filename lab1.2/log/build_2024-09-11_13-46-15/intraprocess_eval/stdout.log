@@ -1,6 +1,0 @@
--- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
--- Using PYTHON_EXECUTABLE: /usr/bin/python3
--- Configuring incomplete, errors occurred!
-See also "/home/raoul/Documents/QEES/lab1/build/intraprocess_eval/CMakeFiles/CMakeOutput.log".
-See also "/home/raoul/Documents/QEES/lab1/build/intraprocess_eval/CMakeFiles/CMakeError.log".
-Makefile:303: recipe for target 'cmake_check_build_system' failed

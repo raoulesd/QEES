@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/raoul/Documents/QEES/lab1/src/artificial_load/CPU_load.cpp
+/home/raoul/Documents/QEES/lab1.2/src/artificial_load/CPU_load.cpp
 chrono
 -
 memory
@@ -20,9 +20,9 @@ sys/mman.h
 sched.h
 -
 rclcpp/rclcpp.hpp
-/home/raoul/Documents/QEES/lab1/src/artificial_load/rclcpp/rclcpp.hpp
+/home/raoul/Documents/QEES/lab1.2/src/artificial_load/rclcpp/rclcpp.hpp
 std_msgs/msg/string.hpp
-/home/raoul/Documents/QEES/lab1/src/artificial_load/std_msgs/msg/string.hpp
+/home/raoul/Documents/QEES/lab1.2/src/artificial_load/std_msgs/msg/string.hpp
 
 /opt/ros/dashing/include/builtin_interfaces/msg/duration.hpp
 builtin_interfaces/msg/duration__struct.hpp

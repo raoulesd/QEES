@@ -1,2 +1,0 @@
-Invoking command in '/home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval -- -j8 -l8
-Invoked command in '/home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval' returned '2': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1/build/interprocess_remote_eval -- -j8 -l8

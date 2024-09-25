@@ -1,0 +1,749 @@
+[0.000000] (-) TimerEvent: {}
+[0.000209] (artificial_load) JobQueued: {'identifier': 'artificial_load', 'dependencies': OrderedDict()}
+[0.000297] (interprocess_eval) JobQueued: {'identifier': 'interprocess_eval', 'dependencies': OrderedDict()}
+[0.000355] (interprocess_remote_eval) JobQueued: {'identifier': 'interprocess_remote_eval', 'dependencies': OrderedDict()}
+[0.000523] (intraprocess_eval) JobQueued: {'identifier': 'intraprocess_eval', 'dependencies': OrderedDict()}
+[0.000704] (artificial_load) JobStarted: {'identifier': 'artificial_load'}
+[0.010992] (interprocess_eval) JobStarted: {'identifier': 'interprocess_eval'}
+[0.022431] (interprocess_remote_eval) JobStarted: {'identifier': 'interprocess_remote_eval'}
+[0.030113] (intraprocess_eval) JobStarted: {'identifier': 'intraprocess_eval'}
+[0.044761] (artificial_load) JobProgress: {'identifier': 'artificial_load', 'progress': 'cmake'}
+[0.045710] (artificial_load) Command: {'cmd': ['/usr/bin/cmake', '/home/raoul/Documents/QEES/lab1.2/src/artificial_load', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.2/install/artificial_load'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/artificial_load', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/artificial_load'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[0.053970] (interprocess_eval) JobProgress: {'identifier': 'interprocess_eval', 'progress': 'cmake'}
+[0.054881] (interprocess_eval) Command: {'cmd': ['/usr/bin/cmake', '/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[0.060907] (interprocess_remote_eval) JobProgress: {'identifier': 'interprocess_remote_eval', 'progress': 'cmake'}
+[0.061493] (interprocess_remote_eval) Command: {'cmd': ['/usr/bin/cmake', '/home/raoul/Documents/QEES/lab1.2/src/interprocess_remote_eval', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[0.068712] (intraprocess_eval) JobProgress: {'identifier': 'intraprocess_eval', 'progress': 'cmake'}
+[0.069237] (intraprocess_eval) Command: {'cmd': ['/usr/bin/cmake', '/home/raoul/Documents/QEES/lab1.2/src/intraprocess_eval', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[0.098627] (-) TimerEvent: {}
+[0.199107] (-) TimerEvent: {}
+[0.299524] (-) TimerEvent: {}
+[0.399949] (-) TimerEvent: {}
+[0.500330] (-) TimerEvent: {}
+[0.600838] (-) TimerEvent: {}
+[0.701269] (-) TimerEvent: {}
+[0.801684] (-) TimerEvent: {}
+[0.902067] (-) TimerEvent: {}
+[1.002517] (-) TimerEvent: {}
+[1.102887] (-) TimerEvent: {}
+[1.140084] (interprocess_eval) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.142241] (intraprocess_eval) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.152307] (interprocess_remote_eval) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.152624] (artificial_load) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.202992] (-) TimerEvent: {}
+[1.283653] (artificial_load) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.285093] (interprocess_eval) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.289284] (intraprocess_eval) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.290363] (interprocess_remote_eval) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.302926] (interprocess_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.303112] (-) TimerEvent: {}
+[1.303278] (intraprocess_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.303422] (artificial_load) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.303549] (interprocess_remote_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.403239] (-) TimerEvent: {}
+[1.451658] (intraprocess_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.453609] (interprocess_remote_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.454001] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.454220] (interprocess_eval) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.454738] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.455074] (interprocess_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.458202] (artificial_load) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.459042] (artificial_load) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.503371] (-) TimerEvent: {}
+[1.581941] (artificial_load) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.584092] (interprocess_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.589730] (artificial_load) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.591717] (interprocess_eval) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.602433] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.602662] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.603459] (-) TimerEvent: {}
+[1.609639] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.609961] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.703604] (-) TimerEvent: {}
+[1.803991] (-) TimerEvent: {}
+[1.904404] (-) TimerEvent: {}
+[2.004899] (-) TimerEvent: {}
+[2.029954] (interprocess_eval) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.030301] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.030655] (artificial_load) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.034493] (artificial_load) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.035297] (interprocess_remote_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.035649] (interprocess_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.045703] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.050774] (intraprocess_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.105027] (-) TimerEvent: {}
+[2.189954] (interprocess_remote_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.191104] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.202873] (intraprocess_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.203292] (artificial_load) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.204099] (artificial_load) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.204565] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.205096] (-) TimerEvent: {}
+[2.213978] (interprocess_eval) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.215329] (interprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.305226] (-) TimerEvent: {}
+[2.350169] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.353290] (artificial_load) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.357701] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.358156] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.360915] (artificial_load) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.364821] (interprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.367217] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.378992] (interprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.405349] (-) TimerEvent: {}
+[2.505881] (-) TimerEvent: {}
+[2.606347] (-) TimerEvent: {}
+[2.706821] (-) TimerEvent: {}
+[2.807172] (-) TimerEvent: {}
+[2.907561] (-) TimerEvent: {}
+[3.007940] (-) TimerEvent: {}
+[3.051942] (interprocess_remote_eval) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.061883] (intraprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.062180] (artificial_load) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.076261] (interprocess_eval) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.083179] (interprocess_eval) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[3.083566] (intraprocess_eval) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[3.083819] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[3.084064] (artificial_load) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[3.108045] (-) TimerEvent: {}
+[3.128531] (intraprocess_eval) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[3.129057] (interprocess_eval) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[3.129380] (intraprocess_eval) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.129673] (interprocess_eval) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.129983] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[3.130298] (interprocess_remote_eval) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.130541] (artificial_load) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[3.130801] (artificial_load) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.208152] (-) TimerEvent: {}
+[3.308581] (-) TimerEvent: {}
+[3.409026] (-) TimerEvent: {}
+[3.414558] (interprocess_eval) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.414900] (interprocess_remote_eval) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.419704] (intraprocess_eval) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.422766] (artificial_load) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.495710] (interprocess_eval) StdoutLine: {'line': b'-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[3.496060] (artificial_load) StdoutLine: {'line': b'-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[3.496309] (intraprocess_eval) StdoutLine: {'line': b'-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[3.496549] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[3.509194] (-) TimerEvent: {}
+[3.559944] (intraprocess_eval) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[3.560278] (interprocess_eval) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[3.564368] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[3.564558] (artificial_load) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[3.609309] (-) TimerEvent: {}
+[3.661336] (intraprocess_eval) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[3.663666] (intraprocess_eval) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.665225] (interprocess_eval) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[3.669135] (interprocess_eval) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.677117] (intraprocess_eval) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.677456] (interprocess_eval) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.690568] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[3.691255] (artificial_load) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[3.693817] (artificial_load) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.694264] (interprocess_remote_eval) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.695199] (artificial_load) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.695582] (interprocess_remote_eval) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.709439] (-) TimerEvent: {}
+[3.804823] (interprocess_eval) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.809573] (-) TimerEvent: {}
+[3.813927] (intraprocess_eval) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.814688] (interprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[3.815007] (intraprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[3.837084] (artificial_load) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.838153] (artificial_load) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[3.841285] (interprocess_remote_eval) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.842035] (interprocess_remote_eval) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[3.909719] (-) TimerEvent: {}
+[3.960699] (interprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[3.961193] (interprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.965365] (intraprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[3.965707] (intraprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.982451] (artificial_load) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[3.982938] (artificial_load) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.000867] (interprocess_remote_eval) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[4.001344] (interprocess_remote_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.009837] (-) TimerEvent: {}
+[4.076443] (intraprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.076818] (intraprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.084706] (interprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.085179] (interprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.101670] (artificial_load) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.102165] (artificial_load) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.109954] (-) TimerEvent: {}
+[4.114016] (interprocess_remote_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.114452] (interprocess_remote_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.202567] (intraprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.204174] (intraprocess_eval) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.210085] (-) TimerEvent: {}
+[4.217269] (interprocess_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.219964] (interprocess_eval) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.236550] (artificial_load) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.239085] (artificial_load) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.250058] (interprocess_remote_eval) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.252107] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.261529] (intraprocess_eval) StdoutLine: {'line': b'-- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[4.272151] (intraprocess_eval) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 0.7.8 (/opt/ros/dashing/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.297219] (interprocess_eval) StdoutLine: {'line': b'-- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[4.298470] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[4.309375] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 0.7.8 (/opt/ros/dashing/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.310176] (-) TimerEvent: {}
+[4.315494] (interprocess_eval) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 0.7.8 (/opt/ros/dashing/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.315855] (artificial_load) StdoutLine: {'line': b'-- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[4.410276] (-) TimerEvent: {}
+[4.454631] (artificial_load) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.479240] (artificial_load) StdoutLine: {'line': b'-- Generating done\n'}
+[4.480999] (artificial_load) StdoutLine: {'line': b'-- Build files have been written to: /home/raoul/Documents/QEES/lab1.2/build/artificial_load\n'}
+[4.486091] (artificial_load) CommandEnded: {'returncode': 0}
+[4.486909] (artificial_load) JobProgress: {'identifier': 'artificial_load', 'progress': 'build'}
+[4.489908] (artificial_load) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1.2/build/artificial_load', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/artificial_load', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/artificial_load'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[4.510423] (-) TimerEvent: {}
+[4.572858] (artificial_load) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target CPU_load\x1b[0m\n'}
+[4.606582] (intraprocess_eval) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[4.606981] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[4.610516] (-) TimerEvent: {}
+[4.610958] (interprocess_eval) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[4.634358] (artificial_load) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/CPU_load.dir/CPU_load.cpp.o\x1b[0m\n'}
+[4.642469] (intraprocess_eval) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[4.644898] (interprocess_eval) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[4.645776] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[4.710648] (-) TimerEvent: {}
+[4.811060] (-) TimerEvent: {}
+[4.870489] (intraprocess_eval) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[4.873345] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[4.911196] (-) TimerEvent: {}
+[4.916239] (interprocess_eval) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[5.011335] (-) TimerEvent: {}
+[5.111718] (-) TimerEvent: {}
+[5.212054] (-) TimerEvent: {}
+[5.312416] (-) TimerEvent: {}
+[5.412782] (-) TimerEvent: {}
+[5.513160] (-) TimerEvent: {}
+[5.613623] (-) TimerEvent: {}
+[5.714113] (-) TimerEvent: {}
+[5.814594] (-) TimerEvent: {}
+[5.915103] (-) TimerEvent: {}
+[6.015582] (-) TimerEvent: {}
+[6.116035] (-) TimerEvent: {}
+[6.216397] (-) TimerEvent: {}
+[6.316847] (-) TimerEvent: {}
+[6.417307] (-) TimerEvent: {}
+[6.517816] (-) TimerEvent: {}
+[6.593293] (intraprocess_eval) StdoutLine: {'line': b'-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake\n'}
+[6.617939] (-) TimerEvent: {}
+[6.631283] (interprocess_remote_eval) StdoutLine: {'line': b'-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake\n'}
+[6.694591] (interprocess_eval) StdoutLine: {'line': b'-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake\n'}
+[6.718044] (-) TimerEvent: {}
+[6.749700] (intraprocess_eval) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.752552] (artificial_load) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable CPU_load\x1b[0m\n'}
+[6.806547] (interprocess_remote_eval) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.818171] (-) TimerEvent: {}
+[6.850767] (intraprocess_eval) StdoutLine: {'line': b'-- Generating done\n'}
+[6.853767] (intraprocess_eval) StdoutLine: {'line': b'-- Build files have been written to: /home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval\n'}
+[6.861890] (intraprocess_eval) CommandEnded: {'returncode': 0}
+[6.863094] (intraprocess_eval) JobProgress: {'identifier': 'intraprocess_eval', 'progress': 'build'}
+[6.863824] (intraprocess_eval) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[6.918382] (-) TimerEvent: {}
+[6.937201] (interprocess_eval) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.963371] (intraprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chat_intraprocess__rmw_opensplice_cpp\x1b[0m\n'}
+[6.966443] (intraprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chat_intraprocess__rmw_fastrtps_cpp\x1b[0m\n'}
+[6.974211] (intraprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chat_intraprocess__rmw_connext_cpp\x1b[0m\n'}
+[6.974547] (intraprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chat_intraprocess\x1b[0m\n'}
+[6.979332] (artificial_load) StdoutLine: {'line': b'[100%] Built target CPU_load\n'}
+[7.007848] (artificial_load) CommandEnded: {'returncode': 0}
+[7.018661] (-) TimerEvent: {}
+[7.026846] (intraprocess_eval) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/chat_intraprocess__rmw_opensplice_cpp.dir/src/chat_intraprocess.cpp.o\x1b[0m\n'}
+[7.032610] (interprocess_remote_eval) StdoutLine: {'line': b'-- Generating done\n'}
+[7.040366] (interprocess_remote_eval) StdoutLine: {'line': b'-- Build files have been written to: /home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval\n'}
+[7.051395] (interprocess_remote_eval) CommandEnded: {'returncode': 0}
+[7.052841] (interprocess_remote_eval) JobProgress: {'identifier': 'interprocess_remote_eval', 'progress': 'build'}
+[7.053884] (interprocess_remote_eval) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[7.059474] (intraprocess_eval) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/chat_intraprocess__rmw_fastrtps_cpp.dir/src/chat_intraprocess.cpp.o\x1b[0m\n'}
+[7.060904] (intraprocess_eval) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/chat_intraprocess__rmw_connext_cpp.dir/src/chat_intraprocess.cpp.o\x1b[0m\n'}
+[7.070866] (intraprocess_eval) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/chat_intraprocess.dir/src/chat_intraprocess.cpp.o\x1b[0m\n'}
+[7.073641] (artificial_load) JobProgress: {'identifier': 'artificial_load', 'progress': 'install'}
+[7.104106] (artificial_load) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1.2/build/artificial_load', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/artificial_load', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/artificial_load'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[7.118744] (-) TimerEvent: {}
+[7.182104] (interprocess_remote_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_server_interprocess__rmw_opensplice_cpp\x1b[0m\n'}
+[7.184609] (interprocess_remote_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_server_interprocess__rmw_connext_cpp\x1b[0m\n'}
+[7.218868] (-) TimerEvent: {}
+[7.256868] (interprocess_remote_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_server_interprocess__rmw_fastrtps_cpp\x1b[0m\n'}
+[7.265979] (interprocess_remote_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_client_interprocess__rmw_fastrtps_cpp\x1b[0m\n'}
+[7.268157] (interprocess_remote_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_client_interprocess__rmw_opensplice_cpp\x1b[0m\n'}
+[7.268593] (interprocess_remote_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_client_interprocess__rmw_connext_cpp\x1b[0m\n'}
+[7.280207] (interprocess_remote_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_client_interprocess\x1b[0m\n'}
+[7.286843] (interprocess_remote_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_server_interprocess\x1b[0m\n'}
+[7.318990] (-) TimerEvent: {}
+[7.363707] (interprocess_remote_eval) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/listener_server_interprocess__rmw_opensplice_cpp.dir/src/listener_server_interprocess.cpp.o\x1b[0m\n'}
+[7.378427] (interprocess_remote_eval) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/listener_server_interprocess__rmw_connext_cpp.dir/src/listener_server_interprocess.cpp.o\x1b[0m\n'}
+[7.419123] (-) TimerEvent: {}
+[7.422806] (interprocess_eval) StdoutLine: {'line': b'-- Generating done\n'}
+[7.432024] (interprocess_eval) StdoutLine: {'line': b'-- Build files have been written to: /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval\n'}
+[7.447629] (interprocess_eval) CommandEnded: {'returncode': 0}
+[7.450650] (interprocess_eval) JobProgress: {'identifier': 'interprocess_eval', 'progress': 'build'}
+[7.450820] (interprocess_eval) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[7.480733] (interprocess_remote_eval) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/src/talker_client_interprocess.cpp.o\x1b[0m\n'}
+[7.484498] (interprocess_remote_eval) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener_server_interprocess.dir/src/listener_server_interprocess.cpp.o\x1b[0m\n'}
+[7.508808] (interprocess_remote_eval) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/src/talker_client_interprocess.cpp.o\x1b[0m\n'}
+[7.519073] (interprocess_remote_eval) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/listener_server_interprocess__rmw_fastrtps_cpp.dir/src/listener_server_interprocess.cpp.o\x1b[0m\n'}
+[7.519449] (-) TimerEvent: {}
+[7.520029] (interprocess_remote_eval) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/talker_client_interprocess.dir/src/talker_client_interprocess.cpp.o\x1b[0m\n'}
+[7.524989] (interprocess_remote_eval) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/src/talker_client_interprocess.cpp.o\x1b[0m\n'}
+[7.619599] (-) TimerEvent: {}
+[7.660710] (artificial_load) StdoutLine: {'line': b'[100%] Built target CPU_load\n'}
+[7.719735] (-) TimerEvent: {}
+[7.820396] (-) TimerEvent: {}
+[7.821670] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp\x1b[0m\n'}
+[7.826765] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_interprocess__rmw_fastrtps_cpp\x1b[0m\n'}
+[7.832744] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_interprocess__rmw_connext_cpp\x1b[0m\n'}
+[7.833272] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_interprocess_single\x1b[0m\n'}
+[7.847813] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_interprocess_single\x1b[0m\n'}
+[7.852078] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_interprocess\x1b[0m\n'}
+[7.866268] (artificial_load) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[7.867818] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_interprocess_single__rmw_opensplice_cpp\x1b[0m\n'}
+[7.878998] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_interprocess\x1b[0m\n'}
+[7.920529] (-) TimerEvent: {}
+[7.947603] (artificial_load) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.948898] (artificial_load) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.950240] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/lib/artificial_load/CPU_load\n'}
+[8.012257] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/ament_index/resource_index/package_run_dependencies/artificial_load\n'}
+[8.020665] (-) TimerEvent: {}
+[8.069201] (interprocess_eval) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o\x1b[0m\n'}
+[8.091942] (interprocess_eval) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/talker_interprocess_single.dir/src/talker_interprocess_single.cpp.o\x1b[0m\n'}
+[8.103693] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/ament_index/resource_index/parent_prefix_path/artificial_load\n'}
+[8.120947] (-) TimerEvent: {}
+[8.132066] (interprocess_eval) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/listener_interprocess_single.dir/src/listener_interprocess_single.cpp.o\x1b[0m\n'}
+[8.189798] (interprocess_eval) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o\x1b[0m\n'}
+[8.190312] (interprocess_eval) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o\x1b[0m\n'}
+[8.190748] (interprocess_eval) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o\x1b[0m\n'}
+[8.204332] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/environment/ament_prefix_path.sh\n'}
+[8.221077] (-) TimerEvent: {}
+[8.264206] (interprocess_eval) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o\x1b[0m\n'}
+[8.277882] (interprocess_eval) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener_interprocess_single__rmw_opensplice_cpp.dir/src/listener_interprocess_single.cpp.o\x1b[0m\n'}
+[8.312396] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/environment/path.sh\n'}
+[8.321205] (-) TimerEvent: {}
+[8.420189] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/local_setup.bash\n'}
+[8.421304] (-) TimerEvent: {}
+[8.503311] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/local_setup.sh\n'}
+[8.521438] (-) TimerEvent: {}
+[8.578754] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/local_setup.zsh\n'}
+[8.621566] (-) TimerEvent: {}
+[8.639914] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/ament_index/resource_index/packages/artificial_load\n'}
+[8.721698] (-) TimerEvent: {}
+[8.723606] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/cmake/artificial_loadConfig.cmake\n'}
+[8.821827] (-) TimerEvent: {}
+[8.823270] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/cmake/artificial_loadConfig-version.cmake\n'}
+[8.905705] (artificial_load) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/package.xml\n'}
+[8.921952] (-) TimerEvent: {}
+[9.002886] (artificial_load) CommandEnded: {'returncode': 0}
+[9.027174] (-) TimerEvent: {}
+[9.127977] (-) TimerEvent: {}
+[9.228957] (-) TimerEvent: {}
+[9.329715] (-) TimerEvent: {}
+[9.430318] (-) TimerEvent: {}
+[9.530844] (-) TimerEvent: {}
+[9.631460] (-) TimerEvent: {}
+[9.685855] (artificial_load) JobEnded: {'identifier': 'artificial_load', 'rc': 0}
+[9.731603] (-) TimerEvent: {}
+[9.832075] (-) TimerEvent: {}
+[9.932566] (-) TimerEvent: {}
+[10.033055] (-) TimerEvent: {}
+[10.133520] (-) TimerEvent: {}
+[10.234033] (-) TimerEvent: {}
+[10.334530] (-) TimerEvent: {}
+[10.435013] (-) TimerEvent: {}
+[10.535494] (-) TimerEvent: {}
+[10.636260] (-) TimerEvent: {}
+[10.737029] (-) TimerEvent: {}
+[10.837645] (-) TimerEvent: {}
+[10.938131] (-) TimerEvent: {}
+[11.038625] (-) TimerEvent: {}
+[11.139125] (-) TimerEvent: {}
+[11.239603] (-) TimerEvent: {}
+[11.340154] (-) TimerEvent: {}
+[11.440630] (-) TimerEvent: {}
+[11.541143] (-) TimerEvent: {}
+[11.641851] (-) TimerEvent: {}
+[11.742345] (-) TimerEvent: {}
+[11.842939] (-) TimerEvent: {}
+[11.943524] (-) TimerEvent: {}
+[12.044264] (-) TimerEvent: {}
+[12.144957] (-) TimerEvent: {}
+[12.245455] (-) TimerEvent: {}
+[12.346294] (-) TimerEvent: {}
+[12.447096] (-) TimerEvent: {}
+[12.547787] (-) TimerEvent: {}
+[12.648560] (-) TimerEvent: {}
+[12.749040] (-) TimerEvent: {}
+[12.849529] (-) TimerEvent: {}
+[12.950114] (-) TimerEvent: {}
+[13.050686] (-) TimerEvent: {}
+[13.151390] (-) TimerEvent: {}
+[13.252092] (-) TimerEvent: {}
+[13.352839] (-) TimerEvent: {}
+[13.453333] (-) TimerEvent: {}
+[13.553960] (-) TimerEvent: {}
+[13.654993] (-) TimerEvent: {}
+[13.755489] (-) TimerEvent: {}
+[13.855986] (-) TimerEvent: {}
+[13.956569] (-) TimerEvent: {}
+[14.057059] (-) TimerEvent: {}
+[14.157662] (-) TimerEvent: {}
+[14.258248] (-) TimerEvent: {}
+[14.358884] (-) TimerEvent: {}
+[14.459372] (-) TimerEvent: {}
+[14.559857] (-) TimerEvent: {}
+[14.660460] (-) TimerEvent: {}
+[14.760952] (-) TimerEvent: {}
+[14.861448] (-) TimerEvent: {}
+[14.961932] (-) TimerEvent: {}
+[15.062524] (-) TimerEvent: {}
+[15.163023] (-) TimerEvent: {}
+[15.263781] (-) TimerEvent: {}
+[15.364266] (-) TimerEvent: {}
+[15.464882] (-) TimerEvent: {}
+[15.565376] (-) TimerEvent: {}
+[15.666148] (-) TimerEvent: {}
+[15.766624] (-) TimerEvent: {}
+[15.867407] (-) TimerEvent: {}
+[15.967895] (-) TimerEvent: {}
+[16.068382] (-) TimerEvent: {}
+[16.168873] (-) TimerEvent: {}
+[16.269462] (-) TimerEvent: {}
+[16.370054] (-) TimerEvent: {}
+[16.470662] (-) TimerEvent: {}
+[16.571167] (-) TimerEvent: {}
+[16.671647] (-) TimerEvent: {}
+[16.772114] (-) TimerEvent: {}
+[16.872606] (-) TimerEvent: {}
+[16.973070] (-) TimerEvent: {}
+[17.073567] (-) TimerEvent: {}
+[17.174037] (-) TimerEvent: {}
+[17.274518] (-) TimerEvent: {}
+[17.375019] (-) TimerEvent: {}
+[17.475496] (-) TimerEvent: {}
+[17.575981] (-) TimerEvent: {}
+[17.676772] (-) TimerEvent: {}
+[17.777343] (-) TimerEvent: {}
+[17.877854] (-) TimerEvent: {}
+[17.978434] (-) TimerEvent: {}
+[18.078889] (-) TimerEvent: {}
+[18.179382] (-) TimerEvent: {}
+[18.282893] (-) TimerEvent: {}
+[18.383397] (-) TimerEvent: {}
+[18.483880] (-) TimerEvent: {}
+[18.585033] (-) TimerEvent: {}
+[18.685544] (-) TimerEvent: {}
+[18.786043] (-) TimerEvent: {}
+[18.890911] (-) TimerEvent: {}
+[18.991377] (-) TimerEvent: {}
+[19.091850] (-) TimerEvent: {}
+[19.192322] (-) TimerEvent: {}
+[19.292793] (-) TimerEvent: {}
+[19.393286] (-) TimerEvent: {}
+[19.493762] (-) TimerEvent: {}
+[19.594246] (-) TimerEvent: {}
+[19.694845] (-) TimerEvent: {}
+[19.795340] (-) TimerEvent: {}
+[19.895832] (-) TimerEvent: {}
+[19.996301] (-) TimerEvent: {}
+[20.096792] (-) TimerEvent: {}
+[20.197267] (-) TimerEvent: {}
+[20.297750] (-) TimerEvent: {}
+[20.398269] (-) TimerEvent: {}
+[20.498897] (-) TimerEvent: {}
+[20.599391] (-) TimerEvent: {}
+[20.700008] (-) TimerEvent: {}
+[20.800589] (-) TimerEvent: {}
+[20.901056] (-) TimerEvent: {}
+[20.963910] (interprocess_eval) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX executable talker_interprocess_single\x1b[0m\n'}
+[20.990450] (interprocess_remote_eval) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable talker_client_interprocess__rmw_connext_cpp\x1b[0m\n'}
+[21.001197] (-) TimerEvent: {}
+[21.101646] (-) TimerEvent: {}
+[21.102167] (interprocess_remote_eval) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable listener_server_interprocess__rmw_opensplice_cpp\x1b[0m\n'}
+[21.201785] (-) TimerEvent: {}
+[21.302497] (-) TimerEvent: {}
+[21.403030] (-) TimerEvent: {}
+[21.503511] (-) TimerEvent: {}
+[21.603978] (-) TimerEvent: {}
+[21.632203] (interprocess_remote_eval) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable talker_client_interprocess\x1b[0m\n'}
+[21.697260] (interprocess_eval) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX executable talker_interprocess__rmw_connext_cpp\x1b[0m\n'}
+[21.704096] (-) TimerEvent: {}
+[21.751009] (interprocess_remote_eval) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener_server_interprocess__rmw_connext_cpp\x1b[0m\n'}
+[21.804218] (-) TimerEvent: {}
+[21.895225] (interprocess_remote_eval) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable talker_client_interprocess__rmw_opensplice_cpp\x1b[0m\n'}
+[21.904339] (-) TimerEvent: {}
+[22.004815] (-) TimerEvent: {}
+[22.014859] (interprocess_remote_eval) StdoutLine: {'line': b'[ 81%] Built target talker_client_interprocess__rmw_connext_cpp\n'}
+[22.104953] (-) TimerEvent: {}
+[22.136391] (interprocess_remote_eval) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable listener_server_interprocess__rmw_fastrtps_cpp\x1b[0m\n'}
+[22.163050] (interprocess_remote_eval) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable talker_client_interprocess__rmw_fastrtps_cpp\x1b[0m\n'}
+[22.205114] (interprocess_eval) StdoutLine: {'line': b'[ 31%] Built target talker_interprocess_single\n'}
+[22.205465] (-) TimerEvent: {}
+[22.306023] (-) TimerEvent: {}
+[22.315784] (interprocess_remote_eval) StdoutLine: {'line': b'[ 93%] Built target listener_server_interprocess__rmw_opensplice_cpp\n'}
+[22.363144] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp\x1b[0m\n'}
+[22.406151] (-) TimerEvent: {}
+[22.506642] (-) TimerEvent: {}
+[22.534749] (interprocess_remote_eval) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener_server_interprocess\x1b[0m\n'}
+[22.538208] (interprocess_eval) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX executable talker_interprocess__rmw_fastrtps_cpp\x1b[0m\n'}
+[22.598279] (interprocess_eval) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX executable listener_interprocess_single\x1b[0m\n'}
+[22.598757] (interprocess_eval) StdoutLine: {'line': b'[ 37%] Built target talker_interprocess__rmw_connext_cpp\n'}
+[22.606766] (-) TimerEvent: {}
+[22.672935] (interprocess_eval) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o\x1b[0m\n'}
+[22.691417] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_interprocess_single__rmw_connext_cpp\x1b[0m\n'}
+[22.706877] (-) TimerEvent: {}
+[22.725646] (interprocess_remote_eval) StdoutLine: {'line': b'[100%] Built target talker_client_interprocess\n'}
+[22.747379] (interprocess_eval) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX executable talker_interprocess\x1b[0m\n'}
+[22.768243] (interprocess_eval) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX executable listener_interprocess__rmw_connext_cpp\x1b[0m\n'}
+[22.807005] (-) TimerEvent: {}
+[22.907632] (-) TimerEvent: {}
+[22.919760] (interprocess_remote_eval) StdoutLine: {'line': b'[100%] Built target talker_client_interprocess__rmw_opensplice_cpp\n'}
+[22.936919] (interprocess_eval) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable listener_interprocess\x1b[0m\n'}
+[22.988981] (interprocess_remote_eval) StdoutLine: {'line': b'[100%] Built target talker_client_interprocess__rmw_fastrtps_cpp\n'}
+[22.992203] (interprocess_remote_eval) StdoutLine: {'line': b'[100%] Built target listener_server_interprocess__rmw_connext_cpp\n'}
+[22.997080] (interprocess_eval) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/talker_interprocess_single__rmw_connext_cpp.dir/src/talker_interprocess_single.cpp.o\x1b[0m\n'}
+[23.007764] (-) TimerEvent: {}
+[23.077728] (interprocess_eval) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable listener_interprocess_single__rmw_opensplice_cpp\x1b[0m\n'}
+[23.107910] (-) TimerEvent: {}
+[23.208460] (-) TimerEvent: {}
+[23.234421] (interprocess_remote_eval) StdoutLine: {'line': b'[100%] Built target listener_server_interprocess__rmw_fastrtps_cpp\n'}
+[23.269885] (interprocess_eval) StdoutLine: {'line': b'[ 56%] Built target listener_interprocess_single\n'}
+[23.308606] (-) TimerEvent: {}
+[23.333401] (intraprocess_eval) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable chat_intraprocess__rmw_connext_cpp\x1b[0m\n'}
+[23.337947] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_interprocess_single__rmw_connext_cpp\x1b[0m\n'}
+[23.365371] (interprocess_eval) StdoutLine: {'line': b'[ 56%] Built target talker_interprocess\n'}
+[23.408739] (-) TimerEvent: {}
+[23.423896] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp\x1b[0m\n'}
+[23.445986] (interprocess_eval) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/listener_interprocess_single__rmw_connext_cpp.dir/src/listener_interprocess_single.cpp.o\x1b[0m\n'}
+[23.503926] (interprocess_remote_eval) StdoutLine: {'line': b'[100%] Built target listener_server_interprocess\n'}
+[23.506290] (interprocess_eval) StdoutLine: {'line': b'[ 59%] Built target talker_interprocess__rmw_fastrtps_cpp\n'}
+[23.508843] (-) TimerEvent: {}
+[23.567489] (interprocess_remote_eval) CommandEnded: {'returncode': 0}
+[23.573349] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_interprocess_single__rmw_fastrtps_cpp\x1b[0m\n'}
+[23.590672] (intraprocess_eval) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable chat_intraprocess__rmw_fastrtps_cpp\x1b[0m\n'}
+[23.592126] (interprocess_eval) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o\x1b[0m\n'}
+[23.608979] (-) TimerEvent: {}
+[23.666322] (interprocess_eval) StdoutLine: {'line': b'[ 62%] Built target listener_interprocess__rmw_connext_cpp\n'}
+[23.698428] (interprocess_eval) StdoutLine: {'line': b'[ 62%] Built target listener_interprocess_single__rmw_opensplice_cpp\n'}
+[23.709095] (-) TimerEvent: {}
+[23.809066] (interprocess_eval) StdoutLine: {'line': b'[ 62%] Built target listener_interprocess\n'}
+[23.809398] (-) TimerEvent: {}
+[23.817481] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_interprocess__rmw_opensplice_cpp\x1b[0m\n'}
+[23.818458] (interprocess_eval) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/talker_interprocess_single__rmw_fastrtps_cpp.dir/src/talker_interprocess_single.cpp.o\x1b[0m\n'}
+[23.833550] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_interprocess_single__rmw_fastrtps_cpp\x1b[0m\n'}
+[23.909559] (-) TimerEvent: {}
+[23.921026] (interprocess_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_interprocess_single__rmw_opensplice_cpp\x1b[0m\n'}
+[23.971759] (interprocess_eval) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o\x1b[0m\n'}
+[23.983552] (intraprocess_eval) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable chat_intraprocess__rmw_opensplice_cpp\x1b[0m\n'}
+[24.009676] (-) TimerEvent: {}
+[24.015043] (intraprocess_eval) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable chat_intraprocess\x1b[0m\n'}
+[24.019599] (interprocess_eval) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/listener_interprocess_single__rmw_fastrtps_cpp.dir/src/listener_interprocess_single.cpp.o\x1b[0m\n'}
+[24.109810] (-) TimerEvent: {}
+[24.154309] (interprocess_eval) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker_interprocess_single__rmw_opensplice_cpp.dir/src/talker_interprocess_single.cpp.o\x1b[0m\n'}
+[24.191264] (interprocess_remote_eval) JobProgress: {'identifier': 'interprocess_remote_eval', 'progress': 'install'}
+[24.195394] (interprocess_remote_eval) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[24.209993] (-) TimerEvent: {}
+[24.311124] (-) TimerEvent: {}
+[24.334392] (intraprocess_eval) StdoutLine: {'line': b'[100%] Built target chat_intraprocess__rmw_connext_cpp\n'}
+[24.411250] (-) TimerEvent: {}
+[24.511765] (-) TimerEvent: {}
+[24.585250] (intraprocess_eval) StdoutLine: {'line': b'[100%] Built target chat_intraprocess__rmw_fastrtps_cpp\n'}
+[24.611888] (-) TimerEvent: {}
+[24.712386] (-) TimerEvent: {}
+[24.744819] (interprocess_remote_eval) StdoutLine: {'line': b'[ 12%] Built target talker_client_interprocess__rmw_opensplice_cpp\n'}
+[24.771352] (interprocess_remote_eval) StdoutLine: {'line': b'[ 25%] Built target listener_server_interprocess\n'}
+[24.776918] (interprocess_remote_eval) StdoutLine: {'line': b'[ 37%] Built target talker_client_interprocess\n'}
+[24.779694] (interprocess_remote_eval) StdoutLine: {'line': b'[ 50%] Built target listener_server_interprocess__rmw_fastrtps_cpp\n'}
+[24.789092] (interprocess_remote_eval) StdoutLine: {'line': b'[ 62%] Built target talker_client_interprocess__rmw_connext_cpp\n'}
+[24.790638] (interprocess_remote_eval) StdoutLine: {'line': b'[ 75%] Built target listener_server_interprocess__rmw_connext_cpp\n'}
+[24.811845] (interprocess_remote_eval) StdoutLine: {'line': b'[ 87%] Built target listener_server_interprocess__rmw_opensplice_cpp\n'}
+[24.812474] (-) TimerEvent: {}
+[24.898915] (intraprocess_eval) StdoutLine: {'line': b'[100%] Built target chat_intraprocess__rmw_opensplice_cpp\n'}
+[24.912628] (-) TimerEvent: {}
+[24.927274] (interprocess_remote_eval) StdoutLine: {'line': b'[100%] Built target talker_client_interprocess__rmw_fastrtps_cpp\n'}
+[25.012751] (-) TimerEvent: {}
+[25.043108] (interprocess_remote_eval) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[25.107251] (interprocess_remote_eval) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.108499] (interprocess_remote_eval) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.109882] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/interprocess_remote_eval/talker_client_interprocess\n'}
+[25.112878] (-) TimerEvent: {}
+[25.124536] (intraprocess_eval) StdoutLine: {'line': b'[100%] Built target chat_intraprocess\n'}
+[25.200662] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/interprocess_remote_eval/listener_server_interprocess\n'}
+[25.209249] (intraprocess_eval) CommandEnded: {'returncode': 0}
+[25.213015] (-) TimerEvent: {}
+[25.270968] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/interprocess_remote_eval/talker_client_interprocess__rmw_connext_cpp\n'}
+[25.313151] (-) TimerEvent: {}
+[25.330898] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/interprocess_remote_eval/listener_server_interprocess__rmw_connext_cpp\n'}
+[25.399940] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/interprocess_remote_eval/talker_client_interprocess__rmw_fastrtps_cpp\n'}
+[25.413264] (-) TimerEvent: {}
+[25.469717] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/interprocess_remote_eval/listener_server_interprocess__rmw_fastrtps_cpp\n'}
+[25.513391] (-) TimerEvent: {}
+[25.551247] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/interprocess_remote_eval/talker_client_interprocess__rmw_opensplice_cpp\n'}
+[25.613524] (-) TimerEvent: {}
+[25.615623] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/interprocess_remote_eval/listener_server_interprocess__rmw_opensplice_cpp\n'}
+[25.678137] (intraprocess_eval) JobProgress: {'identifier': 'intraprocess_eval', 'progress': 'install'}
+[25.678680] (intraprocess_eval) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[25.685311] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/ament_index/resource_index/package_run_dependencies/interprocess_remote_eval\n'}
+[25.713668] (-) TimerEvent: {}
+[25.755690] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/ament_index/resource_index/parent_prefix_path/interprocess_remote_eval\n'}
+[25.813795] (-) TimerEvent: {}
+[25.824896] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/environment/ament_prefix_path.sh\n'}
+[25.880050] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/environment/path.sh\n'}
+[25.913928] (-) TimerEvent: {}
+[25.970435] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/local_setup.bash\n'}
+[26.014062] (-) TimerEvent: {}
+[26.035879] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/local_setup.sh\n'}
+[26.101950] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/local_setup.zsh\n'}
+[26.114192] (-) TimerEvent: {}
+[26.180172] (intraprocess_eval) StdoutLine: {'line': b'[ 25%] Built target chat_intraprocess__rmw_opensplice_cpp\n'}
+[26.193681] (intraprocess_eval) StdoutLine: {'line': b'[ 50%] Built target chat_intraprocess__rmw_fastrtps_cpp\n'}
+[26.204118] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/ament_index/resource_index/packages/interprocess_remote_eval\n'}
+[26.206860] (intraprocess_eval) StdoutLine: {'line': b'[ 75%] Built target chat_intraprocess\n'}
+[26.210667] (intraprocess_eval) StdoutLine: {'line': b'[100%] Built target chat_intraprocess__rmw_connext_cpp\n'}
+[26.214328] (-) TimerEvent: {}
+[26.256952] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/cmake/interprocess_remote_evalConfig.cmake\n'}
+[26.282329] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/cmake/interprocess_remote_evalConfig-version.cmake\n'}
+[26.310783] (interprocess_remote_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/package.xml\n'}
+[26.314448] (-) TimerEvent: {}
+[26.361300] (intraprocess_eval) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[26.374942] (interprocess_remote_eval) CommandEnded: {'returncode': 0}
+[26.414706] (-) TimerEvent: {}
+[26.454887] (intraprocess_eval) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.462467] (intraprocess_eval) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.463800] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/lib/intraprocess_eval/chat_intraprocess\n'}
+[26.514769] (-) TimerEvent: {}
+[26.523193] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/lib/intraprocess_eval/chat_intraprocess__rmw_connext_cpp\n'}
+[26.597088] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/lib/intraprocess_eval/chat_intraprocess__rmw_fastrtps_cpp\n'}
+[26.614879] (-) TimerEvent: {}
+[26.648268] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/lib/intraprocess_eval/chat_intraprocess__rmw_opensplice_cpp\n'}
+[26.706420] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/ament_index/resource_index/package_run_dependencies/intraprocess_eval\n'}
+[26.715001] (-) TimerEvent: {}
+[26.765063] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/ament_index/resource_index/parent_prefix_path/intraprocess_eval\n'}
+[26.815125] (-) TimerEvent: {}
+[26.822626] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/environment/ament_prefix_path.sh\n'}
+[26.849984] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/environment/path.sh\n'}
+[26.880505] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/local_setup.bash\n'}
+[26.915257] (-) TimerEvent: {}
+[26.976233] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/local_setup.sh\n'}
+[27.015604] (-) TimerEvent: {}
+[27.037690] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/local_setup.zsh\n'}
+[27.043546] (interprocess_remote_eval) JobEnded: {'identifier': 'interprocess_remote_eval', 'rc': 0}
+[27.071377] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/ament_index/resource_index/packages/intraprocess_eval\n'}
+[27.115736] (-) TimerEvent: {}
+[27.131878] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/cmake/intraprocess_evalConfig.cmake\n'}
+[27.215864] (-) TimerEvent: {}
+[27.222603] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/cmake/intraprocess_evalConfig-version.cmake\n'}
+[27.290068] (intraprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/package.xml\n'}
+[27.315986] (-) TimerEvent: {}
+[27.366164] (intraprocess_eval) CommandEnded: {'returncode': 0}
+[27.417060] (-) TimerEvent: {}
+[27.517870] (-) TimerEvent: {}
+[27.618352] (-) TimerEvent: {}
+[27.718834] (-) TimerEvent: {}
+[27.819274] (-) TimerEvent: {}
+[27.868895] (intraprocess_eval) JobEnded: {'identifier': 'intraprocess_eval', 'rc': 0}
+[27.919402] (-) TimerEvent: {}
+[28.019827] (-) TimerEvent: {}
+[28.120261] (-) TimerEvent: {}
+[28.220730] (-) TimerEvent: {}
+[28.321190] (-) TimerEvent: {}
+[28.421650] (-) TimerEvent: {}
+[28.522096] (-) TimerEvent: {}
+[28.622566] (-) TimerEvent: {}
+[28.723042] (-) TimerEvent: {}
+[28.823491] (-) TimerEvent: {}
+[28.923934] (-) TimerEvent: {}
+[28.967925] (interprocess_eval) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable talker_interprocess_single__rmw_connext_cpp\x1b[0m\n'}
+[29.024060] (-) TimerEvent: {}
+[29.124499] (-) TimerEvent: {}
+[29.185774] (interprocess_eval) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable talker_interprocess_single__rmw_fastrtps_cpp\x1b[0m\n'}
+[29.224621] (-) TimerEvent: {}
+[29.315392] (interprocess_eval) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable listener_interprocess__rmw_fastrtps_cpp\x1b[0m\n'}
+[29.324751] (-) TimerEvent: {}
+[29.425237] (-) TimerEvent: {}
+[29.426537] (interprocess_eval) StdoutLine: {'line': b'[ 84%] Built target talker_interprocess_single__rmw_connext_cpp\n'}
+[29.525374] (-) TimerEvent: {}
+[29.625867] (-) TimerEvent: {}
+[29.704185] (interprocess_eval) StdoutLine: {'line': b'[ 84%] Built target talker_interprocess_single__rmw_fastrtps_cpp\n'}
+[29.725982] (-) TimerEvent: {}
+[29.736926] (interprocess_eval) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable listener_interprocess__rmw_opensplice_cpp\x1b[0m\n'}
+[29.778488] (interprocess_eval) StdoutLine: {'line': b'[ 87%] Built target listener_interprocess__rmw_fastrtps_cpp\n'}
+[29.826243] (-) TimerEvent: {}
+[29.926715] (-) TimerEvent: {}
+[29.969184] (interprocess_eval) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable listener_interprocess_single__rmw_connext_cpp\x1b[0m\n'}
+[30.026862] (-) TimerEvent: {}
+[30.062180] (interprocess_eval) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable talker_interprocess__rmw_opensplice_cpp\x1b[0m\n'}
+[30.083964] (interprocess_eval) StdoutLine: {'line': b'[ 93%] Built target listener_interprocess__rmw_opensplice_cpp\n'}
+[30.089187] (interprocess_eval) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable talker_interprocess_single__rmw_opensplice_cpp\x1b[0m\n'}
+[30.126974] (-) TimerEvent: {}
+[30.166608] (interprocess_eval) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener_interprocess_single__rmw_fastrtps_cpp\x1b[0m\n'}
+[30.227112] (-) TimerEvent: {}
+[30.248088] (interprocess_eval) StdoutLine: {'line': b'[100%] Built target listener_interprocess_single__rmw_connext_cpp\n'}
+[30.327231] (-) TimerEvent: {}
+[30.332723] (interprocess_eval) StdoutLine: {'line': b'[100%] Built target talker_interprocess__rmw_opensplice_cpp\n'}
+[30.359901] (interprocess_eval) StdoutLine: {'line': b'[100%] Built target talker_interprocess_single__rmw_opensplice_cpp\n'}
+[30.427369] (-) TimerEvent: {}
+[30.435094] (interprocess_eval) StdoutLine: {'line': b'[100%] Built target listener_interprocess_single__rmw_fastrtps_cpp\n'}
+[30.454283] (interprocess_eval) CommandEnded: {'returncode': 0}
+[30.524529] (interprocess_eval) JobProgress: {'identifier': 'interprocess_eval', 'progress': 'install'}
+[30.527323] (interprocess_eval) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'nl_NL.UTF-8'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('CHOOSE_ROS_DISTRO', 'dashing'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/raoul'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/raoul/ros2_install'), ('COLCON_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('_VIRTUALENVWRAPPER_API', ' mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60683424_1c59_462c_81a8_437ee3c9a499'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.43'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing'), ('SUDO_COMMAND', '/usr/bin/nautilus'), ('LC_NAME', 'nl_NL.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'raoul'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval:/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval:/home/raoul/Documents/QEES/lab1.2/install/artificial_load:/opt/ros/dashing')]), 'shell': False}
+[30.528888] (-) TimerEvent: {}
+[30.629302] (-) TimerEvent: {}
+[30.649733] (interprocess_eval) StdoutLine: {'line': b'[ 12%] Built target listener_interprocess\n'}
+[30.650123] (interprocess_eval) StdoutLine: {'line': b'[ 12%] Built target listener_interprocess_single__rmw_opensplice_cpp\n'}
+[30.652721] (interprocess_eval) StdoutLine: {'line': b'[ 21%] Built target talker_interprocess_single\n'}
+[30.653241] (interprocess_eval) StdoutLine: {'line': b'[ 25%] Built target talker_interprocess__rmw_fastrtps_cpp\n'}
+[30.653634] (interprocess_eval) StdoutLine: {'line': b'[ 31%] Built target talker_interprocess__rmw_connext_cpp\n'}
+[30.654194] (interprocess_eval) StdoutLine: {'line': b'[ 37%] Built target talker_interprocess\n'}
+[30.656944] (interprocess_eval) StdoutLine: {'line': b'[ 43%] Built target listener_interprocess_single\n'}
+[30.715324] (interprocess_eval) StdoutLine: {'line': b'[ 50%] Built target listener_interprocess_single__rmw_connext_cpp\n'}
+[30.721181] (interprocess_eval) StdoutLine: {'line': b'[ 56%] Built target listener_interprocess__rmw_opensplice_cpp\n'}
+[30.721781] (interprocess_eval) StdoutLine: {'line': b'[ 68%] Built target listener_interprocess__rmw_connext_cpp\n'}
+[30.722111] (interprocess_eval) StdoutLine: {'line': b'[ 68%] Built target talker_interprocess_single__rmw_connext_cpp\n'}
+[30.722565] (interprocess_eval) StdoutLine: {'line': b'[ 75%] Built target listener_interprocess__rmw_fastrtps_cpp\n'}
+[30.723431] (interprocess_eval) StdoutLine: {'line': b'[ 81%] Built target talker_interprocess_single__rmw_fastrtps_cpp\n'}
+[30.726162] (interprocess_eval) StdoutLine: {'line': b'[ 87%] Built target listener_interprocess_single__rmw_fastrtps_cpp\n'}
+[30.729393] (-) TimerEvent: {}
+[30.761422] (interprocess_eval) StdoutLine: {'line': b'[ 93%] Built target talker_interprocess__rmw_opensplice_cpp\n'}
+[30.768635] (interprocess_eval) StdoutLine: {'line': b'[100%] Built target talker_interprocess_single__rmw_opensplice_cpp\n'}
+[30.802125] (interprocess_eval) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[30.817921] (interprocess_eval) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.818714] (interprocess_eval) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[30.819583] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/talker_interprocess\n'}
+[30.829517] (-) TimerEvent: {}
+[30.835771] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/listener_interprocess\n'}
+[30.851538] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/talker_interprocess_single\n'}
+[30.867794] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/listener_interprocess_single\n'}
+[30.884560] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/talker_interprocess__rmw_connext_cpp\n'}
+[30.904108] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/listener_interprocess__rmw_connext_cpp\n'}
+[30.920546] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/talker_interprocess_single__rmw_connext_cpp\n'}
+[30.929609] (-) TimerEvent: {}
+[30.937854] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/listener_interprocess_single__rmw_connext_cpp\n'}
+[30.958364] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/talker_interprocess__rmw_fastrtps_cpp\n'}
+[30.977300] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/listener_interprocess__rmw_fastrtps_cpp\n'}
+[30.999394] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/talker_interprocess_single__rmw_fastrtps_cpp\n'}
+[31.018644] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/listener_interprocess_single__rmw_fastrtps_cpp\n'}
+[31.029777] (-) TimerEvent: {}
+[31.041333] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/talker_interprocess__rmw_opensplice_cpp\n'}
+[31.058271] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/listener_interprocess__rmw_opensplice_cpp\n'}
+[31.077685] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/talker_interprocess_single__rmw_opensplice_cpp\n'}
+[31.102118] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/interprocess_eval/listener_interprocess_single__rmw_opensplice_cpp\n'}
+[31.128364] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/ament_index/resource_index/package_run_dependencies/interprocess_eval\n'}
+[31.129910] (-) TimerEvent: {}
+[31.151025] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/ament_index/resource_index/parent_prefix_path/interprocess_eval\n'}
+[31.171195] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/environment/ament_prefix_path.sh\n'}
+[31.196505] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/environment/path.sh\n'}
+[31.222716] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/local_setup.bash\n'}
+[31.230038] (-) TimerEvent: {}
+[31.249493] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/local_setup.sh\n'}
+[31.272676] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/local_setup.zsh\n'}
+[31.297542] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/ament_index/resource_index/packages/interprocess_eval\n'}
+[31.318536] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/cmake/interprocess_evalConfig.cmake\n'}
+[31.330147] (-) TimerEvent: {}
+[31.336350] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/cmake/interprocess_evalConfig-version.cmake\n'}
+[31.360373] (interprocess_eval) StdoutLine: {'line': b'-- Symlinking: /home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/package.xml\n'}
+[31.382083] (interprocess_eval) CommandEnded: {'returncode': 0}
+[31.430434] (-) TimerEvent: {}
+[31.531644] (-) TimerEvent: {}
+[31.606745] (interprocess_eval) JobEnded: {'identifier': 'interprocess_eval', 'rc': 0}
+[31.610701] (-) EventReactorShutdown: {}

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raoul/Documents/QEES/lab1/src/artificial_load
+CMAKE_SOURCE_DIR = /home/raoul/Documents/QEES/lab1.2/src/artificial_load
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raoul/Documents/QEES/lab1/build/artificial_load
+CMAKE_BINARY_DIR = /home/raoul/Documents/QEES/lab1.2/build/artificial_load
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles /home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1.2/build/artificial_load/CMakeFiles /home/raoul/Documents/QEES/lab1.2/build/artificial_load/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1.2/build/artificial_load/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

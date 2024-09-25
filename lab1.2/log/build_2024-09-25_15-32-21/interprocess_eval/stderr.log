@@ -1,0 +1,54 @@
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:210:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstart_time[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+             auto [01;35m[Kstart_time[m[K = std::chrono::steady_clock::now(); // Start timing
+                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_time_file[m[K’ was not declared in this scope
+     [01;31m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_time[m[K’
+     [01;36m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+     [01;36m[K^~~~~~~~~~~~~[m[K
+     [32m[Kack_time[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:210:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstart_time[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+             auto [01;35m[Kstart_time[m[K = std::chrono::steady_clock::now(); // Start timing
+                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_time_file[m[K’ was not declared in this scope
+     [01;31m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_time[m[K’
+     [01;36m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+     [01;36m[K^~~~~~~~~~~~~[m[K
+     [32m[Kack_time[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:210:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstart_time[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+             auto [01;35m[Kstart_time[m[K = std::chrono::steady_clock::now(); // Start timing
+                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_time_file[m[K’ was not declared in this scope
+     [01;31m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_time[m[K’
+     [01;36m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+     [01;36m[K^~~~~~~~~~~~~[m[K
+     [32m[Kack_time[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:210:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstart_time[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+             auto [01;35m[Kstart_time[m[K = std::chrono::steady_clock::now(); // Start timing
+                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_time_file[m[K’ was not declared in this scope
+     [01;31m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:254:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_time[m[K’
+     [01;36m[Kack_time_file[m[K.close(); // Close the acknowledgment time file
+     [01;36m[K^~~~~~~~~~~~~[m[K
+     [32m[Kack_time[m[K
+make[2]: *** [CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make: *** [all] Error 2

@@ -12,7 +12,8 @@
 #include <string>
 
 #define EVAL_NUM 120
-#define QoS_Policy 3 // 1 means "reliable", 2 means "best effort", 3 means "history"
+#define QoS_Policy 1 // 1 means "reliable", 2 means "best effort", 3 means "history"
+#define RUN_REAL_TIME
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wmissing-field-initializers"
@@ -51,7 +52,18 @@ int eval_loop_count = 0;
 
 std::string output_filename = "./evaluation/subscribe_time/subscribe_time_256byte.txt";
 
+// Declare publisher for acknowledgment
+rclcpp::Publisher<std_msgs::msg::String>::SharedPtr ack_pub;
+
 void chatterCallback(const std_msgs::msg::String::SharedPtr msg){
+
+	// Create the acknowledgment message
+	auto ack_msg = std::make_shared<std_msgs::msg::String>();
+	ack_msg->data = "OK"; // The acknowledgment message
+
+	// Publish the acknowledgment message
+	ack_pub->publish(*ack_msg);
+	printf("ack sent!");
 
   if (clock_gettime(CLOCK_REALTIME,&tp1) < 0) {
 	 perror("clock_gettime begin");
@@ -90,7 +102,6 @@ void chatterCallback(const std_msgs::msg::String::SharedPtr msg){
 	// char* p = (char *) msg->data.c_str();
 	// p++;
 	// printf("I heard: [%c%c]\n",* ( msg->data.c_str()), *p);
-
 	count++;
   } 
   else if (count == EVAL_NUM - 1) { 
@@ -197,7 +208,8 @@ int main(int argc, char * argv[])
   }
   
   auto sub = node->create_subscription<std_msgs::msg::String>("chatter", chatterCallback, custom_qos_profile);
- 
+  ack_pub = node->create_publisher<std_msgs::msg::String>("acknowledgment", custom_qos_profile);
+
   printf("start evaluation\n");
 
   #pragma GCC diagnostic pop

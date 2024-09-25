@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/raoul/Documents/QEES/lab1/install/artificial_load/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/raoul/Documents/QEES/lab1.2/install/artificial_load/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/raoul/Documents/QEES/lab1/install/artificial_load/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/raoul/Documents/QEES/lab1.2/install/artificial_load/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/raoul/Documents/QEES/lab1/install/artificial_load/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/raoul/Documents/QEES/lab1.2/install/artificial_load/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/raoul/Documents/QEES/lab1/install/artificial_load/${destination}")
+      set(destination "/home/raoul/Documents/QEES/lab1.2/install/artificial_load/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,34 +311,34 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "CPU_load" "DESTINATION" "lib/artificial_load")
-include("/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/artificial_load" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/artificial_load" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/artificial_load" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1.2/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/artificial_load" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/artificial_load" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/artificial_load" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/artificial_load" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1.2/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/artificial_load" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/artificial_load/environment")
-ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1/src/artificial_load" FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/artificial_load/environment")
+ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1.2/src/artificial_load" FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/artificial_load/environment")
 
 # install(FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/artificial_load/environment")
-ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1/src/artificial_load" FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/artificial_load/environment")
+ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1.2/src/artificial_load" FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/artificial_load/environment")
 
-# install(FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/artificial_load")
-ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/artificial_load")
+# install(FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/artificial_load")
+ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1.2/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/artificial_load")
 
-# install(FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/artificial_load")
-ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/artificial_load")
+# install(FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/artificial_load")
+ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1.2/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/artificial_load")
 
-# install(FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/artificial_load")
-ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/artificial_load")
+# install(FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/artificial_load")
+ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1.2/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/artificial_load")
 
-# install(FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/packages/artificial_load" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/packages/artificial_load" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/packages/artificial_load" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1.2/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_index/share/ament_index/resource_index/packages/artificial_load" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_core/artificial_loadConfig.cmake" "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_core/artificial_loadConfig-version.cmake" "DESTINATION" "share/artificial_load/cmake")
-ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_core/artificial_loadConfig.cmake" "/home/raoul/Documents/QEES/lab1/build/artificial_load/ament_cmake_core/artificial_loadConfig-version.cmake" "DESTINATION" "share/artificial_load/cmake")
+# install(FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_core/artificial_loadConfig.cmake" "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_core/artificial_loadConfig-version.cmake" "DESTINATION" "share/artificial_load/cmake")
+ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1.2/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_core/artificial_loadConfig.cmake" "/home/raoul/Documents/QEES/lab1.2/build/artificial_load/ament_cmake_core/artificial_loadConfig-version.cmake" "DESTINATION" "share/artificial_load/cmake")
 
-# install(FILES "/home/raoul/Documents/QEES/lab1/src/artificial_load/package.xml" "DESTINATION" "share/artificial_load")
-ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1/src/artificial_load/package.xml" "DESTINATION" "share/artificial_load")
+# install(FILES "/home/raoul/Documents/QEES/lab1.2/src/artificial_load/package.xml" "DESTINATION" "share/artificial_load")
+ament_cmake_symlink_install_files("/home/raoul/Documents/QEES/lab1.2/src/artificial_load" FILES "/home/raoul/Documents/QEES/lab1.2/src/artificial_load/package.xml" "DESTINATION" "share/artificial_load")

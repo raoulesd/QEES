@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raoul/Documents/QEES/lab1/src/artificial_load
+CMAKE_SOURCE_DIR = /home/raoul/Documents/QEES/lab1.2/src/artificial_load
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raoul/Documents/QEES/lab1/build/artificial_load
+CMAKE_BINARY_DIR = /home/raoul/Documents/QEES/lab1.2/build/artificial_load
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir
@@ -66,14 +66,14 @@ CMAKE_BINARY_DIR = /home/raoul/Documents/QEES/lab1/build/artificial_load
 CMakeFiles/uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/raoul/Documents/QEES/lab1.2/build/artificial_load/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1.2/build/artificial_load/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1.2/build/artificial_load/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -98,7 +98,7 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/CPU_load.dir/all:
 	$(MAKE) -f CMakeFiles/CPU_load.dir/build.make CMakeFiles/CPU_load.dir/depend
 	$(MAKE) -f CMakeFiles/CPU_load.dir/build.make CMakeFiles/CPU_load.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles --progress-num=1,2 "Built target CPU_load"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/raoul/Documents/QEES/lab1.2/build/artificial_load/CMakeFiles --progress-num=1,2 "Built target CPU_load"
 .PHONY : CMakeFiles/CPU_load.dir/all
 
 # Include target in all.
@@ -108,9 +108,9 @@ all: CMakeFiles/CPU_load.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CPU_load.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1.2/build/artificial_load/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CPU_load.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1/build/artificial_load/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raoul/Documents/QEES/lab1.2/build/artificial_load/CMakeFiles 0
 .PHONY : CMakeFiles/CPU_load.dir/rule
 
 # Convenience name for target.
