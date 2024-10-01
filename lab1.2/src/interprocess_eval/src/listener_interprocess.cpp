@@ -165,7 +165,7 @@ int main(int argc, char *argv[]) {
   mlockall(MCL_FUTURE);  // lock all cached memory into RAM and prevent future
                          // dynamic memory allocations
 
-  usleep(1000);
+//  usleep(1000);
 
 #ifdef RUN_REAL_TIME
   sched_param pri = {94};

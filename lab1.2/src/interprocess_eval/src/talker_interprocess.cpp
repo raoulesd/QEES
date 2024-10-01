@@ -34,8 +34,7 @@ static const rmw_qos_profile_t rmw_qos_profile_history = {RMW_QOS_POLICY_HISTORY
                                                           RMW_QOS_POLICY_RELIABILITY_RELIABLE,
                                                           RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL};
 
-struct timespec tp1;  // timespec for publish_time
-struct timespec tp2;  // timespec for ack_time
+struct timespec tp1;  // timespec for publish_time and ack_time
 int i, count = -1;    // count is current evaluation number (< EVAL_NUM)
 double publish_time[EVAL_NUM];
 double ack_time[EVAL_NUM];
@@ -109,20 +108,19 @@ int eval_ros2(std::string message_filename, std::string output_filename,
       printf("error : can't output publish_time.txt");
     }
 
-    //	std::string out_f = "./evaluation/ack_time/ack_time_" + output_filename.substr(output_filename.find_last_of('_')
-    //+ 1);;
-    //    if ((fp = fopen(out_f.c_str(), "w")) != NULL) {
-    //		for (i=0; i < EVAL_NUM; i++) {
-    //			if (fprintf(fp, "%18.9lf\n", ack_time[i]) < 0) {
-    //		    	// Write error
-    //		    	printf("error : can't output ack_time.txt");
-    //		    	break;
-    //			}
-    //		}
-    //		fclose(fp);
-    //	} else {
-    //	  	printf("error : can't output ack_time.txt");
-    //    }
+    std::string out_f = "./evaluation/ack_time/ack_time_" + output_filename.substr(output_filename.find_last_of('_') + 1);;
+      if ((fp = fopen(out_f.c_str(), "w")) != NULL) {
+    	for (i=0; i < EVAL_NUM; i++) {
+    		if (fprintf(fp, "%18.9lf\n", ack_time[i]) < 0) {
+    		    // Write error
+    		    printf("error : can't output ack_time.txt");
+    		    break;
+    		}
+    	}
+    	fclose(fp);
+    } else {
+    	  printf("error : can't output ack_time.txt");
+      }
     count = -2;  // initilize for next date size
   }
 
@@ -133,7 +131,7 @@ int eval_ros2(std::string message_filename, std::string output_filename,
 int main(int argc, char *argv[]) {
   mlockall(MCL_FUTURE);  // lock all cached memory into RAM and prevent future dynamic memory allocations
 
-  usleep(1000);
+//  usleep(1000);
 
 #ifdef RUN_REAL_TIME
   sched_param pri = {94};
@@ -170,6 +168,13 @@ int main(int argc, char *argv[]) {
       [](const std_msgs::msg::String::SharedPtr msg) {
 //        printf("%d\n", msg->data == "OK");
         if (msg->data == "OK") {
+
+          // Record time
+          if (clock_gettime(CLOCK_REALTIME, &tp1) < 0) {
+              perror("clock_gettime begin");
+          }
+          ack_time[count-1] =  (double)tp1.tv_sec + (double)tp1.tv_nsec / (double)1000000000;
+
 //          printf("ack recieved!");
           ack_received = true;  // Set the flag to true when acknowledgment is received
 //          RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Acknowledgment received.");
@@ -178,8 +183,6 @@ int main(int argc, char *argv[]) {
       custom_qos_profile);
 
 //  printf("subbed to ack!\n");
-
-
 
   // File names for each evaluation size
   std::vector<std::string> data_files = {
@@ -197,47 +200,23 @@ int main(int argc, char *argv[]) {
     printf("start evaluation %s \n", data_file.c_str());
     std::string data_size = data_file.substr(data_file.find_last_of('_') + 1);
     while (rclcpp::ok()) {
+      // Reset ack flag
       ack_received = false;
 
       eval_ros2(data_file, "./evaluation/publish_time/publish_time_" + data_size, chatter_pub);
-
-      // Reset acknowledgment flag and start timing
-
-//      int dc = 0;
-      // Wait for acknowledgment
-      while (!ack_received and (count > 0 or count == -1)) {
-        rclcpp::spin_some(node);  // Process incoming messages
-//        if(dc % 4 == 0) {
-//          printf("waiting.");
-//          dc++;
-//        } else if (dc % 4 == 1) {
-//          printf(".");
-//          dc++;
-//        } else if (dc % 4 == 2){
-//          printf(".");
-//          dc++;
-//        } else {
-//          printf("\b\b\b\b\b\b\b\b\b\b");
-//          dc = 0;
-//        }
-        fflush(stdout);
-        loop_rate.sleep();  // Maintain the loop rate
-      }
-//      printf("\n");
 
       if (count == -1) {
         printf("end this data size evaluation \n");
         break;
       }
 
-      // Time recording
-      if (clock_gettime(CLOCK_REALTIME, &tp2) < 0) {
-        perror("clock_gettime begin");
-        return 0;
+      // Wait for acknowledgment
+      while (!ack_received and (count > 0 or count == -1)) {
+        rclcpp::spin_some(node);  // Process incoming messages
       }
-      ack_time[count] = (double)tp2.tv_sec + (double)tp2.tv_nsec / (double)1000000000L;
+      loop_rate.sleep();  // Maintain the loop rate
     }
-    usleep(5000000);  // Pause between evaluations
+    usleep(2000000);  // Pause between evaluations
   }
 
   // Follow-through transactions for end messages
@@ -252,7 +231,7 @@ int main(int argc, char *argv[]) {
       printf("---end evaluation---\n");
       break;
     }
-    rclcpp::spin(node);
+    rclcpp::spin_some(node);
     loop_rate.sleep();
   }
 
