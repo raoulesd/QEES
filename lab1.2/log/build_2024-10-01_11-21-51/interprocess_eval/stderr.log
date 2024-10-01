@@ -1,0 +1,28 @@
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K

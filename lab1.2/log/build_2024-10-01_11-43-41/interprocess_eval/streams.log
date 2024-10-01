@@ -1,0 +1,84 @@
+[0.053s] Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8
+[0.147s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.148s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.150s] [35m[1mScanning dependencies of target talker_interprocess[0m
+[0.161s] [35m[1mScanning dependencies of target talker_interprocess__rmw_fastrtps_cpp[0m
+[0.172s] [35m[1mScanning dependencies of target talker_interprocess__rmw_connext_cpp[0m
+[0.259s] [  6%] Built target talker_interprocess_single
+[0.271s] [  9%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.279s] [ 15%] Built target listener_interprocess_single
+[0.285s] [ 18%] [32mBuilding CXX object CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o[0m
+[0.286s] [ 21%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.289s] [ 25%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.303s] [ 31%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.333s] [ 34%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.380s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.393s] [ 40%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.429s] [ 46%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.439s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.490s] [ 50%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.527s] [ 53%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.546s] [ 59%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.746s] [ 65%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.859s] [35m[1mScanning dependencies of target talker_interprocess__rmw_opensplice_cpp[0m
+[1.038s] [ 68%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o[0m
+[2.782s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.783s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:55:16:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[2.785s]    rclcpp::spin([01;31m[Knode[m[K);
+[2.785s]                 [01;31m[K^~~~[m[K
+[2.787s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:55:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knice[m[K’
+[2.787s]    rclcpp::spin([01;36m[Knode[m[K);
+[2.788s]                 [01;36m[K^~~~[m[K
+[2.788s]                 [32m[Knice[m[K
+[2.936s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.937s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:55:16:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[2.937s]    rclcpp::spin([01;31m[Knode[m[K);
+[2.937s]                 [01;31m[K^~~~[m[K
+[2.938s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:55:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knice[m[K’
+[2.938s]    rclcpp::spin([01;36m[Knode[m[K);
+[2.938s]                 [01;36m[K^~~~[m[K
+[2.938s]                 [32m[Knice[m[K
+[3.054s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.054s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:55:16:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[3.054s]    rclcpp::spin([01;31m[Knode[m[K);
+[3.055s]                 [01;31m[K^~~~[m[K
+[3.055s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:55:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knice[m[K’
+[3.055s]    rclcpp::spin([01;36m[Knode[m[K);
+[3.055s]                 [01;36m[K^~~~[m[K
+[3.056s]                 [32m[Knice[m[K
+[3.600s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.600s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:55:16:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[3.601s]    rclcpp::spin([01;31m[Knode[m[K);
+[3.601s]                 [01;31m[K^~~~[m[K
+[3.601s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:55:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knice[m[K’
+[3.602s]    rclcpp::spin([01;36m[Knode[m[K);
+[3.602s]                 [01;36m[K^~~~[m[K
+[3.602s]                 [32m[Knice[m[K
+[4.836s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[4.837s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[4.837s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[4.837s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[4.837s] make[1]: *** Waiting for unfinished jobs....
+[4.917s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[4.917s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[4.919s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[4.919s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[5.122s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[5.123s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[5.123s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[5.123s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[5.404s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[5.404s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[5.405s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[5.405s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[6.422s] [ 71%] [32m[1mLinking CXX executable talker_interprocess__rmw_fastrtps_cpp[0m
+[6.433s] [ 75%] [32m[1mLinking CXX executable talker_interprocess[0m
+[6.534s] [ 78%] [32m[1mLinking CXX executable talker_interprocess__rmw_connext_cpp[0m
+[6.767s] [ 78%] Built target talker_interprocess
+[6.839s] [ 78%] Built target talker_interprocess__rmw_fastrtps_cpp
+[6.896s] [ 78%] Built target talker_interprocess__rmw_connext_cpp
+[7.225s] [ 81%] [32m[1mLinking CXX executable talker_interprocess__rmw_opensplice_cpp[0m
+[7.496s] [ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[7.497s] make: *** [all] Error 2
+[7.498s] Makefile:140: recipe for target 'all' failed
+[7.500s] Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8

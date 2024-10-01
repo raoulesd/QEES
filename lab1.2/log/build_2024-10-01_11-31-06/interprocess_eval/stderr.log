@@ -1,0 +1,54 @@
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:183:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+             ack_received* [01;31m[K=[m[K true; // Set the flag to true when acknowledgment is received
+                           [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:183:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+             ack_received* [01;31m[K=[m[K true; // Set the flag to true when acknowledgment is received
+                           [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:183:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+             ack_received* [01;31m[K=[m[K true; // Set the flag to true when acknowledgment is received
+                           [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:183:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+             ack_received* [01;31m[K=[m[K true; // Set the flag to true when acknowledgment is received
+                           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess.dir/all] Error 2
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make: *** [all] Error 2

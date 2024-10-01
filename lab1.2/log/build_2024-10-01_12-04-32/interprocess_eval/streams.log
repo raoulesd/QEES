@@ -1,0 +1,152 @@
+[0.051s] Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8
+[0.146s] [35m[1mScanning dependencies of target talker_interprocess__rmw_connext_cpp[0m
+[0.148s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.150s] [35m[1mScanning dependencies of target talker_interprocess__rmw_fastrtps_cpp[0m
+[0.180s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.184s] [35m[1mScanning dependencies of target talker_interprocess[0m
+[0.241s] [  6%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.281s] [  9%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.283s] [ 12%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.309s] [ 15%] [32mBuilding CXX object CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o[0m
+[0.312s] [ 21%] Built target talker_interprocess_single
+[0.322s] [ 28%] Built target listener_interprocess_single
+[0.324s] [ 31%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.327s] [ 34%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.341s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.449s] [ 40%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.455s] [ 43%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.460s] [ 50%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.531s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.604s] [ 56%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.627s] [ 59%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.838s] [ 65%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.956s] [35m[1mScanning dependencies of target talker_interprocess__rmw_opensplice_cpp[0m
+[1.172s] [ 68%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o[0m
+[2.742s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint eval_ros2(std::__cxx11::string, std::__cxx11::string, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[2.742s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:89:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[2.742s]      rclcpp::spin_some([01;31m[Knode[m[K);
+[2.743s]                        [01;31m[K^~~~[m[K
+[2.743s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:89:23:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knice[m[K’
+[2.743s]      rclcpp::spin_some([01;36m[Knode[m[K);
+[2.743s]                        [01;36m[K^~~~[m[K
+[2.744s]                        [32m[Knice[m[K
+[2.763s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.763s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:57:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_pub[m[K’ was not declared in this scope
+[2.764s]    [01;31m[Kack_pub[m[K->publish(ack_msg);
+[2.764s]    [01;31m[K^~~~~~~[m[K
+[2.765s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:57:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_msg[m[K’
+[2.765s]    [01;36m[Kack_pub[m[K->publish(ack_msg);
+[2.766s]    [01;36m[K^~~~~~~[m[K
+[2.766s]    [32m[Kack_msg[m[K
+[2.818s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In lambda function:
+[2.818s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:198:145:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+[2.819s]  t std_msgs::msg::String::SharedPtr msg){chatterCallback(msg, ack_pub[01;31m[K)[m[K;}, custom_qos_profile);
+[2.820s]                                                                      [01;31m[K^[m[K
+[2.820s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:49:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.821s]  void [01;36m[KchatterCallback[m[K(const std_msgs::msg::String::SharedPtr msg) {
+[2.821s]       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.906s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.906s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:57:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_pub[m[K’ was not declared in this scope
+[2.907s]    [01;31m[Kack_pub[m[K->publish(ack_msg);
+[2.907s]    [01;31m[K^~~~~~~[m[K
+[2.908s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:57:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_msg[m[K’
+[2.909s]    [01;36m[Kack_pub[m[K->publish(ack_msg);
+[2.909s]    [01;36m[K^~~~~~~[m[K
+[2.909s]    [32m[Kack_msg[m[K
+[2.914s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint eval_ros2(std::__cxx11::string, std::__cxx11::string, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[2.914s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:89:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[2.914s]      rclcpp::spin_some([01;31m[Knode[m[K);
+[2.915s]                        [01;31m[K^~~~[m[K
+[2.915s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:89:23:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knice[m[K’
+[2.915s]      rclcpp::spin_some([01;36m[Knode[m[K);
+[2.915s]                        [01;36m[K^~~~[m[K
+[2.916s]                        [32m[Knice[m[K
+[2.961s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In lambda function:
+[2.961s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:198:145:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+[2.962s]                                                                [ack_pub](const std_msgs::msg::String::SharedPtr msg){chatterCallback(msg, ack_pub[01;31m[K)[m[K;}, custom_qos_profile);
+[2.962s]                                                                                                                                                  [01;31m[K^[m[K
+[2.962s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:49:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.962s]  void [01;36m[KchatterCallback[m[K(const std_msgs::msg::String::SharedPtr msg) {
+[2.962s]       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.001s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint eval_ros2(std::__cxx11::string, std::__cxx11::string, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[3.002s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:89:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[3.002s]      rclcpp::spin_some([01;31m[Knode[m[K);
+[3.002s]                        [01;31m[K^~~~[m[K
+[3.003s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:89:23:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knice[m[K’
+[3.003s]      rclcpp::spin_some([01;36m[Knode[m[K);
+[3.003s]                        [01;36m[K^~~~[m[K
+[3.003s]                        [32m[Knice[m[K
+[3.165s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.165s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:57:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_pub[m[K’ was not declared in this scope
+[3.165s]    [01;31m[Kack_pub[m[K->publish(ack_msg);
+[3.165s]    [01;31m[K^~~~~~~[m[K
+[3.167s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:57:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_msg[m[K’
+[3.167s]    [01;36m[Kack_pub[m[K->publish(ack_msg);
+[3.168s]    [01;36m[K^~~~~~~[m[K
+[3.168s]    [32m[Kack_msg[m[K
+[3.208s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In lambda function:
+[3.209s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:198:145:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+[3.209s]                                                                [ack_pub](const std_msgs::msg::String::SharedPtr msg){chatterCallback(msg, ack_pub[01;31m[K)[m[K;}, custom_qos_profile);
+[3.209s]                                                                                                                                                  [01;31m[K^[m[K
+[3.209s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:49:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.209s]  void [01;36m[KchatterCallback[m[K(const std_msgs::msg::String::SharedPtr msg) {
+[3.210s]       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.465s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.466s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:57:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_pub[m[K’ was not declared in this scope
+[3.466s]    [01;31m[Kack_pub[m[K->publish(ack_msg);
+[3.466s]    [01;31m[K^~~~~~~[m[K
+[3.467s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:57:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_msg[m[K’
+[3.468s]    [01;36m[Kack_pub[m[K->publish(ack_msg);
+[3.468s]    [01;36m[K^~~~~~~[m[K
+[3.468s]    [32m[Kack_msg[m[K
+[3.505s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In lambda function:
+[3.506s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:198:145:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+[3.506s]                                                                [ack_pub](const std_msgs::msg::String::SharedPtr msg){chatterCallback(msg, ack_pub[01;31m[K)[m[K;}, custom_qos_profile);
+[3.506s]                                                                                                                                                  [01;31m[K^[m[K
+[3.506s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:49:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.507s]  void [01;36m[KchatterCallback[m[K(const std_msgs::msg::String::SharedPtr msg) {
+[3.507s]       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.302s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint eval_ros2(std::__cxx11::string, std::__cxx11::string, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[4.302s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:89:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[4.303s]      rclcpp::spin_some([01;31m[Knode[m[K);
+[4.303s]                        [01;31m[K^~~~[m[K
+[4.305s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:89:23:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knice[m[K’
+[4.305s]      rclcpp::spin_some([01;36m[Knode[m[K);
+[4.305s]                        [01;36m[K^~~~[m[K
+[4.306s]                        [32m[Knice[m[K
+[4.323s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[4.323s] CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o' failed
+[4.323s] CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all' failed
+[4.323s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all] Error 2
+[4.324s] make[1]: *** Waiting for unfinished jobs....
+[4.371s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[4.371s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[4.371s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[4.372s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[4.481s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[4.481s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[4.481s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[4.482s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[4.550s] CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o' failed
+[4.550s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[4.551s] CMakeFiles/Makefile2:252: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[4.551s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[4.577s] CMakeFiles/talker_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o' failed
+[4.577s] make[2]: *** [CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o] Error 1
+[4.577s] CMakeFiles/Makefile2:321: recipe for target 'CMakeFiles/talker_interprocess.dir/all' failed
+[4.577s] make[1]: *** [CMakeFiles/talker_interprocess.dir/all] Error 2
+[4.655s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[4.655s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[4.655s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[4.655s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[4.892s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[4.893s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[4.893s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[4.893s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[5.368s] CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o' failed
+[5.368s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[5.368s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[5.368s] CMakeFiles/Makefile2:617: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all' failed
+[5.369s] Makefile:140: recipe for target 'all' failed
+[5.369s] make: *** [all] Error 2
+[5.371s] Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8

@@ -1,0 +1,83 @@
+[35m[1mScanning dependencies of target talker_interprocess__rmw_connext_cpp[0m
+[35m[1mScanning dependencies of target talker_interprocess__rmw_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target talker_interprocess[0m
+[  6%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[ 12%] Built target listener_interprocess_single
+[ 15%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o[0m
+[ 21%] Built target listener_interprocess__rmw_connext_cpp
+[ 28%] Built target talker_interprocess_single
+[ 31%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o[0m
+[ 37%] Built target listener_interprocess
+[ 40%] [32mBuilding CXX object CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o[0m
+[ 46%] Built target talker_interprocess_single__rmw_connext_cpp
+[ 53%] Built target listener_interprocess__rmw_fastrtps_cpp
+[ 59%] Built target listener_interprocess_single__rmw_connext_cpp
+[ 65%] Built target listener_interprocess__rmw_opensplice_cpp
+[ 71%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[ 78%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target talker_interprocess__rmw_opensplice_cpp[0m
+[ 84%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[ 87%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o[0m
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:183:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+             ack_received* [01;31m[K=[m[K true; // Set the flag to true when acknowledgment is received
+                           [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:183:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+             ack_received* [01;31m[K=[m[K true; // Set the flag to true when acknowledgment is received
+                           [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:183:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+             ack_received* [01;31m[K=[m[K true; // Set the flag to true when acknowledgment is received
+                           [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kack_received[m[K’ with non-automatic storage duration
+     "acknowledgment", [&[01;35m[Kack_received[m[K](const std_msgs::msg::String::SharedPtr msg) {
+                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:53:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool ack_received[m[K’ declared here
+ bool [01;36m[Kack_received[m[K = false;
+      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:183:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+             ack_received* [01;31m[K=[m[K true; // Set the flag to true when acknowledgment is received
+                           [01;31m[K^[m[K
+CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/talker_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o] Error 1
+CMakeFiles/Makefile2:321: recipe for target 'CMakeFiles/talker_interprocess.dir/all' failed
+make[1]: *** [CMakeFiles/talker_interprocess.dir/all] Error 2
+CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+CMakeFiles/Makefile2:252: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all' failed
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o' failed
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+CMakeFiles/Makefile2:617: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all' failed
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed
