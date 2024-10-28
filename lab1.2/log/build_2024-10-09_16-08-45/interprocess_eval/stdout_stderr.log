@@ -1,0 +1,131 @@
+[35m[1mScanning dependencies of target talker_interprocess__rmw_connext_cpp[0m
+[35m[1mScanning dependencies of target talker_interprocess[0m
+[35m[1mScanning dependencies of target talker_interprocess__rmw_fastrtps_cpp[0m
+[  6%] Built target talker_interprocess_single
+[  9%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o[0m
+[ 18%] Built target listener_interprocess__rmw_connext_cpp
+[ 25%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[ 31%] Built target listener_interprocess
+[ 34%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o[0m
+[ 40%] Built target listener_interprocess_single
+[ 46%] Built target listener_interprocess__rmw_opensplice_cpp
+[ 53%] Built target listener_interprocess__rmw_fastrtps_cpp
+[ 59%] Built target talker_interprocess_single__rmw_connext_cpp
+[ 65%] Built target listener_interprocess_single__rmw_connext_cpp
+[35m[1mScanning dependencies of target talker_interprocess__rmw_opensplice_cpp[0m
+[ 71%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[ 78%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[ 81%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o[0m
+[ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:38:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ does not name a type; did you mean ‘[01m[Kack_count[m[K’?
+ int i, count = -1, ack_count = 0; [01;31m[Kack_write_count[m[K = 0;    // count is current evaluation number (< EVAL_NUM. acks happen asyncr., so needs a separate counter.
+                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+                                   [32m[Kack_count[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:38:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ does not name a type; did you mean ‘[01m[Kack_count[m[K’?
+ int i, count = -1, ack_count = 0; [01;31m[Kack_write_count[m[K = 0;    // count is current evaluation number (< EVAL_NUM. acks happen asyncr., so needs a separate counter.
+                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+                                   [32m[Kack_count[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint eval_ros2(std::__cxx11::string, std::__cxx11::string, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:122:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ was not declared in this scope
+     std::string out_f = "./evaluation/ack_time/ack_time_" + data_files[[01;31m[Kack_write_count[m[K].substr(output_filename.find_last_of('_') + 1);;
+                                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:38:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ does not name a type; did you mean ‘[01m[Kack_count[m[K’?
+ int i, count = -1, ack_count = 0; [01;31m[Kack_write_count[m[K = 0;    // count is current evaluation number (< EVAL_NUM. acks happen asyncr., so needs a separate counter.
+                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+                                   [32m[Kack_count[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:122:72:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_count[m[K’
+     std::string out_f = "./evaluation/ack_time/ack_time_" + data_files[[01;36m[Kack_write_count[m[K].substr(output_filename.find_last_of('_') + 1);;
+                                                                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+                                                                        [32m[Kack_count[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint eval_ros2(std::__cxx11::string, std::__cxx11::string, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:122:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ was not declared in this scope
+     std::string out_f = "./evaluation/ack_time/ack_time_" + data_files[[01;31m[Kack_write_count[m[K].substr(output_filename.find_last_of('_') + 1);;
+                                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:195:69:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput_filename[m[K’ was not declared in this scope
+             std::string out_f = "./evaluation/ack_time/ack_time_" + [01;31m[Koutput_filename[m[K.substr(output_filename.find_last_of('_') + 1);;
+                                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:122:72:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_count[m[K’
+     std::string out_f = "./evaluation/ack_time/ack_time_" + data_files[[01;36m[Kack_write_count[m[K].substr(output_filename.find_last_of('_') + 1);;
+                                                                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+                                                                        [32m[Kack_count[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:209:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ was not declared in this scope
+             [01;31m[Kack_write_count[m[K++;
+             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:209:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_count[m[K’
+             [01;36m[Kack_write_count[m[K++;
+             [01;36m[K^~~~~~~~~~~~~~~[m[K
+             [32m[Kack_count[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:195:69:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput_filename[m[K’ was not declared in this scope
+             std::string out_f = "./evaluation/ack_time/ack_time_" + [01;31m[Koutput_filename[m[K.substr(output_filename.find_last_of('_') + 1);;
+                                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint eval_ros2(std::__cxx11::string, std::__cxx11::string, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:122:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ was not declared in this scope
+     std::string out_f = "./evaluation/ack_time/ack_time_" + data_files[[01;31m[Kack_write_count[m[K].substr(output_filename.find_last_of('_') + 1);;
+                                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:209:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ was not declared in this scope
+             [01;31m[Kack_write_count[m[K++;
+             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:122:72:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_count[m[K’
+     std::string out_f = "./evaluation/ack_time/ack_time_" + data_files[[01;36m[Kack_write_count[m[K].substr(output_filename.find_last_of('_') + 1);;
+                                                                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+                                                                        [32m[Kack_count[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:209:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_count[m[K’
+             [01;36m[Kack_write_count[m[K++;
+             [01;36m[K^~~~~~~~~~~~~~~[m[K
+             [32m[Kack_count[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:195:69:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput_filename[m[K’ was not declared in this scope
+             std::string out_f = "./evaluation/ack_time/ack_time_" + [01;31m[Koutput_filename[m[K.substr(output_filename.find_last_of('_') + 1);;
+                                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:209:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ was not declared in this scope
+             [01;31m[Kack_write_count[m[K++;
+             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:209:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_count[m[K’
+             [01;36m[Kack_write_count[m[K++;
+             [01;36m[K^~~~~~~~~~~~~~~[m[K
+             [32m[Kack_count[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:38:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ does not name a type; did you mean ‘[01m[Kack_count[m[K’?
+ int i, count = -1, ack_count = 0; [01;31m[Kack_write_count[m[K = 0;    // count is current evaluation number (< EVAL_NUM. acks happen asyncr., so needs a separate counter.
+                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+                                   [32m[Kack_count[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint eval_ros2(std::__cxx11::string, std::__cxx11::string, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:122:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ was not declared in this scope
+     std::string out_f = "./evaluation/ack_time/ack_time_" + data_files[[01;31m[Kack_write_count[m[K].substr(output_filename.find_last_of('_') + 1);;
+                                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:122:72:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_count[m[K’
+     std::string out_f = "./evaluation/ack_time/ack_time_" + data_files[[01;36m[Kack_write_count[m[K].substr(output_filename.find_last_of('_') + 1);;
+                                                                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+                                                                        [32m[Kack_count[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:195:69:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput_filename[m[K’ was not declared in this scope
+             std::string out_f = "./evaluation/ack_time/ack_time_" + [01;31m[Koutput_filename[m[K.substr(output_filename.find_last_of('_') + 1);;
+                                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:209:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kack_write_count[m[K’ was not declared in this scope
+             [01;31m[Kack_write_count[m[K++;
+             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:209:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kack_count[m[K’
+             [01;36m[Kack_write_count[m[K++;
+             [01;36m[K^~~~~~~~~~~~~~~[m[K
+             [32m[Kack_count[m[K
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o' failed
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all' failed
+CMakeFiles/talker_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o] Error 1
+CMakeFiles/Makefile2:321: recipe for target 'CMakeFiles/talker_interprocess.dir/all' failed
+make[1]: *** [CMakeFiles/talker_interprocess.dir/all] Error 2
+CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+CMakeFiles/Makefile2:252: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all' failed
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:617: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

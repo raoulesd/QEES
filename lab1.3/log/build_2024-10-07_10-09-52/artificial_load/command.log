@@ -1,0 +1,4 @@
+Invoking command in '/home/raoul/Documents/QEES/lab1.3/build/artificial_load': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.3/build/artificial_load -- -j8 -l8
+Invoked command in '/home/raoul/Documents/QEES/lab1.3/build/artificial_load' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.3/build/artificial_load -- -j8 -l8
+Invoking command in '/home/raoul/Documents/QEES/lab1.3/build/artificial_load': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.3/build/artificial_load --target install -- -j8 -l8
+Invoked command in '/home/raoul/Documents/QEES/lab1.3/build/artificial_load' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.3/build/artificial_load --target install -- -j8 -l8

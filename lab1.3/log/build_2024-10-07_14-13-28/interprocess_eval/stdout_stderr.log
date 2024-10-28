@@ -1,0 +1,175 @@
+[35m[1mScanning dependencies of target listener_interprocess[0m
+[35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[  6%] Built target talker_interprocess_single
+[ 12%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[ 18%] Built target talker_interprocess__rmw_connext_cpp
+[ 21%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[ 28%] Built target talker_interprocess__rmw_fastrtps_cpp
+[ 34%] Built target listener_interprocess_single
+[ 37%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[ 43%] Built target talker_interprocess
+[35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[ 50%] Built target talker_interprocess_single__rmw_connext_cpp
+[ 56%] Built target listener_interprocess_single__rmw_connext_cpp
+[ 62%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[ 65%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[ 75%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:61:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+ bool ends_with(const [01;31m[Kstring[m[K& fullString,
+                      [01;31m[K^~~~~~[m[K
+                      [32m[Kstdin[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:62:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+               const [01;31m[Kstring[m[K& ending)
+                     [01;31m[K^~~~~~[m[K
+                     [32m[Kstdin[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kbool ends_with(const int&, const int&)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     if (ending.[01;31m[Ksize[m[K() > fullString.size())
+                [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     if (ending.size() > fullString.[01;31m[Ksize[m[K())
+                                    [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:71:23:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcompare[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     return fullString.[01;31m[Kcompare[m[K(fullString.size()
+                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:71:42:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     return fullString.compare(fullString.[01;31m[Ksize[m[K()
+                                          [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:44:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+                                   - ending.[01;31m[Ksize[m[K(),
+                                            [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:73:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+                               ending.[01;31m[Ksize[m[K(), ending)
+                                      [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:89:35:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst int&[m[K’ from expression of type ‘[01m[Kstd::__cxx11::string {aka std::__cxx11::basic_string<char>}[m[K’
+     if (ends_with([01;31m[Klistener_state->name[m[K, "B")){
+                   [01;31m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:61:6:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kbool ends_with(const int&, const int&)[m[K’
+ bool [01;36m[Kends_with[m[K(const string& fullString,
+      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:61:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+ bool ends_with(const [01;31m[Kstring[m[K& fullString,
+                      [01;31m[K^~~~~~[m[K
+                      [32m[Kstdin[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:62:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+               const [01;31m[Kstring[m[K& ending)
+                     [01;31m[K^~~~~~[m[K
+                     [32m[Kstdin[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kbool ends_with(const int&, const int&)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     if (ending.[01;31m[Ksize[m[K() > fullString.size())
+                [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     if (ending.size() > fullString.[01;31m[Ksize[m[K())
+                                    [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:71:23:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcompare[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     return fullString.[01;31m[Kcompare[m[K(fullString.size()
+                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:71:42:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     return fullString.compare(fullString.[01;31m[Ksize[m[K()
+                                          [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:44:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+                                   - ending.[01;31m[Ksize[m[K(),
+                                            [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:73:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+                               ending.[01;31m[Ksize[m[K(), ending)
+                                      [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:89:35:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst int&[m[K’ from expression of type ‘[01m[Kstd::__cxx11::string {aka std::__cxx11::basic_string<char>}[m[K’
+     if (ends_with([01;31m[Klistener_state->name[m[K, "B")){
+                   [01;31m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:61:6:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kbool ends_with(const int&, const int&)[m[K’
+ bool [01;36m[Kends_with[m[K(const string& fullString,
+      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:61:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+ bool ends_with(const [01;31m[Kstring[m[K& fullString,
+                      [01;31m[K^~~~~~[m[K
+                      [32m[Kstdin[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:62:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+               const [01;31m[Kstring[m[K& ending)
+                     [01;31m[K^~~~~~[m[K
+                     [32m[Kstdin[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kbool ends_with(const int&, const int&)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     if (ending.[01;31m[Ksize[m[K() > fullString.size())
+                [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     if (ending.size() > fullString.[01;31m[Ksize[m[K())
+                                    [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:71:23:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcompare[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     return fullString.[01;31m[Kcompare[m[K(fullString.size()
+                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:71:42:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     return fullString.compare(fullString.[01;31m[Ksize[m[K()
+                                          [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:44:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+                                   - ending.[01;31m[Ksize[m[K(),
+                                            [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:73:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+                               ending.[01;31m[Ksize[m[K(), ending)
+                                      [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:89:35:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst int&[m[K’ from expression of type ‘[01m[Kstd::__cxx11::string {aka std::__cxx11::basic_string<char>}[m[K’
+     if (ends_with([01;31m[Klistener_state->name[m[K, "B")){
+                   [01;31m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:61:6:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kbool ends_with(const int&, const int&)[m[K’
+ bool [01;36m[Kends_with[m[K(const string& fullString,
+      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:61:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+ bool ends_with(const [01;31m[Kstring[m[K& fullString,
+                      [01;31m[K^~~~~~[m[K
+                      [32m[Kstdin[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:62:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+               const [01;31m[Kstring[m[K& ending)
+                     [01;31m[K^~~~~~[m[K
+                     [32m[Kstdin[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kbool ends_with(const int&, const int&)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     if (ending.[01;31m[Ksize[m[K() > fullString.size())
+                [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     if (ending.size() > fullString.[01;31m[Ksize[m[K())
+                                    [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:71:23:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcompare[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     return fullString.[01;31m[Kcompare[m[K(fullString.size()
+                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:71:42:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[KfullString[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     return fullString.compare(fullString.[01;31m[Ksize[m[K()
+                                          [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:44:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+                                   - ending.[01;31m[Ksize[m[K(),
+                                            [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:73:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kending[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+                               ending.[01;31m[Ksize[m[K(), ending)
+                                      [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:89:35:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst int&[m[K’ from expression of type ‘[01m[Kstd::__cxx11::string {aka std::__cxx11::basic_string<char>}[m[K’
+     if (ends_with([01;31m[Klistener_state->name[m[K, "B")){
+                   [01;31m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:61:6:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kbool ends_with(const int&, const int&)[m[K’
+ bool [01;36m[Kends_with[m[K(const string& fullString,
+      [01;36m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

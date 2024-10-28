@@ -1,0 +1,444 @@
+[0.174s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.175s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f28775dd4e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f28775dd4e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f28775dd828>)
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.207s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/raoul/Documents/QEES/lab1.2'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/ack_time) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/byte_data) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/convert_msg) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/dds_time) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/publish_time) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/subscribe_time) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(evaluation/transport_time) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/artificial_load) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/artificial_load) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/artificial_load) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/artificial_load) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/artificial_load) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/artificial_load) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/artificial_load) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/artificial_load) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/artificial_load) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/artificial_load' with type 'ros.ament_cmake' and name 'artificial_load'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_eval) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_eval) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_eval) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_eval) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_eval) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_eval) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_eval) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_eval) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_eval) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interprocess_eval' with type 'ros.ament_cmake' and name 'interprocess_eval'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_remote_eval) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_remote_eval) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_remote_eval) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_remote_eval) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_remote_eval) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_remote_eval) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_remote_eval) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_remote_eval) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/interprocess_remote_eval) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interprocess_remote_eval' with type 'ros.ament_cmake' and name 'interprocess_remote_eval'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/intraprocess_eval) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/intraprocess_eval) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/intraprocess_eval) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/intraprocess_eval) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/intraprocess_eval) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/intraprocess_eval) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/intraprocess_eval) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/intraprocess_eval) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/intraprocess_eval) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/intraprocess_eval' with type 'ros.ament_cmake' and name 'intraprocess_eval'
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 225 installed packages in /opt/ros/dashing
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'artificial_load' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'artificial_load' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'artificial_load' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'artificial_load' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'artificial_load' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'artificial_load' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'artificial_load' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'artificial_load' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'artificial_load' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'artificial_load' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raoul/Documents/QEES/lab1.2/build/artificial_load', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raoul/Documents/QEES/lab1.2/install/artificial_load', 'merge_install': False, 'path': '/home/raoul/Documents/QEES/lab1.2/src/artificial_load', 'symlink_install': True, 'test_result_base': None}
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'interprocess_eval' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'interprocess_eval' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'interprocess_eval' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'interprocess_eval' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'interprocess_eval' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'interprocess_eval' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'interprocess_eval' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'interprocess_eval' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'interprocess_eval' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'interprocess_eval' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval', 'merge_install': False, 'path': '/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval', 'symlink_install': True, 'test_result_base': None}
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'interprocess_remote_eval' build argument 'cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'interprocess_remote_eval' build argument 'cmake_target' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'interprocess_remote_eval' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'interprocess_remote_eval' build argument 'cmake_clean_cache' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'interprocess_remote_eval' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'interprocess_remote_eval' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'interprocess_remote_eval' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'interprocess_remote_eval' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'interprocess_remote_eval' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'interprocess_remote_eval' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval', 'merge_install': False, 'path': '/home/raoul/Documents/QEES/lab1.2/src/interprocess_remote_eval', 'symlink_install': True, 'test_result_base': None}
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'intraprocess_eval' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'intraprocess_eval' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'intraprocess_eval' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'intraprocess_eval' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'intraprocess_eval' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'intraprocess_eval' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'intraprocess_eval' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'intraprocess_eval' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'intraprocess_eval' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'intraprocess_eval' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval', 'merge_install': False, 'path': '/home/raoul/Documents/QEES/lab1.2/src/intraprocess_eval', 'symlink_install': True, 'test_result_base': None}
+[0.394s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.395s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.395s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raoul/Documents/QEES/lab1.2/src/artificial_load' with build type 'ament_cmake'
+[0.396s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raoul/Documents/QEES/lab1.2/src/artificial_load'
+[0.399s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval' with build type 'ament_cmake'
+[0.407s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval'
+[0.408s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.408s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.414s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raoul/Documents/QEES/lab1.2/src/interprocess_remote_eval' with build type 'ament_cmake'
+[0.415s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raoul/Documents/QEES/lab1.2/src/interprocess_remote_eval'
+[0.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.424s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raoul/Documents/QEES/lab1.2/src/intraprocess_eval' with build type 'ament_cmake'
+[0.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raoul/Documents/QEES/lab1.2/src/intraprocess_eval'
+[0.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/artificial_load': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/artificial_load -- -j8 -l8
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8
+[0.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval -- -j8 -l8
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval -- -j8 -l8
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/artificial_load' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/artificial_load -- -j8 -l8
+[0.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval -- -j8 -l8
+[0.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval -- -j8 -l8
+[1.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/artificial_load': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/artificial_load --target install -- -j8 -l8
+[1.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval --target install -- -j8 -l8
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval --target install -- -j8 -l8
+[1.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(artificial_load)
+[2.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/artificial_load' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/artificial_load --target install -- -j8 -l8
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load' for CMake module files
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load' for CMake config files
+[2.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('artificial_load', 'cmake_prefix_path')
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/hook/cmake_prefix_path.ps1'
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/hook/cmake_prefix_path.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/hook/cmake_prefix_path.sh'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/lib'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/bin'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/lib/pkgconfig/artificial_load.pc'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/lib/python3.6/site-packages'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/bin'
+[2.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/package.ps1'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/package.dsv'
+[2.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/package.sh'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/package.bash'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/package.zsh'
+[2.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/colcon-core/packages/artificial_load)
+[2.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(intraprocess_eval)
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval' for CMake module files
+[2.292s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval' for CMake config files
+[2.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/intraprocess_eval --target install -- -j8 -l8
+[2.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('intraprocess_eval', 'cmake_prefix_path')
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/hook/cmake_prefix_path.ps1'
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/hook/cmake_prefix_path.dsv'
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/hook/cmake_prefix_path.sh'
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/lib'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/bin'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/lib/pkgconfig/intraprocess_eval.pc'
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/lib/python3.6/site-packages'
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/bin'
+[2.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/package.ps1'
+[2.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/package.dsv'
+[2.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/package.sh'
+[2.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/package.bash'
+[2.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/package.zsh'
+[2.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/colcon-core/packages/intraprocess_eval)
+[2.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interprocess_remote_eval)
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval' for CMake module files
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval' for CMake config files
+[2.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('interprocess_remote_eval', 'cmake_prefix_path')
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/hook/cmake_prefix_path.ps1'
+[2.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_remote_eval --target install -- -j8 -l8
+[2.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/hook/cmake_prefix_path.dsv'
+[2.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/hook/cmake_prefix_path.sh'
+[2.430s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib'
+[2.431s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/bin'
+[2.431s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/pkgconfig/interprocess_remote_eval.pc'
+[2.432s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/python3.6/site-packages'
+[2.432s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/bin'
+[2.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/package.ps1'
+[2.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/package.dsv'
+[2.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/package.sh'
+[2.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/package.bash'
+[2.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/package.zsh'
+[2.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/colcon-core/packages/interprocess_remote_eval)
+[2.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(artificial_load)
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load' for CMake module files
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load' for CMake config files
+[2.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('artificial_load', 'cmake_prefix_path')
+[2.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/hook/cmake_prefix_path.ps1'
+[2.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/hook/cmake_prefix_path.dsv'
+[2.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/hook/cmake_prefix_path.sh'
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/lib'
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/bin'
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/lib/pkgconfig/artificial_load.pc'
+[2.498s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/lib/python3.6/site-packages'
+[2.498s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/bin'
+[2.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/package.ps1'
+[2.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/package.dsv'
+[2.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/package.sh'
+[2.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/package.bash'
+[2.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/artificial_load/package.zsh'
+[2.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raoul/Documents/QEES/lab1.2/install/artificial_load/share/colcon-core/packages/artificial_load)
+[2.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(intraprocess_eval)
+[2.785s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval' for CMake module files
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval' for CMake config files
+[2.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('intraprocess_eval', 'cmake_prefix_path')
+[2.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/hook/cmake_prefix_path.ps1'
+[2.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/hook/cmake_prefix_path.dsv'
+[2.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/hook/cmake_prefix_path.sh'
+[2.793s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/lib'
+[2.793s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/bin'
+[2.793s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/lib/pkgconfig/intraprocess_eval.pc'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/lib/python3.6/site-packages'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/bin'
+[2.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/package.ps1'
+[2.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/package.dsv'
+[2.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/package.sh'
+[2.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/package.bash'
+[2.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/intraprocess_eval/package.zsh'
+[2.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raoul/Documents/QEES/lab1.2/install/intraprocess_eval/share/colcon-core/packages/intraprocess_eval)
+[2.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interprocess_remote_eval)
+[2.999s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval' for CMake module files
+[3.001s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval' for CMake config files
+[3.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('interprocess_remote_eval', 'cmake_prefix_path')
+[3.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/hook/cmake_prefix_path.ps1'
+[3.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/hook/cmake_prefix_path.dsv'
+[3.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/hook/cmake_prefix_path.sh'
+[3.007s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib'
+[3.007s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/bin'
+[3.007s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/pkgconfig/interprocess_remote_eval.pc'
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/lib/python3.6/site-packages'
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/bin'
+[3.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/package.ps1'
+[3.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/package.dsv'
+[3.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/package.sh'
+[3.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/package.bash'
+[3.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/interprocess_remote_eval/package.zsh'
+[3.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raoul/Documents/QEES/lab1.2/install/interprocess_remote_eval/share/colcon-core/packages/interprocess_remote_eval)
+[10.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8
+[10.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval --target install -- -j8 -l8
+[11.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interprocess_eval)
+[11.237s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval' for CMake module files
+[11.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval --target install -- -j8 -l8
+[11.239s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval' for CMake config files
+[11.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('interprocess_eval', 'cmake_prefix_path')
+[11.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/hook/cmake_prefix_path.ps1'
+[11.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/hook/cmake_prefix_path.dsv'
+[11.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/hook/cmake_prefix_path.sh'
+[11.243s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib'
+[11.243s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/bin'
+[11.243s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/pkgconfig/interprocess_eval.pc'
+[11.244s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/python3.6/site-packages'
+[11.244s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/bin'
+[11.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/package.ps1'
+[11.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/package.dsv'
+[11.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/package.sh'
+[11.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/package.bash'
+[11.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/package.zsh'
+[11.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/colcon-core/packages/interprocess_eval)
+[11.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interprocess_eval)
+[11.320s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval' for CMake module files
+[11.321s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval' for CMake config files
+[11.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('interprocess_eval', 'cmake_prefix_path')
+[11.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/hook/cmake_prefix_path.ps1'
+[11.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/hook/cmake_prefix_path.dsv'
+[11.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/hook/cmake_prefix_path.sh'
+[11.325s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib'
+[11.325s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/bin'
+[11.325s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/pkgconfig/interprocess_eval.pc'
+[11.325s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/lib/python3.6/site-packages'
+[11.326s] Level 1:colcon.colcon_core.environment:checking '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/bin'
+[11.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/package.ps1'
+[11.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/package.dsv'
+[11.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/package.sh'
+[11.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/package.bash'
+[11.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/interprocess_eval/package.zsh'
+[11.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raoul/Documents/QEES/lab1.2/install/interprocess_eval/share/colcon-core/packages/interprocess_eval)
+[11.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.332s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.342s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.342s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.346s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raoul/Documents/QEES/lab1.2/install/local_setup.ps1'
+[11.350s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raoul/Documents/QEES/lab1.2/install/_local_setup_util_ps1.py'
+[11.354s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raoul/Documents/QEES/lab1.2/install/setup.ps1'
+[11.357s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raoul/Documents/QEES/lab1.2/install/local_setup.sh'
+[11.358s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raoul/Documents/QEES/lab1.2/install/_local_setup_util_sh.py'
+[11.359s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raoul/Documents/QEES/lab1.2/install/setup.sh'
+[11.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raoul/Documents/QEES/lab1.2/install/local_setup.bash'
+[11.361s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raoul/Documents/QEES/lab1.2/install/setup.bash'
+[11.363s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raoul/Documents/QEES/lab1.2/install/local_setup.zsh'
+[11.363s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raoul/Documents/QEES/lab1.2/install/setup.zsh'

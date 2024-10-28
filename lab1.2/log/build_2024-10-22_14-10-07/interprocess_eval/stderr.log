@@ -1,0 +1,150 @@
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmatch[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   std::[01;31m[Ksmatch[m[K match;
+        [01;31m[K^~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksearch[m[K’
+   std::[01;36m[Ksmatch[m[K match;
+        [01;36m[K^~~~~~[m[K
+        [32m[Ksearch[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:66:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   std::[01;31m[Kregex[m[K tuple_regex(R"(\((\d+),(\d+)\))");
+        [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex_search[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   if (std::[01;31m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__search[m[K’
+   if (std::[01;36m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+            [01;36m[K^~~~~~~~~~~~[m[K
+            [32m[K__search[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch[m[K’ was not declared in this scope
+   if (std::regex_search(message_data, [01;31m[Kmatch[m[K, tuple_regex)) {
+                                       [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krpmatch[m[K’
+   if (std::regex_search(message_data, [01;36m[Kmatch[m[K, tuple_regex)) {
+                                       [01;36m[K^~~~~[m[K
+                                       [32m[Krpmatch[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ktuple_regex[m[K’ was not declared in this scope
+   if (std::regex_search(message_data, match, [01;31m[Ktuple_regex[m[K)) {
+                                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+     [01;31m[Kpublisher_[m[K->publish(*ack_message);
+     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:74:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+     [01;36m[Kpublisher_[m[K->publish(*ack_message);
+     [01;36m[K^~~~~~~~~~[m[K
+     [32m[Krcl_publisher_t[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmatch[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   std::[01;31m[Ksmatch[m[K match;
+        [01;31m[K^~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksearch[m[K’
+   std::[01;36m[Ksmatch[m[K match;
+        [01;36m[K^~~~~~[m[K
+        [32m[Ksearch[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:66:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   std::[01;31m[Kregex[m[K tuple_regex(R"(\((\d+),(\d+)\))");
+        [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex_search[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   if (std::[01;31m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__search[m[K’
+   if (std::[01;36m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+            [01;36m[K^~~~~~~~~~~~[m[K
+            [32m[K__search[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch[m[K’ was not declared in this scope
+   if (std::regex_search(message_data, [01;31m[Kmatch[m[K, tuple_regex)) {
+                                       [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krpmatch[m[K’
+   if (std::regex_search(message_data, [01;36m[Kmatch[m[K, tuple_regex)) {
+                                       [01;36m[K^~~~~[m[K
+                                       [32m[Krpmatch[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ktuple_regex[m[K’ was not declared in this scope
+   if (std::regex_search(message_data, match, [01;31m[Ktuple_regex[m[K)) {
+                                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+     [01;31m[Kpublisher_[m[K->publish(*ack_message);
+     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:74:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+     [01;36m[Kpublisher_[m[K->publish(*ack_message);
+     [01;36m[K^~~~~~~~~~[m[K
+     [32m[Krcl_publisher_t[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmatch[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   std::[01;31m[Ksmatch[m[K match;
+        [01;31m[K^~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksearch[m[K’
+   std::[01;36m[Ksmatch[m[K match;
+        [01;36m[K^~~~~~[m[K
+        [32m[Ksearch[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:66:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   std::[01;31m[Kregex[m[K tuple_regex(R"(\((\d+),(\d+)\))");
+        [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex_search[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   if (std::[01;31m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__search[m[K’
+   if (std::[01;36m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+            [01;36m[K^~~~~~~~~~~~[m[K
+            [32m[K__search[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch[m[K’ was not declared in this scope
+   if (std::regex_search(message_data, [01;31m[Kmatch[m[K, tuple_regex)) {
+                                       [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krpmatch[m[K’
+   if (std::regex_search(message_data, [01;36m[Kmatch[m[K, tuple_regex)) {
+                                       [01;36m[K^~~~~[m[K
+                                       [32m[Krpmatch[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ktuple_regex[m[K’ was not declared in this scope
+   if (std::regex_search(message_data, match, [01;31m[Ktuple_regex[m[K)) {
+                                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+     [01;31m[Kpublisher_[m[K->publish(*ack_message);
+     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:74:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+     [01;36m[Kpublisher_[m[K->publish(*ack_message);
+     [01;36m[K^~~~~~~~~~[m[K
+     [32m[Krcl_publisher_t[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmatch[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   std::[01;31m[Ksmatch[m[K match;
+        [01;31m[K^~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksearch[m[K’
+   std::[01;36m[Ksmatch[m[K match;
+        [01;36m[K^~~~~~[m[K
+        [32m[Ksearch[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:66:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   std::[01;31m[Kregex[m[K tuple_regex(R"(\((\d+),(\d+)\))");
+        [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex_search[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   if (std::[01;31m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__search[m[K’
+   if (std::[01;36m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+            [01;36m[K^~~~~~~~~~~~[m[K
+            [32m[K__search[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch[m[K’ was not declared in this scope
+   if (std::regex_search(message_data, [01;31m[Kmatch[m[K, tuple_regex)) {
+                                       [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krpmatch[m[K’
+   if (std::regex_search(message_data, [01;36m[Kmatch[m[K, tuple_regex)) {
+                                       [01;36m[K^~~~~[m[K
+                                       [32m[Krpmatch[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ktuple_regex[m[K’ was not declared in this scope
+   if (std::regex_search(message_data, match, [01;31m[Ktuple_regex[m[K)) {
+                                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+     [01;31m[Kpublisher_[m[K->publish(*ack_message);
+     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:74:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+     [01;36m[Kpublisher_[m[K->publish(*ack_message);
+     [01;36m[K^~~~~~~~~~[m[K
+     [32m[Krcl_publisher_t[m[K
+make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,98 @@
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(std::shared_ptr<rclcpp::Node>&)[m[K’
+         rclcpp::spin_until_future_complete(node[01;31m[K)[m[K;  // Process incoming messages
+                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)
+ [01;36m[Kspin_until_future_complete[m[K(
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+         rclcpp::spin_until_future_complete(node[01;36m[K)[m[K;  // Process incoming messages
+                                                [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)
+ [01;36m[Kspin_until_future_complete[m[K(
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+         rclcpp::spin_until_future_complete(node[01;36m[K)[m[K;  // Process incoming messages
+                                                [01;36m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(std::shared_ptr<rclcpp::Node>&)[m[K’
+         rclcpp::spin_until_future_complete(node[01;31m[K)[m[K;  // Process incoming messages
+                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)
+ [01;36m[Kspin_until_future_complete[m[K(
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+         rclcpp::spin_until_future_complete(node[01;36m[K)[m[K;  // Process incoming messages
+                                                [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)
+ [01;36m[Kspin_until_future_complete[m[K(
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+         rclcpp::spin_until_future_complete(node[01;36m[K)[m[K;  // Process incoming messages
+                                                [01;36m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(std::shared_ptr<rclcpp::Node>&)[m[K’
+         rclcpp::spin_until_future_complete(node[01;31m[K)[m[K;  // Process incoming messages
+                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)
+ [01;36m[Kspin_until_future_complete[m[K(
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+         rclcpp::spin_until_future_complete(node[01;36m[K)[m[K;  // Process incoming messages
+                                                [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)
+ [01;36m[Kspin_until_future_complete[m[K(
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+         rclcpp::spin_until_future_complete(node[01;36m[K)[m[K;  // Process incoming messages
+                                                [01;36m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(std::shared_ptr<rclcpp::Node>&)[m[K’
+         rclcpp::spin_until_future_complete(node[01;31m[K)[m[K;  // Process incoming messages
+                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)
+ [01;36m[Kspin_until_future_complete[m[K(
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+         rclcpp::spin_until_future_complete(node[01;36m[K)[m[K;  // Process incoming messages
+                                                [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)
+ [01;36m[Kspin_until_future_complete[m[K(
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+         rclcpp::spin_until_future_complete(node[01;36m[K)[m[K;  // Process incoming messages
+                                                [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+make: *** [all] Error 2

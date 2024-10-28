@@ -1,0 +1,42 @@
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:260:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+     publishers.push_back([01;31m[Kpub[m[K);
+                          [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:260:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksub[m[K’
+     publishers.push_back([01;36m[Kpub[m[K);
+                          [01;36m[K^~~[m[K
+                          [32m[Ksub[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:260:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+     publishers.push_back([01;31m[Kpub[m[K);
+                          [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:260:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksub[m[K’
+     publishers.push_back([01;36m[Kpub[m[K);
+                          [01;36m[K^~~[m[K
+                          [32m[Ksub[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:260:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+     publishers.push_back([01;31m[Kpub[m[K);
+                          [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:260:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksub[m[K’
+     publishers.push_back([01;36m[Kpub[m[K);
+                          [01;36m[K^~~[m[K
+                          [32m[Ksub[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:260:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+     publishers.push_back([01;31m[Kpub[m[K);
+                          [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:260:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksub[m[K’
+     publishers.push_back([01;36m[Kpub[m[K);
+                          [01;36m[K^~~[m[K
+                          [32m[Ksub[m[K
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+make: *** [all] Error 2

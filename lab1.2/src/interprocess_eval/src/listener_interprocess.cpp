@@ -8,11 +8,12 @@
 #include <iostream>
 #include <memory>
 #include <string>
+#include <regex>
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 
-#define EVAL_NUM 120
+#define EVAL_NUM 300
 #define QoS_Policy 1  // 1 means "reliable", 2 means "best effort", 3 means "history"
 #define RUN_REAL_TIME
 
@@ -32,7 +33,7 @@ static const rmw_qos_profile_t rmw_qos_profile_history = {RMW_QOS_POLICY_HISTORY
                                                           RMW_QOS_POLICY_RELIABILITY_RELIABLE,
                                                           RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL};
 
-int i, count = -1, init_num_int;
+int i, count = -1, init_num_int, m_count;
 double subscribe_time[EVAL_NUM];
 
 struct timespec tp1;  // for clock
@@ -48,15 +49,8 @@ std::string output_filename = "./evaluation/subscribe_time/subscribe_time_256byt
 
 void chatterCallback(const std_msgs::msg::String::SharedPtr msg, rclcpp::Publisher<std_msgs::msg::String>::SharedPtr ack_pub) {
 //  printf("chatterCallback\n");
-  // Create the acknowledgment message
-  auto ack_msg = std::make_shared<std_msgs::msg::String>();
-  ack_msg->data = "OK";  // The acknowledgment message
 
-  // Publish the acknowledgment message
-//  printf("sending ack!\n");
-  ack_pub->publish(ack_msg);
-//  printf("ack sent!\n");
-
+  // Record receive time
   if (clock_gettime(CLOCK_REALTIME, &tp1) < 0) {
     perror("clock_gettime begin");
   }
@@ -68,17 +62,37 @@ void chatterCallback(const std_msgs::msg::String::SharedPtr msg, rclcpp::Publish
     rclcpp::shutdown();
   }
 
-  if (count == -1) {
-    // Initialize count
-    char init_num_char = *(msg->data.c_str());
-    char *init_num_pt = &init_num_char;
-    count = atoi(init_num_pt);
-    init_num_int = count;  // if init_num_int is not 0, some messages are lost.
+  // Create the acknowledgment message
 
-    // printf("first recieved number: %d \n\n", count);
-    printf("message loss : %d \n", init_num_int);
-    printf("eval_loop %d \n", eval_loop_count);
+  std::smatch match;
+  std::string message_data = msg->data;
+  std::regex tuple_regex(R"(\((\d+),(\d+)\))");
+  auto ack_message = std::make_shared<std_msgs::msg::String>();
+
+  if (std::regex_search(message_data, match, tuple_regex)) {
+    m_count = std::stoi(match[2].str());   // Get message number
+//    printf("intital m_count: %d\n", m_count);
+
+    // Send acknowledgment with only the tuple
+
+    ack_message->data = match.str(0);
+
+    if (count == -1) {
+      // Initialize count
+      //    char init_num_char = *(msg->data.c_str());
+      //    char *init_num_pt = &init_num_char;
+      //    count = atoi(init_num_pt);
+      count = m_count;
+      init_num_int = count;  // if init_num_int is not 0, some messages are lost.
+
+      // printf("first recieved number: %d \n\n", count);
+      printf("message loss : %d \n", init_num_int);
+      printf("eval_loop %d \n", eval_loop_count);
+    }
+
   }
+
+
 
   // evaluation
   if (count < EVAL_NUM - 1) {
@@ -159,6 +173,21 @@ void chatterCallback(const std_msgs::msg::String::SharedPtr msg, rclcpp::Publish
       count = EVAL_NUM;
     }
   }
+
+//  printf("%s\n", match.str(0).c_str());
+
+  ack_pub->publish(ack_message);
+//  printf("ack sent!\n");
+
+
+
+
+//  auto ack_msg = std::make_shared<std_msgs::msg::String>();
+//  ack_msg->data = "OK";  // The acknowledgment message
+//
+//  // Publish the acknowledgment message
+//  //  printf("sending ack!\n");
+//  ack_pub->publish(ack_msg);
 }
 
 int main(int argc, char *argv[]) {
@@ -199,7 +228,7 @@ int main(int argc, char *argv[]) {
   auto sub = node->create_subscription<std_msgs::msg::String>("chatter",
                                                               [ack_pub](const std_msgs::msg::String::SharedPtr msg){chatterCallback(msg, ack_pub);}, custom_qos_profile);
 
-  printf("subbed to chatter!\n");
+//  printf("subbed to chatter!\n");
 
   printf("start evaluation\n");
 

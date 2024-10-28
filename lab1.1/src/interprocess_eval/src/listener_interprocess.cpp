@@ -12,7 +12,7 @@
 #include <string>
 #include <list>
 
-#define LIST_NUM 100
+#define LIST_NUM 10
 #define EVAL_NUM 500
 #define QoS_Policy 1 // 1 means "reliable", 2 means "best effort", 3 means "history"
 #define RUN_REAL_TIME

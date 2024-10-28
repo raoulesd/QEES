@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import math
 
+# This script was used to plot the transport time data in a box plot, for each listener.
+# All these box plots are then arranged together in a graph.
+
 def get_grid_layout(num_listeners):
     """Return the number of columns and rows for the FacetGrid based on the number of listeners."""
     if num_listeners <= 4:

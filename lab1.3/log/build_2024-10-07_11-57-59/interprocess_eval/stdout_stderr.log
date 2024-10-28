@@ -1,0 +1,131 @@
+[35m[1mScanning dependencies of target listener_interprocess[0m
+[35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[  3%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[  9%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[ 15%] Built target talker_interprocess_single
+[ 21%] Built target talker_interprocess__rmw_fastrtps_cpp
+[ 28%] Built target listener_interprocess_single
+[ 34%] Built target talker_interprocess
+[ 40%] Built target talker_interprocess__rmw_connext_cpp
+[35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[ 50%] Built target listener_interprocess_single__rmw_connext_cpp
+[ 56%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[ 59%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[ 65%] Built target talker_interprocess_single__rmw_connext_cpp
+[ 71%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[ 75%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+   printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:74:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+     ss << "end" << [01;31m[Kcount[m[K;
+                    [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:74:20:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:13[m[K:
+[01m[K/usr/include/c++/7/bits/stl_algo.h:4076:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+     [01;36m[Kcount[m[K(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+     [01;36m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+     listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+     printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+   printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:74:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+     ss << "end" << [01;31m[Kcount[m[K;
+                    [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:74:20:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:13[m[K:
+[01m[K/usr/include/c++/7/bits/stl_algo.h:4076:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+     [01;36m[Kcount[m[K(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+     [01;36m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+   printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:74:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+     ss << "end" << [01;31m[Kcount[m[K;
+                    [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:74:20:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:13[m[K:
+[01m[K/usr/include/c++/7/bits/stl_algo.h:4076:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+     [01;36m[Kcount[m[K(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+     [01;36m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+   printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:74:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+     ss << "end" << [01;31m[Kcount[m[K;
+                    [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:74:20:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:13[m[K:
+[01m[K/usr/include/c++/7/bits/stl_algo.h:4076:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+     [01;36m[Kcount[m[K(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+     [01;36m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+     listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+     printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+     listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+     printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+     listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+     printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

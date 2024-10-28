@@ -1,0 +1,165 @@
+[0.051s] Invoking command in '/home/raoul/Documents/QEES/lab1.3/build/interprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.3/build/interprocess_eval -- -j8 -l8
+[0.149s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.170s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.220s] [  6%] Built target talker_interprocess_single
+[0.259s] [ 12%] Built target talker_interprocess__rmw_connext_cpp
+[0.267s] [ 18%] Built target listener_interprocess_single
+[0.272s] [ 25%] Built target talker_interprocess
+[0.282s] [ 28%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.289s] [ 31%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.302s] [ 37%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.304s] [ 43%] Built target talker_interprocess__rmw_fastrtps_cpp
+[0.314s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.344s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.408s] [ 50%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.416s] [ 53%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.437s] [ 59%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.443s] [ 62%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.444s] [ 68%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.444s] [ 75%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.487s] [ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[0.514s] [ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[2.128s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[2.128s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_final[m[K’ was not declared in this scope
+[2.129s]      if (![01;31m[Kis_final[m[K) {
+[2.129s]           [01;31m[K^~~~~~~~[m[K
+[2.129s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:10:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[2.129s] In file included from [01m[K/usr/include/c++/7/bits/move.h:54:0[m[K,
+[2.129s]                  from [01m[K/usr/include/c++/7/bits/nested_exception.h:40[m[K,
+[2.130s]                  from [01m[K/usr/include/c++/7/exception:143[m[K,
+[2.130s]                  from [01m[K/usr/include/c++/7/ios:39[m[K,
+[2.130s]                  from [01m[K/usr/include/c++/7/ostream:38[m[K,
+[2.130s]                  from [01m[K/usr/include/c++/7/iostream:39[m[K,
+[2.131s]                  from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:8[m[K:
+[2.131s] [01m[K/usr/include/c++/7/type_traits:718:12:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::is_final[m[K’
+[2.131s]      struct [01;36m[Kis_final[m[K
+[2.131s]             [01;36m[K^~~~~~~~[m[K
+[2.132s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:75:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+[2.132s]        ss << "end" << [01;31m[Kcount[m[K;
+[2.133s]                       [01;31m[K^~~~~[m[K
+[2.133s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:75:22:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[2.133s] In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+[2.133s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:18[m[K,
+[2.133s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[2.134s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[2.134s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.134s]                  from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:13[m[K:
+[2.134s] [01m[K/usr/include/c++/7/bits/stl_algo.h:4076:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+[2.135s]      [01;36m[Kcount[m[K(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+[2.135s]      [01;36m[K^~~~~[m[K
+[2.137s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[2.138s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_final[m[K’ was not declared in this scope
+[2.138s]      if (![01;31m[Kis_final[m[K) {
+[2.138s]           [01;31m[K^~~~~~~~[m[K
+[2.138s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:10:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[2.138s] In file included from [01m[K/usr/include/c++/7/bits/move.h:54:0[m[K,
+[2.139s]                  from [01m[K/usr/include/c++/7/bits/nested_exception.h:40[m[K,
+[2.139s]                  from [01m[K/usr/include/c++/7/exception:143[m[K,
+[2.139s]                  from [01m[K/usr/include/c++/7/ios:39[m[K,
+[2.139s]                  from [01m[K/usr/include/c++/7/ostream:38[m[K,
+[2.140s]                  from [01m[K/usr/include/c++/7/iostream:39[m[K,
+[2.140s]                  from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:8[m[K:
+[2.140s] [01m[K/usr/include/c++/7/type_traits:718:12:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::is_final[m[K’
+[2.140s]      struct [01;36m[Kis_final[m[K
+[2.141s]             [01;36m[K^~~~~~~~[m[K
+[2.142s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:75:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+[2.142s]        ss << "end" << [01;31m[Kcount[m[K;
+[2.142s]                       [01;31m[K^~~~~[m[K
+[2.142s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:75:22:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[2.142s] In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+[2.143s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:18[m[K,
+[2.143s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[2.143s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[2.143s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.144s]                  from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:13[m[K:
+[2.144s] [01m[K/usr/include/c++/7/bits/stl_algo.h:4076:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+[2.144s]      [01;36m[Kcount[m[K(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+[2.144s]      [01;36m[K^~~~~[m[K
+[2.155s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:82:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+[2.155s]      listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+[2.155s]                      [01;31m[K^~~~~~~~~[m[K
+[2.164s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:82:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+[2.164s]      listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+[2.164s]                      [01;31m[K^~~~~~~~~[m[K
+[2.182s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[2.182s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_final[m[K’ was not declared in this scope
+[2.183s]      if (![01;31m[Kis_final[m[K) {
+[2.183s]           [01;31m[K^~~~~~~~[m[K
+[2.183s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:10:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[2.183s] In file included from [01m[K/usr/include/c++/7/bits/move.h:54:0[m[K,
+[2.184s]                  from [01m[K/usr/include/c++/7/bits/nested_exception.h:40[m[K,
+[2.184s]                  from [01m[K/usr/include/c++/7/exception:143[m[K,
+[2.184s]                  from [01m[K/usr/include/c++/7/ios:39[m[K,
+[2.184s]                  from [01m[K/usr/include/c++/7/ostream:38[m[K,
+[2.185s]                  from [01m[K/usr/include/c++/7/iostream:39[m[K,
+[2.185s]                  from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:8[m[K:
+[2.185s] [01m[K/usr/include/c++/7/type_traits:718:12:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::is_final[m[K’
+[2.185s]      struct [01;36m[Kis_final[m[K
+[2.185s]             [01;36m[K^~~~~~~~[m[K
+[2.186s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:75:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+[2.186s]        ss << "end" << [01;31m[Kcount[m[K;
+[2.187s]                       [01;31m[K^~~~~[m[K
+[2.187s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:75:22:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[2.187s] In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+[2.187s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:18[m[K,
+[2.187s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[2.188s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[2.188s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.188s]                  from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:13[m[K:
+[2.188s] [01m[K/usr/include/c++/7/bits/stl_algo.h:4076:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+[2.189s]      [01;36m[Kcount[m[K(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+[2.189s]      [01;36m[K^~~~~[m[K
+[2.208s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:82:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+[2.209s]      listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+[2.209s]                      [01;31m[K^~~~~~~~~[m[K
+[2.214s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[2.215s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_final[m[K’ was not declared in this scope
+[2.215s]      if (![01;31m[Kis_final[m[K) {
+[2.215s]           [01;31m[K^~~~~~~~[m[K
+[2.216s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:72:10:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[2.216s] In file included from [01m[K/usr/include/c++/7/bits/move.h:54:0[m[K,
+[2.216s]                  from [01m[K/usr/include/c++/7/bits/nested_exception.h:40[m[K,
+[2.216s]                  from [01m[K/usr/include/c++/7/exception:143[m[K,
+[2.216s]                  from [01m[K/usr/include/c++/7/ios:39[m[K,
+[2.217s]                  from [01m[K/usr/include/c++/7/ostream:38[m[K,
+[2.217s]                  from [01m[K/usr/include/c++/7/iostream:39[m[K,
+[2.217s]                  from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:8[m[K:
+[2.217s] [01m[K/usr/include/c++/7/type_traits:718:12:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::is_final[m[K’
+[2.218s]      struct [01;36m[Kis_final[m[K
+[2.218s]             [01;36m[K^~~~~~~~[m[K
+[2.219s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:75:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+[2.219s]        ss << "end" << [01;31m[Kcount[m[K;
+[2.219s]                       [01;31m[K^~~~~[m[K
+[2.219s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:75:22:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[2.220s] In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+[2.220s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:18[m[K,
+[2.220s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[2.220s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[2.221s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.221s]                  from [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:13[m[K:
+[2.221s] [01m[K/usr/include/c++/7/bits/stl_algo.h:4076:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+[2.221s]      [01;36m[Kcount[m[K(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+[2.222s]      [01;36m[K^~~~~[m[K
+[2.242s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:82:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+[2.242s]      listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+[2.242s]                      [01;31m[K^~~~~~~~~[m[K
+[3.317s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[3.317s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[3.317s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[3.317s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[3.318s] make[1]: *** Waiting for unfinished jobs....
+[3.321s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[3.322s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[3.322s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[3.322s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[3.367s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[3.368s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[3.368s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[3.368s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[3.382s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[3.382s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[3.382s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[3.382s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[3.382s] Makefile:140: recipe for target 'all' failed
+[3.382s] make: *** [all] Error 2
+[3.385s] Invoked command in '/home/raoul/Documents/QEES/lab1.3/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.3/build/interprocess_eval -- -j8 -l8

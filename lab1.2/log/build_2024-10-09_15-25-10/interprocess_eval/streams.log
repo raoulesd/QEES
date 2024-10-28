@@ -1,0 +1,77 @@
+[0.054s] Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8
+[0.169s] [35m[1mScanning dependencies of target talker_interprocess__rmw_connext_cpp[0m
+[0.173s] [35m[1mScanning dependencies of target talker_interprocess[0m
+[0.194s] [35m[1mScanning dependencies of target talker_interprocess__rmw_fastrtps_cpp[0m
+[0.270s] [  6%] Built target listener_interprocess__rmw_connext_cpp
+[0.288s] [ 12%] Built target talker_interprocess_single
+[0.299s] [ 18%] Built target listener_interprocess
+[0.303s] [ 25%] Built target listener_interprocess_single
+[0.305s] [ 31%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.314s] [ 34%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.350s] [ 40%] [32mBuilding CXX object CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o[0m
+[0.352s] [ 40%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.401s] [ 46%] Built target listener_interprocess__rmw_fastrtps_cpp
+[0.474s] [ 53%] Built target listener_interprocess__rmw_opensplice_cpp
+[0.477s] [ 59%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.508s] [ 65%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.526s] [ 71%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.549s] [35m[1mScanning dependencies of target talker_interprocess__rmw_opensplice_cpp[0m
+[0.550s] [ 78%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.588s] [ 84%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[0.614s] [ 87%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o[0m
+[2.921s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:223:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ does not name a type
+[2.921s]    [01;31m[Kcount[m[K = 0;
+[2.922s]    [01;31m[K^~~~~[m[K
+[2.922s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:224:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[2.922s]    [01;31m[Kwhile[m[K (rclcpp::ok()) {
+[2.922s]    [01;31m[K^~~~~[m[K
+[2.922s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+[2.923s]  #pragma GCC diagnostic pop
+[2.923s]                            [01;31m[K^[m[K
+[2.924s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:223:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ does not name a type
+[2.924s]    [01;31m[Kcount[m[K = 0;
+[2.924s]    [01;31m[K^~~~~[m[K
+[2.924s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:224:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[2.925s]    [01;31m[Kwhile[m[K (rclcpp::ok()) {
+[2.925s]    [01;31m[K^~~~~[m[K
+[2.925s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+[2.925s]  #pragma GCC diagnostic pop
+[2.925s]                            [01;31m[K^[m[K
+[2.990s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:223:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ does not name a type
+[2.990s]    [01;31m[Kcount[m[K = 0;
+[2.990s]    [01;31m[K^~~~~[m[K
+[2.991s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:224:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[2.991s]    [01;31m[Kwhile[m[K (rclcpp::ok()) {
+[2.991s]    [01;31m[K^~~~~[m[K
+[2.991s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+[2.992s]  #pragma GCC diagnostic pop
+[2.992s]                            [01;31m[K^[m[K
+[3.186s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:223:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ does not name a type
+[3.186s]    [01;31m[Kcount[m[K = 0;
+[3.187s]    [01;31m[K^~~~~[m[K
+[3.187s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:224:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[3.187s]    [01;31m[Kwhile[m[K (rclcpp::ok()) {
+[3.188s]    [01;31m[K^~~~~[m[K
+[3.188s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:237:27:[m[K [01;31m[Kerror: [m[Kexpected declaration before end of line
+[3.188s]  #pragma GCC diagnostic pop
+[3.188s]                            [01;31m[K^[m[K
+[4.061s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[4.061s] CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o' failed
+[4.061s] CMakeFiles/Makefile2:252: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[4.062s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[4.062s] make[1]: *** Waiting for unfinished jobs....
+[4.082s] CMakeFiles/talker_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o' failed
+[4.082s] make[2]: *** [CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o] Error 1
+[4.083s] make[1]: *** [CMakeFiles/talker_interprocess.dir/all] Error 2
+[4.083s] CMakeFiles/Makefile2:321: recipe for target 'CMakeFiles/talker_interprocess.dir/all' failed
+[4.212s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[4.212s] CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o' failed
+[4.212s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all] Error 2
+[4.213s] CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all' failed
+[4.303s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[4.303s] CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o' failed
+[4.303s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[4.303s] CMakeFiles/Makefile2:617: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all' failed
+[4.303s] Makefile:140: recipe for target 'all' failed
+[4.304s] make: *** [all] Error 2
+[4.307s] Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8

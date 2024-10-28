@@ -1,0 +1,81 @@
+[0.049s] Invoking command in '/home/raoul/Documents/QEES/lab1.3/build/interprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.3/build/interprocess_eval -- -j8 -l8
+[0.155s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.165s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.229s] [  6%] Built target talker_interprocess__rmw_connext_cpp
+[0.263s] [ 12%] Built target listener_interprocess_single
+[0.291s] [ 15%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.307s] [ 21%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.316s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.329s] [ 25%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.331s] [ 31%] Built target talker_interprocess
+[0.340s] [ 37%] Built target talker_interprocess__rmw_fastrtps_cpp
+[0.370s] [ 43%] Built target talker_interprocess_single
+[0.377s] [ 50%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.395s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.417s] [ 53%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.421s] [ 59%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.474s] [ 65%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.481s] [ 71%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.485s] [ 75%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.489s] [ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[0.495s] [ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[2.048s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[2.048s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[2.049s]    printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+[2.049s]                                                [01;31m[K^[m[K
+[2.058s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[2.059s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[2.059s]    printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+[2.059s]                                                [01;31m[K^[m[K
+[2.075s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+[2.075s]      listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+[2.075s]                      [01;31m[K^~~~~~~~~[m[K
+[2.076s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[2.076s]      printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+[2.076s]                                                   [01;31m[K^[m[K
+[2.085s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+[2.085s]      listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+[2.085s]                      [01;31m[K^~~~~~~~~[m[K
+[2.086s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[2.086s]      printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+[2.086s]                                                   [01;31m[K^[m[K
+[2.101s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[2.102s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[2.102s]    printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+[2.102s]                                                [01;31m[K^[m[K
+[2.130s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+[2.131s]      listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+[2.131s]                      [01;31m[K^~~~~~~~~[m[K
+[2.131s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[2.131s]      printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+[2.132s]                                                   [01;31m[K^[m[K
+[2.152s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[2.153s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[2.153s]    printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+[2.153s]                                                [01;31m[K^[m[K
+[2.179s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+[2.179s]      listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+[2.180s]                      [01;31m[K^~~~~~~~~[m[K
+[2.180s] [01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+[2.180s]      printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+[2.180s]                                                   [01;31m[K^[m[K
+[3.164s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[3.165s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[3.165s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[3.165s] make[1]: *** Waiting for unfinished jobs....
+[3.165s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[3.185s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[3.185s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[3.186s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[3.186s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[3.231s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[3.231s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[3.232s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[3.232s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[3.271s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[3.272s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[3.272s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[3.272s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[3.272s] Makefile:140: recipe for target 'all' failed
+[3.272s] make: *** [all] Error 2
+[3.275s] Invoked command in '/home/raoul/Documents/QEES/lab1.3/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.3/build/interprocess_eval -- -j8 -l8

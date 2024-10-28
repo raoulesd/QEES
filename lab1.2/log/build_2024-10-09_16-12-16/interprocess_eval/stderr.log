@@ -1,0 +1,38 @@
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:196:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+             [01;31m[Kstd[m[K::string out_f = "./evaluation/ack_time/ack_time_" + output_filename.substr(output_filename.find_last_of('_') + 1);;
+             [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:197:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kout_f[m[K’ was not declared in this scope
+             if ((fp = fopen([01;31m[Kout_f[m[K.c_str(), "w")) != NULL) {
+                             [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:196:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+             [01;31m[Kstd[m[K::string out_f = "./evaluation/ack_time/ack_time_" + output_filename.substr(output_filename.find_last_of('_') + 1);;
+             [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:197:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kout_f[m[K’ was not declared in this scope
+             if ((fp = fopen([01;31m[Kout_f[m[K.c_str(), "w")) != NULL) {
+                             [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:196:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+             [01;31m[Kstd[m[K::string out_f = "./evaluation/ack_time/ack_time_" + output_filename.substr(output_filename.find_last_of('_') + 1);;
+             [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:197:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kout_f[m[K’ was not declared in this scope
+             if ((fp = fopen([01;31m[Kout_f[m[K.c_str(), "w")) != NULL) {
+                             [01;31m[K^~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In lambda function:
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:196:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+             [01;31m[Kstd[m[K::string out_f = "./evaluation/ack_time/ack_time_" + output_filename.substr(output_filename.find_last_of('_') + 1);;
+             [01;31m[K^~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:197:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kout_f[m[K’ was not declared in this scope
+             if ((fp = fopen([01;31m[Kout_f[m[K.c_str(), "w")) != NULL) {
+                             [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess.dir/all] Error 2
+make[2]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,141 @@
+[0.049s] Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8
+[0.144s] [35m[1mScanning dependencies of target talker_interprocess__rmw_connext_cpp[0m
+[0.148s] [35m[1mScanning dependencies of target talker_interprocess__rmw_fastrtps_cpp[0m
+[0.173s] [35m[1mScanning dependencies of target talker_interprocess[0m
+[0.207s] [  6%] Built target talker_interprocess_single
+[0.239s] [ 12%] Built target listener_interprocess
+[0.254s] [ 18%] Built target listener_interprocess_single
+[0.277s] [ 21%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.290s] [ 28%] Built target listener_interprocess__rmw_connext_cpp
+[0.304s] [ 31%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.305s] [ 37%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.330s] [ 40%] [32mBuilding CXX object CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o[0m
+[0.355s] [ 46%] Built target listener_interprocess__rmw_opensplice_cpp
+[0.401s] [ 53%] Built target listener_interprocess__rmw_fastrtps_cpp
+[0.424s] [ 59%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.443s] [ 65%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.450s] [35m[1mScanning dependencies of target talker_interprocess__rmw_opensplice_cpp[0m
+[0.453s] [ 71%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.466s] [ 78%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[0.524s] [ 81%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.527s] [ 87%] Built target talker_interprocess_single__rmw_opensplice_cpp
+[2.100s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.101s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:238:60:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::shared_future<void>[m[K’ to non-scalar type ‘[01m[Kstd::future<void>[m[K’ requested
+[2.101s]        std::future<void> future = [01;31m[Kpromise.get_future().share()[m[K;
+[2.101s]                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.102s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(std::shared_ptr<rclcpp::Node>&, std::future<void>&, std::chrono::seconds)[m[K’
+[2.102s]        rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;31m[K)[m[K;
+[2.102s]                                                                                [01;31m[K^[m[K
+[2.102s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+[2.102s]                  from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[2.103s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)
+[2.103s]  [01;36m[Kspin_until_future_complete[m[K(
+[2.103s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.103s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.104s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::future<void>[m[K’ is not derived from ‘[01m[Kstd::shared_future<_Res>[m[K’
+[2.104s]        rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;36m[K)[m[K;
+[2.104s]                                                                                [01;36m[K^[m[K
+[2.104s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+[2.105s]                  from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[2.105s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)
+[2.105s]  [01;36m[Kspin_until_future_complete[m[K(
+[2.105s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.106s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.106s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::future<void>[m[K’ is not derived from ‘[01m[Kstd::shared_future<ResponseT>[m[K’
+[2.106s]        rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;36m[K)[m[K;
+[2.106s]                                                                                [01;36m[K^[m[K
+[2.141s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.141s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:238:60:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::shared_future<void>[m[K’ to non-scalar type ‘[01m[Kstd::future<void>[m[K’ requested
+[2.142s]        std::future<void> future = [01;31m[Kpromise.get_future().share()[m[K;
+[2.142s]                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.142s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(std::shared_ptr<rclcpp::Node>&, std::future<void>&, std::chrono::seconds)[m[K’
+[2.142s]        rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;31m[K)[m[K;
+[2.143s]                                                                                [01;31m[K^[m[K
+[2.143s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+[2.143s]                  from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[2.143s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)
+[2.144s]  [01;36m[Kspin_until_future_complete[m[K(
+[2.144s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.144s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.144s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::future<void>[m[K’ is not derived from ‘[01m[Kstd::shared_future<_Res>[m[K’
+[2.145s]        rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;36m[K)[m[K;
+[2.145s]                                                                                [01;36m[K^[m[K
+[2.145s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+[2.145s]                  from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[2.145s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)
+[2.146s]  [01;36m[Kspin_until_future_complete[m[K(
+[2.146s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.146s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.146s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::future<void>[m[K’ is not derived from ‘[01m[Kstd::shared_future<ResponseT>[m[K’
+[2.147s]        rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;36m[K)[m[K;
+[2.147s]                                                                                [01;36m[K^[m[K
+[2.148s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.148s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:238:60:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::shared_future<void>[m[K’ to non-scalar type ‘[01m[Kstd::future<void>[m[K’ requested
+[2.148s]        std::future<void> future = [01;31m[Kpromise.get_future().share()[m[K;
+[2.148s]                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.149s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(std::shared_ptr<rclcpp::Node>&, std::future<void>&, std::chrono::seconds)[m[K’
+[2.149s]        rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;31m[K)[m[K;
+[2.149s]                                                                                [01;31m[K^[m[K
+[2.149s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+[2.150s]                  from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[2.150s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)
+[2.150s]  [01;36m[Kspin_until_future_complete[m[K(
+[2.150s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.151s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.151s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::future<void>[m[K’ is not derived from ‘[01m[Kstd::shared_future<_Res>[m[K’
+[2.151s]        rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;36m[K)[m[K;
+[2.151s]                                                                                [01;36m[K^[m[K
+[2.151s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+[2.152s]                  from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[2.152s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)
+[2.152s]  [01;36m[Kspin_until_future_complete[m[K(
+[2.152s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.153s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.153s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::future<void>[m[K’ is not derived from ‘[01m[Kstd::shared_future<ResponseT>[m[K’
+[2.153s]        rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;36m[K)[m[K;
+[2.153s]                                                                                [01;36m[K^[m[K
+[2.267s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.268s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:238:60:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::shared_future<void>[m[K’ to non-scalar type ‘[01m[Kstd::future<void>[m[K’ requested
+[2.268s]        std::future<void> future = [01;31m[Kpromise.get_future().share()[m[K;
+[2.268s]                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.268s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(std::shared_ptr<rclcpp::Node>&, std::future<void>&, std::chrono::seconds)[m[K’
+[2.269s]       rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;31m[K)[m[K;
+[2.269s]                                                                               [01;31m[K^[m[K
+[2.269s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+[2.269s]                  from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[2.270s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)
+[2.270s]  [01;36m[Kspin_until_future_complete[m[K(
+[2.270s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.270s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.271s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::future<void>[m[K’ is not derived from ‘[01m[Kstd::shared_future<_Res>[m[K’
+[2.271s]       rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;36m[K)[m[K;
+[2.271s]                                                                               [01;36m[K^[m[K
+[2.271s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144:0[m[K,
+[2.271s]                  from [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:13[m[K:
+[2.272s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)
+[2.272s]  [01;36m[Kspin_until_future_complete[m[K(
+[2.272s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.272s] [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.273s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/talker_interprocess.cpp:241:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::future<void>[m[K’ is not derived from ‘[01m[Kstd::shared_future<ResponseT>[m[K’
+[2.273s]       rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(5)[01;36m[K)[m[K;
+[2.273s]                                                                               [01;36m[K^[m[K
+[3.134s] CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o' failed
+[3.134s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[3.134s] CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all' failed
+[3.135s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/all] Error 2
+[3.135s] make[1]: *** Waiting for unfinished jobs....
+[3.164s] CMakeFiles/talker_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o' failed
+[3.164s] make[2]: *** [CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o] Error 1
+[3.164s] make[1]: *** [CMakeFiles/talker_interprocess.dir/all] Error 2
+[3.164s] CMakeFiles/Makefile2:321: recipe for target 'CMakeFiles/talker_interprocess.dir/all' failed
+[3.198s] CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o' failed
+[3.199s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[3.199s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[3.199s] CMakeFiles/Makefile2:252: recipe for target 'CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[3.265s] make[2]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o] Error 1
+[3.265s] CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o' failed
+[3.265s] make[1]: *** [CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[3.265s] make: *** [all] Error 2
+[3.266s] CMakeFiles/Makefile2:617: recipe for target 'CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/all' failed
+[3.266s] Makefile:140: recipe for target 'all' failed
+[3.268s] Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8

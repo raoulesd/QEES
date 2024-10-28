@@ -2,6 +2,8 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# This script was mainly used for its read_transport_times function.
+# The code in main was used to experiment with creating the boxplot, which was in the end moved to plot_time_grid.py
 
 def read_transport_times(base_dir, sizes):
     """Read transport times from files and return a DataFrame with listener numbers included."""

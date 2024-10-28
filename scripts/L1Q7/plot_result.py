@@ -2,6 +2,10 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
+# This script was used to create the average transport time plot.
+# The data points used in the plot are added manually.
+# (This could have been scripted but adding it manually was more time efficient.)
+
 def main():
     # Given data points
     data_points = [1, 1.3, 1.57, 1.98, 2.4, 2.7, 2.99, 3.2, 3.67, 3.98]

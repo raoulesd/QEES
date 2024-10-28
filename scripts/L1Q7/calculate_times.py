@@ -1,5 +1,9 @@
 import os
 
+# This script contains a function that calculates the transport times between the talker and multiple subscribers.
+# The function detects the number of listeners from the subcribe_time directory and calculates the transport time
+# for each listener individually.
+
 def calculate_transport_times(base_dir, sizes):
     """Calculate transport times and handle message loss or discrepancy between sent and received messages."""
     publish_dir = os.path.join(base_dir, 'publish_time')

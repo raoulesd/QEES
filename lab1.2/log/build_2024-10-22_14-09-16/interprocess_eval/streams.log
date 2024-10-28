@@ -1,0 +1,204 @@
+[0.055s] Invoking command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8
+[0.168s] [35m[1mScanning dependencies of target talker_interprocess__rmw_connext_cpp[0m
+[0.172s] [35m[1mScanning dependencies of target talker_interprocess[0m
+[0.198s] [35m[1mScanning dependencies of target listener_interprocess[0m
+[0.199s] [35m[1mScanning dependencies of target listener_interprocess__rmw_connext_cpp[0m
+[0.220s] [35m[1mScanning dependencies of target talker_interprocess__rmw_fastrtps_cpp[0m
+[0.285s] [  6%] Built target listener_interprocess_single__rmw_opensplice_cpp
+[0.297s] [ 12%] Built target listener_interprocess_single
+[0.323s] [ 15%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_connext_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.330s] [ 18%] [32mBuilding CXX object CMakeFiles/talker_interprocess.dir/src/talker_interprocess.cpp.o[0m
+[0.370s] [ 25%] Built target talker_interprocess_single
+[0.370s] [ 28%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.386s] [ 31%] [32mBuilding CXX object CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o[0m
+[0.401s] [ 34%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_fastrtps_cpp.dir/src/talker_interprocess.cpp.o[0m
+[0.432s] [35m[1mScanning dependencies of target listener_interprocess__rmw_opensplice_cpp[0m
+[0.470s] [ 40%] Built target talker_interprocess_single__rmw_connext_cpp
+[0.507s] [ 46%] Built target listener_interprocess_single__rmw_connext_cpp
+[0.528s] [ 50%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.556s] [35m[1mScanning dependencies of target listener_interprocess__rmw_fastrtps_cpp[0m
+[0.653s] [ 53%] [32mBuilding CXX object CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o[0m
+[0.664s] [ 59%] Built target talker_interprocess_single__rmw_fastrtps_cpp
+[0.921s] [ 65%] Built target listener_interprocess_single__rmw_fastrtps_cpp
+[1.029s] [35m[1mScanning dependencies of target talker_interprocess__rmw_opensplice_cpp[0m
+[1.249s] [ 68%] [32mBuilding CXX object CMakeFiles/talker_interprocess__rmw_opensplice_cpp.dir/src/talker_interprocess.cpp.o[0m
+[2.740s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[2.741s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmatch[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[2.741s]    std::[01;31m[Ksmatch[m[K match;
+[2.741s]         [01;31m[K^~~~~~[m[K
+[2.741s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksearch[m[K’
+[2.742s]    std::[01;36m[Ksmatch[m[K match;
+[2.742s]         [01;36m[K^~~~~~[m[K
+[2.742s]         [32m[Ksearch[m[K
+[2.743s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:66:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[2.743s]    std::[01;31m[Kregex[m[K tuple_regex(R"(\((\d+),(\d+)\))");
+[2.743s]         [01;31m[K^~~~~[m[K
+[2.743s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex_search[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[2.743s]    if (std::[01;31m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+[2.744s]             [01;31m[K^~~~~~~~~~~~[m[K
+[2.744s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__search[m[K’
+[2.745s]    if (std::[01;36m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+[2.745s]             [01;36m[K^~~~~~~~~~~~[m[K
+[2.745s]             [32m[K__search[m[K
+[2.745s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch[m[K’ was not declared in this scope
+[2.745s]    if (std::regex_search(message_data, [01;31m[Kmatch[m[K, tuple_regex)) {
+[2.745s]                                        [01;31m[K^~~~~[m[K
+[2.746s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krpmatch[m[K’
+[2.746s]    if (std::regex_search(message_data, [01;36m[Kmatch[m[K, tuple_regex)) {
+[2.746s]                                        [01;36m[K^~~~~[m[K
+[2.746s]                                        [32m[Krpmatch[m[K
+[2.746s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ktuple_regex[m[K’ was not declared in this scope
+[2.747s]    if (std::regex_search(message_data, match, [01;31m[Ktuple_regex[m[K)) {
+[2.747s]                                               [01;31m[K^~~~~~~~~~~[m[K
+[2.754s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:75:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[2.754s]      [01;31m[Kpublisher_[m[K->publish(*ack_message);
+[2.754s]      [01;31m[K^~~~~~~~~~[m[K
+[2.757s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:75:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+[2.757s]      [01;36m[Kpublisher_[m[K->publish(*ack_message);
+[2.758s]      [01;36m[K^~~~~~~~~~[m[K
+[2.758s]      [32m[Krcl_publisher_t[m[K
+[2.758s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:70:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Km_count[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.758s]      int [01;35m[Km_count[m[K = std::stoi(match[2].str());   // Convert second integer
+[2.759s]          [01;35m[K^~~~~~~[m[K
+[3.020s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[3.020s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmatch[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[3.021s]    std::[01;31m[Ksmatch[m[K match;
+[3.021s]         [01;31m[K^~~~~~[m[K
+[3.021s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksearch[m[K’
+[3.021s]    std::[01;36m[Ksmatch[m[K match;
+[3.022s]         [01;36m[K^~~~~~[m[K
+[3.022s]         [32m[Ksearch[m[K
+[3.022s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:66:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[3.023s]    std::[01;31m[Kregex[m[K tuple_regex(R"(\((\d+),(\d+)\))");
+[3.023s]         [01;31m[K^~~~~[m[K
+[3.023s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex_search[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[3.024s]    if (std::[01;31m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+[3.024s]             [01;31m[K^~~~~~~~~~~~[m[K
+[3.024s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__search[m[K’
+[3.024s]    if (std::[01;36m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+[3.025s]             [01;36m[K^~~~~~~~~~~~[m[K
+[3.025s]             [32m[K__search[m[K
+[3.025s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch[m[K’ was not declared in this scope
+[3.025s]    if (std::regex_search(message_data, [01;31m[Kmatch[m[K, tuple_regex)) {
+[3.026s]                                        [01;31m[K^~~~~[m[K
+[3.026s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krpmatch[m[K’
+[3.026s]    if (std::regex_search(message_data, [01;36m[Kmatch[m[K, tuple_regex)) {
+[3.026s]                                        [01;36m[K^~~~~[m[K
+[3.026s]                                        [32m[Krpmatch[m[K
+[3.027s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ktuple_regex[m[K’ was not declared in this scope
+[3.027s]    if (std::regex_search(message_data, match, [01;31m[Ktuple_regex[m[K)) {
+[3.027s]                                               [01;31m[K^~~~~~~~~~~[m[K
+[3.032s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:75:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[3.032s]      [01;31m[Kpublisher_[m[K->publish(*ack_message);
+[3.033s]      [01;31m[K^~~~~~~~~~[m[K
+[3.035s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:75:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+[3.036s]      [01;36m[Kpublisher_[m[K->publish(*ack_message);
+[3.036s]      [01;36m[K^~~~~~~~~~[m[K
+[3.036s]      [32m[Krcl_publisher_t[m[K
+[3.036s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:70:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Km_count[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.037s]      int [01;35m[Km_count[m[K = std::stoi(match[2].str());   // Convert second integer
+[3.037s]          [01;35m[K^~~~~~~[m[K
+[3.272s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[3.272s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmatch[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[3.273s]    std::[01;31m[Ksmatch[m[K match;
+[3.273s]         [01;31m[K^~~~~~[m[K
+[3.273s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksearch[m[K’
+[3.274s]    std::[01;36m[Ksmatch[m[K match;
+[3.274s]         [01;36m[K^~~~~~[m[K
+[3.274s]         [32m[Ksearch[m[K
+[3.274s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:66:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[3.275s]    std::[01;31m[Kregex[m[K tuple_regex(R"(\((\d+),(\d+)\))");
+[3.275s]         [01;31m[K^~~~~[m[K
+[3.275s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex_search[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[3.276s]    if (std::[01;31m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+[3.276s]             [01;31m[K^~~~~~~~~~~~[m[K
+[3.276s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__search[m[K’
+[3.276s]    if (std::[01;36m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+[3.277s]             [01;36m[K^~~~~~~~~~~~[m[K
+[3.277s]             [32m[K__search[m[K
+[3.277s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch[m[K’ was not declared in this scope
+[3.277s]    if (std::regex_search(message_data, [01;31m[Kmatch[m[K, tuple_regex)) {
+[3.277s]                                        [01;31m[K^~~~~[m[K
+[3.278s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krpmatch[m[K’
+[3.278s]    if (std::regex_search(message_data, [01;36m[Kmatch[m[K, tuple_regex)) {
+[3.278s]                                        [01;36m[K^~~~~[m[K
+[3.278s]                                        [32m[Krpmatch[m[K
+[3.279s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ktuple_regex[m[K’ was not declared in this scope
+[3.279s]    if (std::regex_search(message_data, match, [01;31m[Ktuple_regex[m[K)) {
+[3.279s]                                               [01;31m[K^~~~~~~~~~~[m[K
+[3.285s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:75:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[3.286s]      [01;31m[Kpublisher_[m[K->publish(*ack_message);
+[3.286s]      [01;31m[K^~~~~~~~~~[m[K
+[3.289s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:75:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+[3.290s]      [01;36m[Kpublisher_[m[K->publish(*ack_message);
+[3.290s]      [01;36m[K^~~~~~~~~~[m[K
+[3.290s]      [32m[Krcl_publisher_t[m[K
+[3.290s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:70:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Km_count[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.291s]      int [01;35m[Km_count[m[K = std::stoi(match[2].str());   // Convert second integer
+[3.291s]          [01;35m[K^~~~~~~[m[K
+[4.148s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr)[m[K’:
+[4.148s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmatch[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[4.148s]    std::[01;31m[Ksmatch[m[K match;
+[4.149s]         [01;31m[K^~~~~~[m[K
+[4.149s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:64:8:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksearch[m[K’
+[4.149s]    std::[01;36m[Ksmatch[m[K match;
+[4.149s]         [01;36m[K^~~~~~[m[K
+[4.150s]         [32m[Ksearch[m[K
+[4.150s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:66:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[4.150s]    std::[01;31m[Kregex[m[K tuple_regex(R"(\((\d+),(\d+)\))");
+[4.150s]         [01;31m[K^~~~~[m[K
+[4.150s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex_search[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[4.151s]    if (std::[01;31m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+[4.151s]             [01;31m[K^~~~~~~~~~~~[m[K
+[4.151s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__search[m[K’
+[4.151s]    if (std::[01;36m[Kregex_search[m[K(message_data, match, tuple_regex)) {
+[4.152s]             [01;36m[K^~~~~~~~~~~~[m[K
+[4.152s]             [32m[K__search[m[K
+[4.152s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch[m[K’ was not declared in this scope
+[4.152s]    if (std::regex_search(message_data, [01;31m[Kmatch[m[K, tuple_regex)) {
+[4.152s]                                        [01;31m[K^~~~~[m[K
+[4.152s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krpmatch[m[K’
+[4.153s]    if (std::regex_search(message_data, [01;36m[Kmatch[m[K, tuple_regex)) {
+[4.153s]                                        [01;36m[K^~~~~[m[K
+[4.153s]                                        [32m[Krpmatch[m[K
+[4.153s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:68:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ktuple_regex[m[K’ was not declared in this scope
+[4.153s]    if (std::regex_search(message_data, match, [01;31m[Ktuple_regex[m[K)) {
+[4.154s]                                               [01;31m[K^~~~~~~~~~~[m[K
+[4.159s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:75:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[4.160s]      [01;31m[Kpublisher_[m[K->publish(*ack_message);
+[4.160s]      [01;31m[K^~~~~~~~~~[m[K
+[4.162s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:75:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+[4.163s]      [01;36m[Kpublisher_[m[K->publish(*ack_message);
+[4.163s]      [01;36m[K^~~~~~~~~~[m[K
+[4.163s]      [32m[Krcl_publisher_t[m[K
+[4.163s] [01m[K/home/raoul/Documents/QEES/lab1.2/src/interprocess_eval/src/listener_interprocess.cpp:70:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Km_count[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.163s]      int [01;35m[Km_count[m[K = std::stoi(match[2].str());   // Convert second integer
+[4.164s]          [01;35m[K^~~~~~~[m[K
+[4.414s] CMakeFiles/listener_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o' failed
+[4.415s] make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+[4.415s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/listener_interprocess.dir/all' failed
+[4.416s] make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+[4.416s] make[1]: *** Waiting for unfinished jobs....
+[4.696s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[4.696s] CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o' failed
+[4.697s] CMakeFiles/Makefile2:395: recipe for target 'CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all' failed
+[4.697s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[4.926s] CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o' failed
+[4.926s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[4.926s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+[4.926s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all' failed
+[5.741s] CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o' failed
+[5.741s] make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+[5.741s] CMakeFiles/Makefile2:506: recipe for target 'CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[5.742s] make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[6.309s] [ 71%] [32m[1mLinking CXX executable talker_interprocess__rmw_connext_cpp[0m
+[6.589s] [ 75%] [32m[1mLinking CXX executable talker_interprocess__rmw_fastrtps_cpp[0m
+[6.701s] [ 78%] [32m[1mLinking CXX executable talker_interprocess[0m
+[6.739s] [ 78%] Built target talker_interprocess__rmw_connext_cpp
+[6.943s] [ 78%] Built target talker_interprocess__rmw_fastrtps_cpp
+[7.031s] [ 78%] Built target talker_interprocess
+[7.347s] [ 81%] [32m[1mLinking CXX executable talker_interprocess__rmw_opensplice_cpp[0m
+[7.641s] [ 81%] Built target talker_interprocess__rmw_opensplice_cpp
+[7.643s] Makefile:140: recipe for target 'all' failed
+[7.643s] make: *** [all] Error 2
+[7.646s] Invoked command in '/home/raoul/Documents/QEES/lab1.2/build/interprocess_eval' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.2/build/interprocess_eval -- -j8 -l8

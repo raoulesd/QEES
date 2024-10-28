@@ -1,0 +1,50 @@
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+   printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+   printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+     listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+     printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+     listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+     printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+   printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+     listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+     printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr, std::shared_ptr<ListenerState>)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:66:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+   printf(listener_state->name + " received!\n"[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ListenerState {aka struct ListenerState}[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+     listener_state->[01;31m[Kpublisher[m[K->publish(msg);
+                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.3/src/interprocess_eval/src/listener_interprocess.cpp:81:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint printf(const char*, ...)[m[K’
+     printf(listener_state->name + " published!\n"[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/listener_interprocess.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_connext_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/src/listener_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+make: *** [all] Error 2
