@@ -5,7 +5,7 @@ import pandas as pd
 import math
 import numpy as np
 
-# In this script, the one-way and round-trip times of the ping pong communication are calculated.
+# In this script, the one-way and round-trip times of the ping-pong communication are calculated.
 # Both transport times are shown in an individual graph using box plots, and an average line graph is plotted after this.
 
 def read_transport_and_round_trip_times(base_dir, sizes):
