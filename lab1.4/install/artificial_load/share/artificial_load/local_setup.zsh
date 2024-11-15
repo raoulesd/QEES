@@ -1,0 +1,1 @@
+/home/raoul/Documents/QEES/lab1.4/build/artificial_load/ament_cmake_environment_hooks/local_setup.zsh
