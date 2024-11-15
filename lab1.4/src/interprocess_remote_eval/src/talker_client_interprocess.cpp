@@ -12,7 +12,7 @@
 #include <sched.h>	
 #include <arpa/inet.h>
 
-#define EVAL_NUM 120
+#define EVAL_NUM 10
 #define LISTENER_IP "192.168.1.70"		
 #define PUBLISH_Hz 10
 #define IS_RELIABLE_QOS 0			// 1 means "reliable"", 0 means "best effort""
