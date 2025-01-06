@@ -1,0 +1,85 @@
+[0.042s] Invoking command in '/home/raoul/Documents/QEES/lab1.4/build/interprocess_remote_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.4/build/interprocess_remote_eval -- -j4 -l4
+[0.150s] [35m[1mScanning dependencies of target talker_client_interprocess__rmw_opensplice_cpp[0m
+[0.153s] [35m[1mScanning dependencies of target talker_client_interprocess[0m
+[0.176s] [ 12%] Built target listener_server_interprocess__rmw_opensplice_cpp
+[0.191s] [ 25%] Built target listener_server_interprocess__rmw_fastrtps_cpp
+[0.201s] [ 31%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/src/talker_client_interprocess.cpp.o[0m
+[0.202s] [ 37%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess.dir/src/talker_client_interprocess.cpp.o[0m
+[0.264s] [ 50%] Built target listener_server_interprocess__rmw_connext_cpp
+[0.306s] [35m[1mScanning dependencies of target talker_client_interprocess__rmw_connext_cpp[0m
+[0.360s] [ 62%] Built target listener_server_interprocess
+[0.377s] [ 68%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/src/talker_client_interprocess.cpp.o[0m
+[0.405s] [35m[1mScanning dependencies of target talker_client_interprocess__rmw_fastrtps_cpp[0m
+[0.469s] [ 75%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/src/talker_client_interprocess.cpp.o[0m
+[1.202s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.203s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+[1.203s]   [01;31m[Kcout[m[K << count;
+[1.203s]   [01;31m[K^~~~[m[K
+[1.203s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[1.203s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:22:0[m[K,
+[1.203s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.203s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.204s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.204s]                  from [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:1[m[K:
+[1.204s] [01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+[1.204s]    extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+[1.204s]                   [01;36m[K^~~~[m[K
+[1.209s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.209s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+[1.210s]   [01;31m[Kcout[m[K << count;
+[1.210s]   [01;31m[K^~~~[m[K
+[1.210s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[1.210s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:22:0[m[K,
+[1.210s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.210s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.210s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.210s]                  from [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:1[m[K:
+[1.211s] [01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+[1.211s]    extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+[1.211s]                   [01;36m[K^~~~[m[K
+[1.359s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.359s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+[1.359s]   [01;31m[Kcout[m[K << count;
+[1.359s]   [01;31m[K^~~~[m[K
+[1.360s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[1.360s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:22:0[m[K,
+[1.360s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.360s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.360s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.360s]                  from [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:1[m[K:
+[1.360s] [01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+[1.360s]    extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+[1.360s]                   [01;36m[K^~~~[m[K
+[1.467s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.467s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+[1.467s]   [01;31m[Kcout[m[K << count;
+[1.467s]   [01;31m[K^~~~[m[K
+[1.467s] [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[1.467s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:22:0[m[K,
+[1.467s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.467s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.468s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.468s]                  from [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:1[m[K:
+[1.468s] [01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+[1.468s]    extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+[1.468s]                   [01;36m[K^~~~[m[K
+[1.502s] CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/src/talker_client_interprocess.cpp.o' failed
+[1.503s] make[2]: *** [CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/src/talker_client_interprocess.cpp.o] Error 1
+[1.503s] make[1]: *** [CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+[1.503s] CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/all' failed
+[1.503s] make[1]: *** Waiting for unfinished jobs....
+[1.617s] CMakeFiles/talker_client_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/talker_client_interprocess.dir/src/talker_client_interprocess.cpp.o' failed
+[1.617s] make[2]: *** [CMakeFiles/talker_client_interprocess.dir/src/talker_client_interprocess.cpp.o] Error 1
+[1.617s] make[1]: *** [CMakeFiles/talker_client_interprocess.dir/all] Error 2
+[1.617s] CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/talker_client_interprocess.dir/all' failed
+[1.732s] CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/src/talker_client_interprocess.cpp.o' failed
+[1.733s] CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/all' failed
+[1.733s] make[2]: *** [CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/src/talker_client_interprocess.cpp.o] Error 1
+[1.733s] make[1]: *** [CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+[1.784s] CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/src/talker_client_interprocess.cpp.o' failed
+[1.784s] CMakeFiles/Makefile2:321: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/all' failed
+[1.785s] Makefile:140: recipe for target 'all' failed
+[1.785s] make[2]: *** [CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/src/talker_client_interprocess.cpp.o] Error 1
+[1.785s] make[1]: *** [CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/all] Error 2
+[1.785s] make: *** [all] Error 2
+[1.786s] Invoked command in '/home/raoul/Documents/QEES/lab1.4/build/interprocess_remote_eval' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.4/build/interprocess_remote_eval -- -j4 -l4

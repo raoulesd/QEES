@@ -10,7 +10,7 @@
 #include <sched.h>			
 #include <arpa/inet.h>  // socket
 
-#define EVAL_NUM 10
+#define EVAL_NUM 500
 #define IS_RELIABLE_QOS 0			// 1 means "reliable"", 0 means "best effort""
 
 

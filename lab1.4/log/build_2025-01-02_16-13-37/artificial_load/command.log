@@ -1,0 +1,4 @@
+Invoking command in '/home/raoul/Documents/QEES/lab1.4/build/artificial_load': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.4/build/artificial_load -- -j4 -l4
+Invoked command in '/home/raoul/Documents/QEES/lab1.4/build/artificial_load' returned '0': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.4/build/artificial_load -- -j4 -l4
+Invoking command in '/home/raoul/Documents/QEES/lab1.4/build/artificial_load': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.4/build/artificial_load --target install -- -j4 -l4
+Invoked command in '/home/raoul/Documents/QEES/lab1.4/build/artificial_load' returned '0': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.4/build/artificial_load --target install -- -j4 -l4

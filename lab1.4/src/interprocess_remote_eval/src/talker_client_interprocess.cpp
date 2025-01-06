@@ -12,8 +12,8 @@
 #include <sched.h>	
 #include <arpa/inet.h>
 
-#define EVAL_NUM 10
-#define LISTENER_IP "192.168.1.70"		
+#define EVAL_NUM 500
+#define LISTENER_IP "192.168.0.119"		
 #define PUBLISH_Hz 10
 #define IS_RELIABLE_QOS 0			// 1 means "reliable"", 0 means "best effort""
 
@@ -88,20 +88,20 @@ int eval_remote_client_ros2(std::string message_filename, std::string output_fil
 	}
 	publish_time[count] = (double)tp1.tv_sec + (double)tp1.tv_nsec/ (double)1000000000L;
 
-	// printf("I say: [%s]\n", msg->data.c_str());
+	//	printf("I say: [%s]\n", msg->data.c_str());
 
-	//	printf("publish \n");
+	// printf("publish \n");
 	//	chatter_pub.publish(msg);
 	chatter_pub->publish(msg);
 
 	// Receive data from server
-	//	printf("read \n");
+	// printf("read \n");
   len = read(sock, buf, sizeof(buf));
   if (len <= 0) {
     perror("read");
     return 1;
   }
-  	//	printf("%d, %s\n", len, buf);
+  // printf("%d, %s\n", len, buf);
 	
   if (clock_gettime(CLOCK_REALTIME,&tp1) < 0) {
     perror("clock_gettime begin");
@@ -196,6 +196,8 @@ int main(int argc, char * argv[])
 	 perror("set_connect_socket");
 	 return 1;
   }
+
+  usleep(1000000);
   
   // meanless 20 publish for preparing a secure subscriber
   // 5 and 10 is not enough to conver messages ros1 <-> ros2
@@ -218,7 +220,7 @@ int main(int argc, char * argv[])
   
   printf("start evaluation 256byte \n");
   while (rclcpp::ok()) {
-  	eval_remote_client_ros2("./evaluation/byte_data/data_256byte.txt", "./evaluation/transport_time/transport_time_256byte.txt", chatter_pub);
+  	eval_remote_client_ros2("/home/raoul/Documents/QEES/lab1.4/evaluation/byte_data/data_256byte.txt", "./evaluation/transport_time/transport_time_256byte.txt", chatter_pub);
   	if (count == -1) {
   	  printf("break\n");
   	  break;

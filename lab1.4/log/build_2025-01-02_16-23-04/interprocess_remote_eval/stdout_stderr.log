@@ -1,0 +1,83 @@
+[35m[1mScanning dependencies of target talker_client_interprocess__rmw_opensplice_cpp[0m
+[35m[1mScanning dependencies of target talker_client_interprocess[0m
+[ 12%] Built target listener_server_interprocess__rmw_opensplice_cpp
+[ 25%] Built target listener_server_interprocess__rmw_fastrtps_cpp
+[ 31%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/src/talker_client_interprocess.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess.dir/src/talker_client_interprocess.cpp.o[0m
+[ 50%] Built target listener_server_interprocess__rmw_connext_cpp
+[35m[1mScanning dependencies of target talker_client_interprocess__rmw_connext_cpp[0m
+[ 62%] Built target listener_server_interprocess
+[ 68%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/src/talker_client_interprocess.cpp.o[0m
+[35m[1mScanning dependencies of target talker_client_interprocess__rmw_fastrtps_cpp[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/src/talker_client_interprocess.cpp.o[0m
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+  [01;31m[Kcout[m[K << count;
+  [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:22:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:1[m[K:
+[01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+   extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+                  [01;36m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+  [01;31m[Kcout[m[K << count;
+  [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:22:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:1[m[K:
+[01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+   extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+                  [01;36m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+  [01;31m[Kcout[m[K << count;
+  [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:22:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:1[m[K:
+[01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+   extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+                  [01;36m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+  [01;31m[Kcout[m[K << count;
+  [01;31m[K^~~~[m[K
+[01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:223:2:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:22:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/raoul/Documents/QEES/lab1.4/src/interprocess_remote_eval/src/talker_client_interprocess.cpp:1[m[K:
+[01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+   extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+                  [01;36m[K^~~~[m[K
+CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/src/talker_client_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/src/talker_client_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/all] Error 2
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_opensplice_cpp.dir/all' failed
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/talker_client_interprocess.dir/build.make:62: recipe for target 'CMakeFiles/talker_client_interprocess.dir/src/talker_client_interprocess.cpp.o' failed
+make[2]: *** [CMakeFiles/talker_client_interprocess.dir/src/talker_client_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_client_interprocess.dir/all] Error 2
+CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/talker_client_interprocess.dir/all' failed
+CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/src/talker_client_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:358: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/all' failed
+make[2]: *** [CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/src/talker_client_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_client_interprocess__rmw_fastrtps_cpp.dir/all] Error 2
+CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/build.make:62: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/src/talker_client_interprocess.cpp.o' failed
+CMakeFiles/Makefile2:321: recipe for target 'CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make[2]: *** [CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/src/talker_client_interprocess.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_client_interprocess__rmw_connext_cpp.dir/all] Error 2
+make: *** [all] Error 2

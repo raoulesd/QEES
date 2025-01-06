@@ -1,0 +1,17 @@
+[100%] Built target CPU_load
+[100%] Built target CPU_load
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/lib/artificial_load/CPU_load
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/share/ament_index/resource_index/package_run_dependencies/artificial_load
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/share/ament_index/resource_index/parent_prefix_path/artificial_load
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/share/artificial_load/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/share/artificial_load/environment/path.sh
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/share/artificial_load/local_setup.bash
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/share/artificial_load/local_setup.sh
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/share/artificial_load/local_setup.zsh
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/share/ament_index/resource_index/packages/artificial_load
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/share/artificial_load/cmake/artificial_loadConfig.cmake
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/share/artificial_load/cmake/artificial_loadConfig-version.cmake
+-- Up-to-date symlink: /home/raoul/Documents/QEES/lab1.4/install/artificial_load/share/artificial_load/package.xml
