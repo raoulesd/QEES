@@ -15,7 +15,7 @@
 #define EVAL_NUM 500
 #define LISTENER_IP "192.168.0.119"		
 #define PUBLISH_Hz 10
-#define IS_RELIABLE_QOS 0			// 1 means "reliable"", 0 means "best effort""
+#define IS_RELIABLE_QOS 1			// 1 means "reliable"", 0 means "best effort""
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wmissing-field-initializers"

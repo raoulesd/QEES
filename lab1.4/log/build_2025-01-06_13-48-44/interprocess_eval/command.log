@@ -1,0 +1,4 @@
+Invoking command in '/home/raoul/Documents/QEES/lab1.4/build/interprocess_eval': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.4/build/interprocess_eval -- -j4 -l4
+Invoked command in '/home/raoul/Documents/QEES/lab1.4/build/interprocess_eval' returned '0': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.4/build/interprocess_eval -- -j4 -l4
+Invoking command in '/home/raoul/Documents/QEES/lab1.4/build/interprocess_eval': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.4/build/interprocess_eval --target install -- -j4 -l4
+Invoked command in '/home/raoul/Documents/QEES/lab1.4/build/interprocess_eval' returned '0': /usr/bin/cmake --build /home/raoul/Documents/QEES/lab1.4/build/interprocess_eval --target install -- -j4 -l4
